@@ -10,14 +10,18 @@
            
             <table class="data-table">
                 <thead>
-                    <th>No.</th>
+                    <th class="hidden">Orden</th>
                     <th>Nombre</th>
+                    <th>Adscripción</th>
+                    <th>Participación</th>
                 </thead>
                 <tbody>
-                    @foreach($filas as $fila)
+                    @foreach($integrantes as $integrante)
                     <tr>
-                        <td>{{ $fila['no']}}</td>
-                        <td>{{ $fila['nombre']}}</td>
+                        <td class="hidden">{{ $integrante['orden']}}</td>
+                        <td>{{ $integrante['nombre']}}</td>
+                        <td>{{ $integrante['adscripcion']}}</td>
+                        <td>{{ $integrante['participacion']}}</td>
                     </tr>
 
                     @endforeach

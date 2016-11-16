@@ -2,13 +2,24 @@
 @section('content')
 <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
 <script type='text/javascript'>
+	$(function(){
+		//alert('jquery');
+		$.get('/integrantes/json',function($data){
+			console.log($data);
+			$arreglo = ['States','Estado','No'];
+			$.each($data,function(i,item){
+				$arreglo.push($item.estado);
+			});
+			console.log($arreglo);
+		},"json");
+	});
     google.charts.load('visualization', '1', {'packages': ['geochart']});
     google.charts.setOnLoadCallback(drawMarkersMap);
     function drawMarkersMap() {
 	    var data = google.visualization.arrayToDataTable([
-			['States','Estado','No. de integrantes(2016)'],   
+			['States','Estado','No. de integrantes'],   
 			['MX-MEX','Estado de Mexico',16396826],
-			['MX-DIF','Distrito Federal',8891375],
+			['MX-DIF','Ciudad de México',8891375],
 			['MX-VER','Veracruz',7931295],
 			['MX-JAL','Jalisco',7754609],
 			['MX-PUE','Puebla',6075839],
@@ -37,9 +48,10 @@
 	    chart.draw(data, options);
     };
 </script>
-<div class="container">
-	<h1 class="text-center">Mapa Interactivo</h1>
-	<div id="chart_div" ></div>	
+<h1 class="text-center">Mapa Interactivo</h1>
+<div id="chart_div" ></div>	
+<div class="container" id="json_div">
+	
 </div>
 
 @endsection

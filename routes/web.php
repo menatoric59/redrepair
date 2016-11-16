@@ -17,4 +17,5 @@ Route::get('/', function () {
 
 Auth::routes();
 require __DIR__ . '/web/integrantes.php';
+require __DIR__ . '/web/herramientas.php';
 Route::get('/home', 'HomeController@index');
