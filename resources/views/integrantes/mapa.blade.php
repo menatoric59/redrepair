@@ -5,7 +5,7 @@
 	$(function(){
 		$.get('/integrantes/json',function($data){
 			$arreglo = [];
-			$encabezados = ['Estado-ISO','Estado','Integrantes']
+			$encabezados = ['state','Estado','Integrantes']
 			$arreglo.push ($encabezados);
 			$.each($data,function($i,$item){
 				$valores = [];
