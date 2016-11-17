@@ -24,7 +24,7 @@ class IntegranteController extends Controller
     	->toArray();
 
     	$integrantes = array_values($integrantes);
-    	dd($integrantes);
+    	//dd($integrantes);
     	return $integrantes;
     }
 }
