@@ -23,7 +23,7 @@ class IntegranteController extends Controller
     	->get()
     	->toArray();
 
-    	$integrantes = array_values($integrantes);
+    	//$integrantes = array_values($integrantes);
     	//dd($integrantes);
     	return $integrantes;
     }
