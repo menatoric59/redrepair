@@ -9,7 +9,7 @@
 			$arreglo.push ($encabezados);
 			$.each($data,function($i,$item){
 				$valores = [];
-				$valores.push($item.estado,$item.nombre,$item.cantidad);
+				$valores.push($item.estado,$item.nombre,parseInt($item.cantidad));
 				$arreglo.push($valores);
 			});
 			google.charts.load('visualization', '1', {'packages': ['geochart']});

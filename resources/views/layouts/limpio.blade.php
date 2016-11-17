@@ -27,9 +27,9 @@
     </div>
     
     @yield('content')
-    {{-- Scripts 
+    {{-- Scripts --}}
     {!! Html::script('js/data-tables.min.js')!!}
     {!! Html::script('js/general.js') !!}
-    --}}
+    
 </body>
 </html>
