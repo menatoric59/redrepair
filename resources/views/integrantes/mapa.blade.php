@@ -16,6 +16,7 @@
 		    google.charts.setOnLoadCallback(drawMarkersMap);
 		    function drawMarkersMap() {
 			    var data = google.visualization.arrayToDataTable($arreglo);
+			    console.log(data);
 			    var options = {
 			        legend: 'Red Mexciteg', // se quita el slider indicador de poblacion minima y maxima
 			        region: 'MX',   // region a dibujar en el mapa
