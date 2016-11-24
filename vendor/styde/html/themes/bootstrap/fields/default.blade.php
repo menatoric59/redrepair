@@ -1,13 +1,14 @@
-<div id="field_{{ $id }}"{!! Html::classes(['form-group', 'has-error' => $hasErrors]) !!}>
-    <label for="{{ $id }}" class="control-label">
+<div id="field_{{ $id }}"{!! Html::classes(['form-group-sm', 'has-error' => $hasErrors]) !!}>
+    <label for="{{ $id }}" class="col-md-3 control-label">
         {{ $label }}
+        @if ($required)
+            <span class="text-danger">*</span>
+        @endif
     </label>
 
-    @if ($required)
-        <span class="label label-info">Required</span>
-    @endif
-
-    <div class="controls">
+    
+        
+    <div class="controls col-md-7" >
         {!! $input !!}
         @foreach ($errors as $error)
             <p class="help-block">{{ $error }}</p>

@@ -182,6 +182,7 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Styde\Html\HtmlServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
+        App\Providers\ComposerServiceProvider::class,
 
     ],
 

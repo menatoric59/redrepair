@@ -1,0 +1,457 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"enc",
+				"encabezadosEstado"
+			],
+			[
+				"valo",
+				"valoresEstado"
+			],
+			[
+				"arre",
+				"arregloEstado"
+			],
+			[
+				"drawC",
+				"drawChartEstados"
+			],
+			[
+				"js",
+				"json"
+			],
+			[
+				"inte",
+				"integrantes.participacion,count"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"con",
+				"content\t(nueva.blade.php)"
+			],
+			[
+				"la",
+				"layouts.app\t(index.blade.php)"
+			],
+			[
+				"fnu",
+				"function\t(ComposerServiceProvider.php)"
+			],
+			[
+				"dis",
+				"disciplinas\t(UtilidadesComposer.php)"
+			],
+			[
+				"disc",
+				"disciplinas"
+			],
+			[
+				"inetgr",
+				"integrantes\t(index.blade.php)"
+			],
+			[
+				"requ",
+				"request"
+			],
+			[
+				"request",
+				"Request"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"btn",
+				"btn-sm"
+			],
+			[
+				"bt",
+				"btn-sm"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/Controllers/IntegranteController.php",
+			"settings":
+			{
+				"buffer_size": 2241,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "routes/web/integrantes.php",
+			"settings":
+			{
+				"buffer_size": 1255,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/integrantes/mapa.blade.php",
+			"settings":
+			{
+				"buffer_size": 5685,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "config/general/colores.php",
+			"settings":
+			{
+				"buffer_size": 65,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<?php"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 167.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/menat/Dropbox/code/redmexciteg",
+		"/C/Users/menat/Dropbox/code/redmexciteg/app",
+		"/C/Users/menat/Dropbox/code/redmexciteg/app/Http",
+		"/C/Users/menat/Dropbox/code/redmexciteg/app/Http/Controllers",
+		"/C/Users/menat/Dropbox/code/redmexciteg/app/Http/ViewComposers",
+		"/C/Users/menat/Dropbox/code/redmexciteg/config",
+		"/C/Users/menat/Dropbox/code/redmexciteg/config/general",
+		"/C/Users/menat/Dropbox/code/redmexciteg/database",
+		"/C/Users/menat/Dropbox/code/redmexciteg/database/migrations",
+		"/C/Users/menat/Dropbox/code/redmexciteg/public",
+		"/C/Users/menat/Dropbox/code/redmexciteg/public/assets",
+		"/C/Users/menat/Dropbox/code/redmexciteg/public/assets/sobre-la-red",
+		"/C/Users/menat/Dropbox/code/redmexciteg/public/css",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/herramientas",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes/partials",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/layouts",
+		"/C/Users/menat/Dropbox/code/redmexciteg/routes",
+		"/C/Users/menat/Dropbox/code/redmexciteg/routes/web"
+	],
+	"file_history":
+	[
+		"/C/Users/menat/Dropbox/code/redmexciteg/app/Http/Controllers/HerramientasController.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes/index.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/app/Integrante.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes/partials/campos.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes/perfil.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/routes/web/integrantes.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/database/seeds/UsersSeeder.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/layouts/limpio.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/layouts/app.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes/editar.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/app/Http/ViewComposers/UtilidadesComposer.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/app/Providers/ComposerServiceProvider.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes/nueva.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/resources/views/integrantes/mapa.blade.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/config/general/menu.php",
+		"/C/Users/menat/Dropbox/code/redmexciteg/config/admin/menu.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/app/Http/ViewComposers/UtilidadesComposer.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/routes/web/integrantes.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/routes/web/estados.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/app/Http/Controllers/EstadoController.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/config/app.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/resources/views/integrantes/mapa.blade.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/app/Http/Controllers/IntegranteController.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/resources/views/layouts/app.blade.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/resources/views/layouts/limpio.blade.php",
+		"/Users/menatoric59/Dropbox/code/redmexciteg/resources/views/integrantes/index.blade.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			");",
+			"6000",
+			"estad",
+			"performanceData",
+			"h4",
+			"label"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/IntegranteController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1323,
+								1323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 542.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/web/integrantes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								622,
+								622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 54.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/integrantes/mapa.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5685,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5653,
+								5653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1134.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/general/colores.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								61,
+								61
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<?php",
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mexciteg-subime.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

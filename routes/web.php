@@ -12,10 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('home');
 });
 
 Auth::routes();
 require __DIR__ . '/web/integrantes.php';
 require __DIR__ . '/web/herramientas.php';
-Route::get('/home', 'HomeController@index');
+Route::get('/home', 'HomeController@index')->name('home');

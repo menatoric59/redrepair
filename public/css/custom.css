@@ -1,0 +1,13 @@
+.valign-wrapper{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.valign{
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

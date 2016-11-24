@@ -55,6 +55,7 @@ class HerramientasController extends Controller
             $nuevoIntegrante->disciplina = $integrante['disciplina'];
             $nuevoIntegrante->sni = $integrante['sni'];
             $nuevoIntegrante->participacion	 = $integrante['participacion'];
+            $nuevoIntegrante->correo = strtolower($integrante['correo']);
            
 
             $nuevoIntegrante->save();

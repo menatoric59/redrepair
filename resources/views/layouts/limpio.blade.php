@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Comfonpatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSRF Token -->
@@ -11,6 +11,7 @@
 
     <!-- Styles -->
     {!! Html::style('css/app.css')!!}
+    {!! Html::style('css/custom.css')!!}
     {!! Html::style('MDB-Free/css/bootstrap.min.css')!!}
     {!! Html::style('MDB-Free/css/mdb.min.css')!!}
     {!! Html::style('MDB-Free/css/style.css')!!}

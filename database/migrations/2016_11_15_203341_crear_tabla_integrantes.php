@@ -23,9 +23,9 @@ class CrearTablaIntegrantes extends Migration
             $table->string('disciplina');
             $table->string('sni');
             $table->string('participacion');
+            $table->string('correo')->unique();
+            $table->longText('detalle')->nullable();
             $table->timestamps();
-
-
         });
     }
 
