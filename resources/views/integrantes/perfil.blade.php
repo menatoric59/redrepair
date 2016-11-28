@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row   lighten-2 white-texts valign-wrapper">
-	<div class="col-md-6 ">
+	<div class="col-md-6 col-sm-12">
 		{!! Html::image($integrante->imagen_perfil,'',
 			[
 			'class'=>'pull-right',
@@ -11,7 +11,7 @@
 			]) 
 		!!}	
 	</div>
-	<div class="col-md-6 valign">
+	<div class="col-md-6 valign col-sm-12">
 		<h2>{{ $integrante->nombre }}</h2>
 		<ul>
 			<li><strong>Adscripción</strong></li>

@@ -56,9 +56,9 @@
 			    chart.draw(data, options);
 		    };
 		    function drawChartEstados() {
-	    		var data = google.visualization.arrayToDataTable($arregloEstado);
+	    		var dataEstados = google.visualization.arrayToDataTable($arregloEstado);
 	    		
-		      	var view = new google.visualization.DataView(data);
+		      	var view = new google.visualization.DataView(dataEstados);
 		      	view.setColumns([0, 1,
 		            { calc: "stringify",
 		            sourceColumn: 1,
