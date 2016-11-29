@@ -41,7 +41,7 @@
 			});
 
 		    google.charts.setOnLoadCallback(drawMarkersMap);
-		    google.charts.setOnLoadCallback(drawChartEstados);
+		    //google.charts.setOnLoadCallback(drawChartEstados);
 		    function drawMarkersMap() {
 			    var data = google.visualization.arrayToDataTable($arreglo);
 			    
