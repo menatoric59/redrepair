@@ -20,6 +20,7 @@ class IntegranteController extends Controller
     	')
     	->join('estados','estados.clave','integrantes.estado')
     	->groupBy(['estado','estados.nombre'])
+        ->orderBy('cantidad')
     	->get()
     	->toArray();
 
@@ -32,6 +33,7 @@ class IntegranteController extends Controller
             integrantes.participacion,count(*) as cantidad
         ')
         ->groupBy(['integrantes.participacion'])
+        ->orderBy('cantidad')
         ->get()
         ->toArray();
 
@@ -44,6 +46,7 @@ class IntegranteController extends Controller
             integrantes.adscripcion,count(*) as cantidad
         ')
         ->groupBy(['integrantes.adscripcion'])
+        ->orderBy('cantidad')
         ->get()
         ->toArray();
 

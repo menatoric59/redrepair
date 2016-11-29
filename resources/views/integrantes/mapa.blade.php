@@ -52,7 +52,7 @@
 			        colorAxis: {colors: ['#b2ebf2', '#006064'] },
 
 			    };
-			    var chart = new google.visualization.GeoChart(document.getElementById('chart_div'));
+			    var chart = new google.visualization.GeoChart(document.getElementById('div_mapa_mexico'));
 			    chart.draw(data, options);
 		    };
 		    function drawChartEstados() {
@@ -79,7 +79,7 @@
 				    },
 			    
 		      	};
-		      	var chart = new google.visualization.ColumnChart(document.getElementById("chart_estados"));
+		      	var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_estados"));
 		      	chart.draw(view, options);
 			}
 
@@ -122,7 +122,7 @@
 			    },
 			    colorAxis: {colors: ['#b2ebf2', '#006064'] },
 		      };
-		      var chart = new google.visualization.ColumnChart(document.getElementById("columnchart_values"));
+		      var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_participacion"));
 		      chart.draw(view, options);
 			    }
 			},'json');
@@ -165,19 +165,17 @@
 			    },
 			    
 		      };
-		      var chart = new google.visualization.ColumnChart(document.getElementById("chart_adscripcion"));
+		      var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_adscripcion"));
 		      chart.draw(view, options);
 			    }
 			},'json');
-
-
 	});
 </script>
 <h1 class="text-center">Participación en la Red</h1>
-<div id="chart_div" class="center-block"></div>	
-<div id="columnchart_values" class="block-center"></div>
-<div id="chart_estados" class="center"></div>
-<div id="chart_adscripcion"></div>
+<div id="div_mapa_mexico"></div>
+<div id="div_chart_participacion" style="margin-left: 30%;"></div>	
+<div id="div_chart_estados" style="margin-left: 30%;"></div>
+<div id="div_chart_adscripcion" style="margin-left: 30%;"></div>
 
 
 @endsection
