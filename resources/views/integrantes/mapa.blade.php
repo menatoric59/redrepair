@@ -41,7 +41,7 @@
 			});
 
 		    google.charts.setOnLoadCallback(drawMarkersMap);
-		    //google.charts.setOnLoadCallback(drawChartEstados);
+		    google.charts.setOnLoadCallback(drawChartEstados);
 		    function drawMarkersMap() {
 			    var data = google.visualization.arrayToDataTable($arreglo);
 			    
@@ -173,11 +173,11 @@
 
 	});
 </script>
-<h1 class="text-center">Mapa Interactivo</h1>
-<div id="chart_div" ></div>	
-<div id="columnchart_values" class="col-md-6 col-sm-12"></div>
-<div id="chart_estados"  class="col-md-6 col-sm-12"></div>
-<div id="chart_adscripcion"  class="col-md-6 col-sm-12"></div>
+<h1 class="text-center">Participación en la Red</h1>
+<div id="chart_div" class="center-block"></div>	
+<div id="columnchart_values" class="block-center"></div>
+<div id="chart_estados" class="center"></div>
+<div id="chart_adscripcion"></div>
 
 
 @endsection
