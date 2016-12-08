@@ -153,7 +153,7 @@
 		                       2]);
 
 		      var options = {
-		        title: "Tipo de adscripcion",
+		        title: "Institución de adscripción",
 		        width: 600,
 		        height: 400,
 		        bar: {groupWidth: "95%"},
@@ -171,7 +171,7 @@
 			},'json');
 	});
 </script>
-<h1 class="text-center">Participación en la Red</h1>
+<h1 class="text-center">Cartografía</h1>
 <div id="div_mapa_mexico"></div>
 <div id="div_chart_participacion" style="margin-left: 30%;"></div>	
 <div id="div_chart_estados" style="margin-left: 30%;"></div>
