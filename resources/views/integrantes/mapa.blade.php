@@ -153,7 +153,7 @@
 		                       2]);
 
 		      var options = {
-		        title: "Institución de adscripción",
+		        title: "Institución de Adscripción",
 		        width: 600,
 		        height: 400,
 		        bar: {groupWidth: "95%"},

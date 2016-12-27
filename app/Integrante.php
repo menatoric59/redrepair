@@ -9,7 +9,8 @@ class Integrante extends Model
     protected $table = 'integrantes';
     protected $fillable =[
     	'nombre',
-    	'adscripcion',
+    	'institucion',
+        'dependencia',
     	'pais',
     	'estado',
     	'disciplina',

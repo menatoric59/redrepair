@@ -33,7 +33,7 @@
                             {{ $integrante['nombre']}}
                         </a>
                     </td>
-                    <td>{{ $integrante['adscripcion']}}</td>
+                    <td>{{ $integrante['dependencia']}}</td>
                     <td>{{ $integrante['disciplina']}}</td>
                     @if(auth()->check())
                     <td>

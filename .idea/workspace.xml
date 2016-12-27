@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6279e19-5b87-4615-bb65-3c66541bc557" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/HerramientasController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/HerramientasController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/IntegranteController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/IntegranteController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Integrante.php" afterPath="$PROJECT_DIR$/app/Integrante.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php" afterPath="$PROJECT_DIR$/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mexciteg-subime.sublime-workspace" afterPath="$PROJECT_DIR$/mexciteg-subime.sublime-workspace" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/integrantes/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/integrantes/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/integrantes/mapa.blade.php" afterPath="$PROJECT_DIR$/resources/views/integrantes/mapa.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/integrantes/partials/campos.blade.php" afterPath="$PROJECT_DIR$/resources/views/integrantes/partials/campos.blade.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/integrantes/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="campos.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/integrantes/partials/campos.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IntegranteController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IntegranteController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Integrante.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Integrante.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HerramientasController.php" />
+        <option value="$PROJECT_DIR$/resources/views/integrantes/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/integrantes/partials/campos.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/IntegranteController.php" />
+        <option value="$PROJECT_DIR$/app/Integrante.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="712" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integrantes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="integrantes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="herramientas" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seeds" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="database" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrations" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redmexciteg" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6279e19-5b87-4615-bb65-3c66541bc557" name="Default" comment="" />
+      <created>1482198599545</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1482198599545</updated>
+      <workItem from="1482198600968" duration="820000" />
+      <workItem from="1482859343103" duration="2411000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3231000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1280" height="712" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/draw/typescript-draw.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/draw/typescript-draw.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-filterrow.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-filterrow.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-nestedgrids.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-nestedgrids.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-grouping.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-grouping.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-filtering.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-filtering.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-editing.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-editing.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-paging.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/grid/typescript-grid-paging.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/knob/typescript-knob.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/knob/typescript-knob.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/menu/typescript-menu.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/menu/typescript-menu.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tabs/typescript-tabs.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tabs/typescript-tabs.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tree/typescript-tree.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tree/typescript-tree.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart-columnlocaldata.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart-columnlocaldata.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart-polarseries.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart-polarseries.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart-donutseries.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart-donutseries.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/chart/typescript-chart.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/gauge/typescript-gauge.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/gauge/typescript-gauge.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/input/typescript-input.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/input/typescript-input.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/panel/typescript_panel.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/panel/typescript_panel.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/button/typescript-button.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/button/typescript-button.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/editor/typescript-editor.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/editor/typescript-editor.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/kanban/typescript-kanban.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/kanban/typescript-kanban.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/layout/typescript-layout.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/layout/typescript-layout.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/loader/typescript-loader.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/loader/typescript-loader.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/navbar/typescript-navbar.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/navbar/typescript-navbar.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/rating/typescript-rating.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/rating/typescript-rating.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/ribbon/typescript-ribbon.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/ribbon/typescript-ribbon.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/slider/typescript-slider.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/slider/typescript-slider.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/window/typescript-window.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/window/typescript-window.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/docking/typescript-docking.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/docking/typescript-docking.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/listbox/typescript-listbox.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/listbox/typescript-listbox.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/popover/typescript-popover.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/popover/typescript-popover.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/toolbar/typescript-toolbar.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/toolbar/typescript-toolbar.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tooltip/typescript-tooltip.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tooltip/typescript-tooltip.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/treemap/typescript-treemap.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/treemap/typescript-treemap.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/bargauge/typescript-bargauge.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/bargauge/typescript-bargauge.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/calendar/typescript-calendar.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/calendar/typescript-calendar.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/checkbox/typescript-checkbox.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/checkbox/typescript-checkbox.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/combobox/typescript-combobox.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/combobox/typescript-combobox.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dragdrop/typescript-dragdrop.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dragdrop/typescript-dragdrop.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/expander/typescript-expander.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/expander/typescript-expander.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/listmenu/typescript-listmenu.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/listmenu/typescript-listmenu.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/sortable/typescript-sortable.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/sortable/typescript-sortable.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/splitter/typescript-splitter.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/splitter/typescript-splitter.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tagcloud/typescript-tagcloud.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/tagcloud/typescript-tagcloud.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/textarea/typescript-textarea.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/textarea/typescript-textarea.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/treegrid/typescript-treegrid-virtualmode.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/treegrid/typescript-treegrid-virtualmode.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/treegrid/typescript-treegrid.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/treegrid/typescript-treegrid.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-editing.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-editing.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-paging.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-paging.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-filtering.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-filtering.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-sorting.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable-sorting.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datatable/typescript-datatable.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dockpanel/typescript-dockpanel.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dockpanel/typescript-dockpanel.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scheduler/typescript-scheduler.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scheduler/typescript-scheduler.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scheduler/typescript-scheduler-resources.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scheduler/typescript-scheduler-resources.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scrollbar/typescript-scrollbar.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scrollbar/typescript-scrollbar.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/validator/typescript-validator.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/validator/typescript-validator.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/fileupload/typescript-fileupload.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/fileupload/typescript-fileupload.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scrollview/typescript-scrollview.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/scrollview/typescript-scrollview.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/bulletchart/typescript-bulletchart.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/bulletchart/typescript-bulletchart.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/buttongroup/typescript-buttongroup.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/buttongroup/typescript-buttongroup.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/colorpicker/typescript-colorpicker.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/colorpicker/typescript-colorpicker.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/lineargauge/typescript-lineargauge.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/lineargauge/typescript-lineargauge.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/maskedinput/typescript-maskedinput.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/maskedinput/typescript-maskedinput.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/numberinput/typescript-numberinput.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/numberinput/typescript-numberinput.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/progressbar/typescript-progressbar.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/progressbar/typescript-progressbar.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/radiobutton/typescript-radiobutton.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/radiobutton/typescript-radiobutton.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/complexinput/typescript-complexinput.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/complexinput/typescript-complexinput.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dropdownlist/typescript-dropdownlist.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dropdownlist/typescript-dropdownlist.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/notification/typescript-notification.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/notification/typescript-notification.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/switchbutton/typescript-switchbutton.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/switchbutton/typescript-switchbutton.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datetimeinput/typescript-datetimeinput.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/datetimeinput/typescript-datetimeinput.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dockinglayout/typescript-dockinglayout.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dockinglayout/typescript-dockinglayout.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/navigationbar/typescript-navigationbar.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/navigationbar/typescript-navigationbar.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/passwordinput/typescript-passwordinput.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/passwordinput/typescript-passwordinput.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/rangeselector/typescript-rangeselector.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/rangeselector/typescript-rangeselector.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dropdownbutton/typescript-dropdownbutton.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/dropdownbutton/typescript-dropdownbutton.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/formattedinput/typescript-formattedinput.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/formattedinput/typescript-formattedinput.js.map" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/responsivepanel/typescript-responsivepanel.js" />
+        <option value="$PROJECT_DIR$/public/jqwidgets-ver4.3.0/demos/typescript/responsivepanel/typescript-responsivepanel.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/cuadernos/cuaderno1.html" />
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/herramientas/importar_integrantes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HerramientasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="49" column="58" lean-forward="false" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="20" column="42" lean-forward="false" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/integrantes/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="35" column="51" lean-forward="false" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/integrantes/partials/campos.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IntegranteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="72" column="10" lean-forward="false" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Integrante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

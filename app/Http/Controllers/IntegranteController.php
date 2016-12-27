@@ -43,9 +43,9 @@ class IntegranteController extends Controller
     }
     public function jsonTipoAdscripcion(){
         $integrantes = Integrante::selectRaw('
-            integrantes.adscripcion,count(*) as cantidad
+            integrantes.institucion as adscripcion,count(*) as cantidad
         ')
-        ->groupBy(['integrantes.adscripcion'])
+        ->groupBy(['integrantes.institucion'])
         ->orderBy('cantidad')
         ->get()
         ->toArray();
@@ -70,6 +70,7 @@ class IntegranteController extends Controller
         return view('integrantes.perfil',compact('integrante'));
     }
     public function actualizar(Request $request,$id){
+        //dd($request->all());
         $integrante = Integrante::findOrFail($id);
 
         $integrante->fill($request->all());

@@ -49,7 +49,8 @@ class HerramientasController extends Controller
             $nuevoIntegrante = new Integrante;
             $nuevoIntegrante->orden = $integrante['orden'];
             $nuevoIntegrante->nombre = $integrante['nombre'];
-            $nuevoIntegrante->adscripcion = $integrante['adscripcion'];
+            $nuevoIntegrante->institucion = $integrante['institucion'];
+            $nuevoIntegrante->dependencia = $integrante['dependencia'];
             $nuevoIntegrante->pais = $integrante['nacionalidad'];
             $nuevoIntegrante->estado = $integrante['estado'];
             $nuevoIntegrante->disciplina = $integrante['disciplina'];

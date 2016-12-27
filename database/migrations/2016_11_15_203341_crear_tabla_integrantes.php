@@ -17,7 +17,8 @@ class CrearTablaIntegrantes extends Migration
             $table->increments('id');
             $table->integer('orden');
             $table->string('nombre');
-            $table->string('adscripcion');
+            $table->string('institucion');
+            $table->string('dependencia');
             $table->string('pais');
             $table->string('estado');
             $table->string('disciplina');
