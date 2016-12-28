@@ -27,7 +27,7 @@
 			$arreglo = [];
 			$arregloEstado=[];
 			$encabezados = ['state','Estado','Integrantes'];
-			$encabezadosEstado = ['Element','Cantidad',{ role: "style" }];;
+			$encabezadosEstado = ['Element','Cantidad',{ role: "style" }];
 			$arreglo.push ($encabezados);
 			$arregloEstado.push($encabezadosEstado);
 			$.each($data,function($i,$item){

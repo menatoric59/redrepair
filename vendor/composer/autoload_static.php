@@ -308,6 +308,7 @@ class ComposerStaticInitd4856766b1b02f009c573d0777759aef
     public static $classMap = array (
         'CrearTablaEstados' => __DIR__ . '/../..' . '/database/migrations/2016_11_15_233958_crear_tabla_estados.php',
         'CrearTablaIntegrantes' => __DIR__ . '/../..' . '/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php',
+        'CrearTablaTipoPublicacion' => __DIR__ . '/../..' . '/database/migrations/2016_12_28_011055_crear_tabla_tipo_publicacion.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
@@ -864,6 +865,7 @@ class ComposerStaticInitd4856766b1b02f009c573d0777759aef
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
+        'TipoPublicacionSeeder' => __DIR__ . '/../..' . '/database/seeds/TipoPublicacionSeeder.php',
         'UsersSeeder' => __DIR__ . '/../..' . '/database/seeds/UsersSeeder.php',
     );
 

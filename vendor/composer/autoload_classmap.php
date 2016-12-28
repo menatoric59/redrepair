@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'CrearTablaEstados' => $baseDir . '/database/migrations/2016_11_15_233958_crear_tabla_estados.php',
     'CrearTablaIntegrantes' => $baseDir . '/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php',
+    'CrearTablaTipoPublicacion' => $baseDir . '/database/migrations/2016_12_28_011055_crear_tabla_tipo_publicacion.php',
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
@@ -564,5 +565,6 @@ return array(
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
     'TestCase' => $baseDir . '/tests/TestCase.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
+    'TipoPublicacionSeeder' => $baseDir . '/database/seeds/TipoPublicacionSeeder.php',
     'UsersSeeder' => $baseDir . '/database/seeds/UsersSeeder.php',
 );
