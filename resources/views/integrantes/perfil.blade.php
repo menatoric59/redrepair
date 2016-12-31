@@ -41,7 +41,10 @@
 		<hr>
 		<div class="col-md-12">
 			<h1 class="text-center blue-text text-darken-4">Perfil</h1>
-			{!! $integrante->detalle !!}
+			<div class="container">
+				{!! $integrante->detalle !!}
+			</div>
+
 		</div>
 
 	</div>
