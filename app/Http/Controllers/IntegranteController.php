@@ -1,9 +1,11 @@
 <?php
 
 namespace App\Http\Controllers;
-use Maatwebsite\Excel\Facades\Excel;
+
 use Illuminate\Http\Request;
 use App\Integrante;
+use Intervention\Image\Facades\Image;
+
 class IntegranteController extends Controller
 {
     public function index(){
@@ -70,15 +72,18 @@ class IntegranteController extends Controller
         return view('integrantes.perfil',compact('integrante'));
     }
     public function actualizar(Request $request,$id){
-        //dd($request->all());
         $integrante = Integrante::findOrFail($id);
-
+        if ($request->file('foto')){
+            $img = Image::make($request->file('foto'));
+            $img->resize(null, 400, function ($constraint) {
+                $constraint->aspectRatio();
+                $constraint->upsize();
+            });
+            $img->save('assets/sobre-la-red/directorio/' . $id . '.jpg');
+        }
         $integrante->fill($request->all());
         $integrante->save();
-
-        \Alert::success('Se ha actualizado el perfil de la integrante');
-
-
-        return redirect()->route('integrantes.lista');
+        \Alert::success('Se ha actualizado el perfil de ' . $integrante->nombre);
+        return redirect()->route('integrante.perfil',$id);
     }
 }

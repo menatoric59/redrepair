@@ -1,4 +1,5 @@
 <div class="row">
+	{!! Field::file('foto',['label'=>'Foto de perfil','accept'=>'.jpg']) !!}
 	{!! Field::text('nombre',null,['required']) !!}	
 	{!! Field::text('institucion',null,['required']) !!}
 	{!! Field::text('dependencia',null,['required']) !!}

@@ -7,7 +7,12 @@
         Integrantes
     </div>
     <div class="panel-body">
-       {!! Form::model($integrante,['route'=>['integrante.actualizar',$integrante->id],'method'=>'put']) !!}
+        {!! Html::image($integrante->imagen_perfil,'Imagen del perfil',
+				[
+				'height'=>'100px'
+				])
+		!!}
+       {!! Form::model($integrante,['route'=>['integrante.actualizar',$integrante->id],'method'=>'put','enctype'=>'multipart/form-data']) !!}
             @include('integrantes.partials.campos')
             <a  href="{{ route('integrantes.lista')}}"
                 class="btn grey">

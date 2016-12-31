@@ -21,9 +21,7 @@ class Integrante extends Model
     ];
 
     public function getImagenPerfilAttribute(){
-        $archivo = 'assets/sobre-la-red/directorio/' .
-            strtolower(str_replace(' ', '-',$this->attributes['nombre'])) . 
-            '.jpg';
+        $archivo = 'assets/sobre-la-red/directorio/' . $this->attributes['id'] . '.jpg';
         $avatar = 'assets/sobre-la-red/directorio/avatar.jpg';
         return file_exists($archivo) ? $archivo : $avatar;
     }

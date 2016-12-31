@@ -9,7 +9,7 @@ use Alert;
 class HerramientasController extends Controller
 {
     public function importarEstados(){
-    	Alert::danger('Este procedimiento eliminara por completo el catálogo de Estados');
+    	Alert::danger('Cuidado: este procedimiento eliminara por completo el catálogo de Estados');
     	return view('herramientas.importar_estados');
     }
     public function cargarEstados(Request $request){
@@ -32,7 +32,7 @@ class HerramientasController extends Controller
     }
 
     public function importarIntegrantes(){
-    	Alert::danger('Este procedimiento eliminara por completo el catálogo de Integrantes');
+    	Alert::danger('Cuidado: este procedimiento eliminara por completo el catálogo de Integrantes');
     	return view('herramientas.importar_integrantes');
     }
     public function cargarIntegrantes(Request $request){
@@ -61,7 +61,7 @@ class HerramientasController extends Controller
 
             $nuevoIntegrante->save();
         }
-        Alert::success('Han sido importados con exito los Integrantes');
-        return redirect()->back();
+        Alert::success('Han sido importados con exito las Integrantes');
+        return redirect()->route('integrantes.lista');
     }
 }

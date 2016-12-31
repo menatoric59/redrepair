@@ -1,4 +1,4 @@
-@extends('layouts.limpio')
+@extends('layouts.app')
 @section('content')
 	<div class="container">
 		<h1>Importar Integrantes de la Red</h1>
