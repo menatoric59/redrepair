@@ -7,7 +7,7 @@
         Integrantes
     </div>
     <div class="panel-body">
-        {!! Html::image($integrante->imagen_perfil,'Imagen del perfil',
+        {!! Html::image($integrante->imagen_perfil . '?'.time() ,'Imagen del perfil',
 				[
 				'height'=>'100px'
 				])

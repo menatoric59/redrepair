@@ -15,7 +15,7 @@ class CrearTablaIntegrantes extends Migration
     {
         Schema::create('integrantes',function(Blueprint $table){
             $table->increments('id');
-            $table->integer('orden');
+            $table->integer('orden')->default(0);
             $table->string('nombre');
             $table->string('institucion');
             $table->string('dependencia');

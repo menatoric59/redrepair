@@ -16,7 +16,6 @@
        
         <table class="data-table">
             <thead>
-                <th class="hidden">Orden</th>
                 <th>Nombre</th>
                 <th>Adscripción</th>
                 <th>Disciplina</th>
@@ -27,13 +26,12 @@
             <tbody>
                 @foreach($integrantes as $integrante)
                 <tr>
-                    <td class="hidden">{{ $integrante['orden']}}</td>
                     <td>
                         <a href="{{ route('integrante.perfil',$integrante->id )}}">
                             {{ $integrante['nombre']}}
                         </a>
                     </td>
-                    <td>{{ $integrante['dependencia']}}</td>
+                    <td>{{ $integrante['dependencia'] . '-' . $integrante['institucion'] }}</td>
                     <td>{{ $integrante['disciplina']}}</td>
                     @if(auth()->check())
                     <td>

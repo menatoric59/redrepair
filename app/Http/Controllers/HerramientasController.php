@@ -32,7 +32,7 @@ class HerramientasController extends Controller
     }
 
     public function importarIntegrantes(){
-    	Alert::danger('Cuidado: este procedimiento eliminara por completo el catálogo de Integrantes');
+    	Alert::danger('Cuidado: este procedimiento eliminara por completo el catálogo de Integrantes, incluyendo sus fotos');
     	return view('herramientas.importar_integrantes');
     }
     public function cargarIntegrantes(Request $request){

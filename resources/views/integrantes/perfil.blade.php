@@ -11,7 +11,8 @@
 	<h2 class="text-center">{{ $integrante->nombre }}</h2>
 	<div class="row lighten-2 white-texts valign-wrapper">
 		<div class="col-md-6 col-sm-12">
-			{!! Html::image($integrante->imagen_perfil,'Imagen del perfil',
+
+			{!! Html::image($integrante->imagen_perfil . '?'.time() ,'Imagen del perfil',
 				[
 				'class'=>'pull-right img-responsive valign',
 
@@ -48,4 +49,5 @@
 		</div>
 
 	</div>
+	{{ $img = Image::make($integrante->imagen_perfil) }}
 @endsection()

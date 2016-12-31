@@ -60,7 +60,11 @@ class IntegranteController extends Controller
         return view('integrantes.nueva');
     }
     public function guardar(Request $request){
-        dd($request->all());
+        $integrante = new Integrante();
+        $integrante->fill($request->all());
+        $integrante->save();
+        $integrante->actualizarFoto($request->file('foto'));
+        return redirect()->route('integrante.perfil',$integrante->id);
     }
 
     public function editar($id){
@@ -73,14 +77,7 @@ class IntegranteController extends Controller
     }
     public function actualizar(Request $request,$id){
         $integrante = Integrante::findOrFail($id);
-        if ($request->file('foto')){
-            $img = Image::make($request->file('foto'));
-            $img->resize(null, 400, function ($constraint) {
-                $constraint->aspectRatio();
-                $constraint->upsize();
-            });
-            $img->save('assets/sobre-la-red/directorio/' . $id . '.jpg');
-        }
+        $integrante->actualizarFoto($request->file('foto'));
         $integrante->fill($request->all());
         $integrante->save();
         \Alert::success('Se ha actualizado el perfil de ' . $integrante->nombre);

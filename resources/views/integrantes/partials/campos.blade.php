@@ -8,8 +8,7 @@
 	{!! Field::text('disciplina',null,['required']) !!}	
 	{!! Field::text('sni',null,['']) !!}
 	{!! Field::text('participacion',null,['required']) !!}
-	{!! Field::email('correo',null,['required']) !!}	
-
+	{!! Field::email('correo',null,['required']) !!}
 </div>
 
 <div class="row">
