@@ -16,6 +16,23 @@ class IntegranteController extends Controller
     public function mapa(){
     	return view ('integrantes.mapa');
     }
+    public function jsonMapa(){
+        $integrantes = Integrante::selectRaw('
+			estado,count(*) as cantidad
+    	')
+            ->join('estados','estados.clave','integrantes.estado')
+            ->groupBy(['estado'])
+            ->orderBy('cantidad')
+            ->get()
+            ->toArray();
+
+        $integrantes = array_values($integrantes);
+        //dd($integrantes);
+        return $integrantes;
+    }
+    public function jsonEstados(){
+
+    }
     public function json(){
     	$integrantes = Integrante::selectRaw('
 			estado,estados.nombre,count(*) as cantidad

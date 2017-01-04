@@ -22,30 +22,93 @@
 							]
 			}
 		);
-		
-		$.get('/integrantes/json',function($data){
-			$arreglo = [];
+/*
+        $.get('/integrantes/jsonMapa',function($data){
+            $arreglo = [];
+            $arregloEstado=[];
+            $encabezados = ['state','Estado','Integrantes'];
+            $encabezadosEstado = ['Element','Cantidad',{ role: "style" }];
+            $arreglo.push ($encabezados);
+            $arregloEstado.push($encabezadosEstado);
+            $.each($data,function($i,$item){
+                $valores = [];
+                $valoresEstado =[];
+                $aleatorio = Math.floor(Math.random() * (6 - 0) + 0);
+                $valores.push($item.estado,$item.nombre,parseInt($item.cantidad));
+                $valoresEstado.push($item.nombre,parseInt($item.cantidad),$colores[$aleatorio]);
+                $arreglo.push($valores);
+                $arregloEstado.push($valoresEstado);
+            });
+
+            google.charts.setOnLoadCallback(drawMarkersMap);
+            function drawMarkersMap() {
+                var data = google.visualization.arrayToDataTable($arreglo);
+
+                var options = {
+                    legend: 'Red Mexciteg', // se quita el slider indicador de poblacion minima y maxima
+                    region: 'MX',   // region a dibujar en el mapa
+                    resolution: 'provinces',    //forma en la que se seccionará el mapa
+                    colorAxis: {colors: ['#b2ebf2', '#006064'] },
+
+                };
+                var chart = new google.visualization.GeoChart(document.getElementById('div_mapa_mexico'));
+                chart.draw(data, options);
+            };
+            function drawChartEstados() {
+                var dataEstados = google.visualization.arrayToDataTable($arregloEstado);
+
+                var view = new google.visualization.DataView(dataEstados);
+                view.setColumns([0, 1,
+                    { calc: "stringify",
+                        sourceColumn: 1,
+                        type: "string",
+                        role: "annotation" },
+                    2]);
+
+                var options = {
+                    title: "Entidades de Procedencia",
+                    width: 600,
+                    height: 400,
+                    bar: {groupWidth: "95%"},
+                    legend: { position: "none" },
+                    animation:{
+                        startup: true,
+                        duration: 6000,
+                        easing: 'out',
+                    },
+
+                };
+                var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_estados"));
+                chart.draw(view, options);
+            }
+
+        },"json");
+*/
+
+
+        $.get('/integrantes/json',function($dataJsonMapa){
+			$arregloMapa = [];
 			$arregloEstado=[];
-			$encabezados = ['state','Estado','Integrantes'];
+			$encabezadosMapa = ['state','Estado','Integrantes'];
 			$encabezadosEstado = ['Element','Cantidad',{ role: "style" }];
-			$arreglo.push ($encabezados);
+			$arregloMapa.push ($encabezadosMapa);
 			$arregloEstado.push($encabezadosEstado);
-			$.each($data,function($i,$item){
-				$valores = [];
+			$.each($dataJsonMapa,function($i,$item){
+				$valoresMapa = [];
 				$valoresEstado =[];
 				$aleatorio = Math.floor(Math.random() * (6 - 0) + 0);
-				$valores.push($item.estado,$item.nombre,parseInt($item.cantidad));
+				$valoresMapa.push($item.estado,$item.nombre,parseInt($item.cantidad));
 				$valoresEstado.push($item.nombre,parseInt($item.cantidad),$colores[$aleatorio]);
-				$arreglo.push($valores);
+				$arregloMapa.push($valoresMapa);
 				$arregloEstado.push($valoresEstado);
 			});
 
 		    google.charts.setOnLoadCallback(drawMarkersMap);
 		    google.charts.setOnLoadCallback(drawChartEstados);
 		    function drawMarkersMap() {
-			    var data = google.visualization.arrayToDataTable($arreglo);
+			    var dataMapa = google.visualization.arrayToDataTable($arregloMapa);
 			    
-			    var options = {
+			    var optionsMapa = {
 			        legend: 'Red Mexciteg', // se quita el slider indicador de poblacion minima y maxima
 			        region: 'MX',   // region a dibujar en el mapa
 			        resolution: 'provinces',    //forma en la que se seccionará el mapa
@@ -53,7 +116,7 @@
 
 			    };
 			    var chart = new google.visualization.GeoChart(document.getElementById('div_mapa_mexico'));
-			    chart.draw(data, options);
+			    chart.draw(dataMapa, optionsMapa);
 		    };
 		    function drawChartEstados() {
 	    		var dataEstados = google.visualization.arrayToDataTable($arregloEstado);
@@ -84,24 +147,24 @@
 			}
 
 		},"json");
-		
-		$.get('/integrantes/jsonTipoIntegrante',function($data){
-			$arreglo = [];
-			$encabezados = ['Element','Cantidad',{ role: "style" }];
-			$arreglo.push ($encabezados);
 
-			$.each($data,function($i,$item){
-				$valores = [];
+		$.get('/integrantes/jsonTipoIntegrante',function($dataJsonIntegrantes){
+			$arregloTipoIntegrante = [];
+			$encabezadosTipoIntegrante = ['Element','Cantidad',{ role: "style" }];
+			$arregloTipoIntegrante.push ($encabezadosTipoIntegrante);
+
+			$.each($dataJsonIntegrantes,function($i,$item){
+				$valoresTipoIntegrante = [];
 				$aleatorio = Math.floor(Math.random() * (6 - 0) + 0);
-				$valores.push($item.participacion,parseInt($item.cantidad),$colores[$aleatorio]);
+				$valoresTipoIntegrante.push($item.participacion,parseInt($item.cantidad),$colores[$aleatorio]);
 				
-				$arreglo.push($valores);
+				$arregloTipoIntegrante.push($valoresTipoIntegrante);
 			});
 	    	google.charts.setOnLoadCallback(drawChart);
 	    	function drawChart() {
-	    		var barras_data = google.visualization.arrayToDataTable($arreglo);
+	    		var dataTipoIntegrante = google.visualization.arrayToDataTable($arregloTipoIntegrante);
 	    		
-		      var view = new google.visualization.DataView(barras_data);
+		      var view = new google.visualization.DataView(dataTipoIntegrante);
 		      view.setColumns([0, 1,
 		                       { calc: "stringify",
 		                         sourceColumn: 1,
@@ -110,7 +173,7 @@
 		                       2]);
 
 		      var options = {
-		        title: "Tipo de participacion",
+		        title: "Tipo de participación",
 		        width: 600,
 		        height: 400,
 		        bar: {groupWidth: "95%"},
