@@ -6,7 +6,9 @@ return [
 		'submenu'=>[
 			'Integrantes'=>['route'=>'integrantes.lista'],
 			'Mapa'=>['route'=>'integrantes.mapa'],
-            'Tipos de publicación'=>['route'=>'tipo-publicacion.lista'],
+			'Publicaciones'=>['route'=>'publicacion.lista'],
+			/*'Publicaciones'=>['route'=>'publicacion.lista'],*/
+            'Tipos de publicación'=>['route'=>'tipo-publicacion.lista']
 		]
 	],
     'Herramientas'=>[
