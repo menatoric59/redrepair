@@ -1,7 +1,6 @@
 @extends('layouts.limpio')
 @section('menu')
-    @if(auth()->check())
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-default navbar-static-top navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <!-- Collapsed Hamburger -->
@@ -13,20 +12,21 @@
                 </button>
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    {{ config('app.name', 'OllinSystems') }}
+                    {{ Html::image('assets/index/logoRed.jpg','',['height'=>'50px']) }}
+                    {{-- config('app.name', 'OllinSystems') --}}
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="app-navbar-collapse">
                 <!-- Left Side Of Navbar -->
                 
-                {!! Menu::make( config('general.menu'),'nav navbar-nav navbar-left' ) !!}
+                {!! Menu::make( config('general.menuPagina'),'nav navbar-nav navbar-left' ) !!}
                 
 
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-            
+                        {{ Html::image('assets/index/logoDerecho.png','',['height'=>'50px']) }}
                        
                     @else
                         <li class="dropdown">
@@ -55,5 +55,5 @@
             </div>
         </div>
     </nav>
-    @endif
+
 @endsection

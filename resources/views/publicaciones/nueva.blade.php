@@ -7,9 +7,9 @@
         Publicacion
     </div>
     <div class="panel-body">
-       {!! Form::open(['route'=>['integrante.guardar'],'method'=>'post','enctype'=>'multipart/form-data']) !!}
+       {!! Form::open(['route'=>['publicacion.guardar'],'method'=>'post','enctype'=>'multipart/form-data','class'=>'form-horizontal']) !!}
             @include('publicaciones.partials.campos')
-            <a  href="{{ route('integrantes.lista')}}"
+            <a  href="{{ route('publicacion.lista')}}"
                 class="btn grey">
                 Cancelar
             </a>

@@ -1,3 +1,9 @@
+.carousel-caption{
+    border-radius: 15px;
+    opacity: 0.8;
+    font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
+    width: auto;
+}
 .valign-wrapper{
   display: -ms-flex;
   display: -webkit-flex;
@@ -10,4 +16,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+.thin{
+    font-weight: 200 !important;
 }

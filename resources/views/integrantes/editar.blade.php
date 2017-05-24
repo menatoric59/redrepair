@@ -12,7 +12,7 @@
 				'height'=>'100px'
 				])
 		!!}
-       {!! Form::model($integrante,['route'=>['integrante.actualizar',$integrante->id],'method'=>'put','enctype'=>'multipart/form-data']) !!}
+       {!! Form::model($integrante,['route'=>['integrante.actualizar',$integrante->id],'method'=>'put','enctype'=>'multipart/form-data','class'=>'form-horizontal']) !!}
             @include('integrantes.partials.campos')
             <a  href="{{ route('integrantes.lista')}}"
                 class="btn grey">

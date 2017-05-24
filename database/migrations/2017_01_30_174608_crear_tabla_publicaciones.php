@@ -20,9 +20,13 @@ class CrearTablaPublicaciones extends Migration
             $table->string('publicado_en');
             $table->integer('anio');
             $table->string('ciudad');
-            $table->string('editorial');
-            $table->string('url');
-            $table->string('sinopsis_html');            
+            $table->string('editorial')->nullable();
+            $table->string('paginas')->nullable();
+            $table->string('isbn')->nullable();
+            $table->string('issn')->nullable();
+            $table->string('url')->nullable();
+            $table->string('sinopsis_html')->nullable();
+            $table->timestamps();
         });
     }
 

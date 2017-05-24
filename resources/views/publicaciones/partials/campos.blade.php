@@ -6,16 +6,15 @@
 	{!! Field::text('publicado_en',null,['required']) !!}
 	{!! Field::number('anio',null,['required']) !!}
 	{!! Field::text('ciudad',null,['required']) !!}	
-	{!! Field::text('editorial',null,['required']) !!}
+	{!! Field::text('editorial',null) !!}
+	{!! Field::text('paginas',null) !!}
+	{!! Field::text('isbn',null) !!}
+	{!! Field::text('issn',null) !!}
+
 	{!! Field::text('URL',null,[]) !!}
 </div>
 <div class="row">
 	<label>Sinopsis</label>
 	{!! Form::textarea('sinopsis_html',null,['class'=>'ckeditor','col'=>'2']) !!}
 </div>
-{{--
-<div class="row">
-	<h2>Detalle:</h2>
-	{!! Form::textarea('detalle',null,['class'=>'ckeditor'])!!}	
-</div>
---}}
+

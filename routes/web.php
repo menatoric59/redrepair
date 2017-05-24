@@ -21,4 +21,18 @@ require __DIR__ . '/web/herramientas.php';
 require __DIR__ . '/web/cuadernos.php';
 require __DIR__ . '/web/tipo_publicaciones.php';
 require __DIR__ . '/web/publicaciones.php';
-Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/', 'HomeController@index')->name('home');
+
+
+Route::group(['prefix'=>'/sobre-la-red'],function (){
+    Route::get('/quienes-somos',function (){
+        return view('sobre.quienes-somos');
+    })->name('quienes-somos');
+    Route::get('/historia',function (){
+        return view('sobre.historia');
+    })->name('historia');
+    Route::get('/que-hacemos',function (){
+        return view('sobre.que-hacemos');
+    })->name('que-hacemos');
+});

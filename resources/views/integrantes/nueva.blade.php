@@ -7,7 +7,7 @@
         Integrantes
     </div>
     <div class="panel-body">
-       {!! Form::open(['route'=>['integrante.guardar'],'method'=>'post','enctype'=>'multipart/form-data']) !!}
+       {!! Form::open(['route'=>['integrante.guardar'],'method'=>'post','enctype'=>'multipart/form-data','class'=>'form-horizontal']) !!}
             @include('integrantes.partials.campos')
             <a  href="{{ route('integrantes.lista')}}"
                 class="btn grey">

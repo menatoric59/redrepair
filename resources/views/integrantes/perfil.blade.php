@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+	<br>
 	<ol class="breadcrumb">
 		<li><a href="{{ route('integrantes.lista') }}">Directorio</a></li>
 		<li>{!! auth()->check() ?

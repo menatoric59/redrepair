@@ -68,7 +68,7 @@
 
 		      	var options = {
 			        title: "Entidades de Procedencia",
-			        width: 600,
+			        //width: 300,
 			        height: 400,
 			        bar: {groupWidth: "95%"},
 			        legend: { position: "none" },
@@ -111,7 +111,7 @@
 
 		      var options = {
 		        title: "Tipo de participación",
-		        width: 600,
+		        //width: 300,
 		        height: 400,
 		        bar: {groupWidth: "95%"},
 		        legend: { position: "none" },
@@ -154,7 +154,7 @@
 
 		      var options = {
 		        title: "Institución de Adscripción",
-		        width: 600,
+		        //width: 100,
 		        height: 400,
 		        bar: {groupWidth: "95%"},
 		        legend: { position: "none" },
@@ -171,23 +171,23 @@
 			},'json');
 	});
 </script>
-<div class="row">
+<div class="container">
 	<h1 class="text-center">Cartografía</h1>
 	<div id="div_mapa_mexico"></div>	
 </div>
 
 <div class="row">
 	<h1 class="text-center">Gráficas</h1>
-	<div class="col-md-4" id="div_chart_participacion"></div>
-	<div class="col-md-4" id="div_chart_estados"></div>
-	<div class="col-md-4" id="div_chart_adscripcion"></div>
+	<div class="col-lg-4 col-md-12" id="div_chart_participacion"></div>
+	<div class="col-lg-4 col-md-12" id="div_chart_estados"></div>
+	<div class="col-lg-4 col-md-12" id="div_chart_adscripcion"></div>
 </div>
 <br>
 <br>
 <br>
 <div class="row">
 	<h1 class="text-center">Colaboraciones</h1>
-	<img src="{{ asset('assets/sobre-la-red/cartografia/colaboraciones.jpg') }}" alt="Gráfica de colaboraciones" class="center-block">
+	<img src="{{ asset('assets/sobre-la-red/cartografia/colaboraciones.jpg') }}" alt="Gráfica de colaboraciones" class="center-block img-responsive">
 </div>
 
 @endsection
