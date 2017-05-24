@@ -1,6 +1,6 @@
 <div class="row">
     <div class="col-md-9 col-sm-12 text-center">
-        <div class="col-md-8 offset-md-2">
+        <div class="col-md-8 offset-md-2 black-text">
             <h1 class="thin">Nuestra red</h1>
             <p>
                 La Red Mexicana de Ciencia, Tecnología y Género (Red MEXCITEG) se fundó el 7 de diciembre de 2012 durante el Foro Nacional de Análisis y Propuestas con perspectiva de Género sobre los Sistemas de Estímulo y Reconocimiento de las Instituciones de Educación Superior, con la idea de estimular el intercambio y sistematización de experiencias previas de distintos grupos académicos y de investigación del país que han trabajado y planteado iniciativas desde hace 30 años.

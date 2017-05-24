@@ -5,7 +5,7 @@
         <h1 class="text-center thin">Historia</h1>
         {!! Html::image('assets/sobre-la-red/quienes-somos/collage.jpg','Collage',['class'=>'center-block img-responsive']) !!}
 
-        <div class="col-md-12 grey-text">
+        <div class="col-md-12 black-text">
             <br><br>
             <p>La RED MEXCITEG se propuso en 2012 durante el Foro Nacional de Análisis y Propuestas con perspectiva de Género sobre los Sistemas de Estímulo, para intercambiar experiencias previas de distintos grupos de investigación que han trabajado y planteado iniciativas desde hace 30 años.  Su constitución formal se realizó en 2014 (Red Temática CONACYT No. 2244521).</p>
             <br>
