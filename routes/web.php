@@ -35,4 +35,7 @@ Route::group(['prefix'=>'/sobre-la-red'],function (){
     Route::get('/que-hacemos',function (){
         return view('sobre.que-hacemos');
     })->name('que-hacemos');
+    Route::get('/contacto',function (){
+        return view('sobre.contacto');
+    })->name('contacto');
 });

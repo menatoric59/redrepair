@@ -30,5 +30,5 @@ return [
             'Cartografía e interrelaciones'=>['route'=>'integrantes.mapa'],*/
         ]
     ],
-    'Contacto'=>['route'=>'tipo-publicacion.lista'],
+    'Contacto'=>['route'=>'contacto'],
 ];

@@ -49,7 +49,7 @@
 
     <!-- Controls -->
     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 
         <span class="sr-only">Previous</span>
     </a>

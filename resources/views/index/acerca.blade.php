@@ -16,7 +16,7 @@
                 La Red Mexciteg trabaja en diferentes ejes con el objetivo de estimular el intercambio y sistematización de experiencias previas de distintos grupos académicos y de investigación, así como realizar un análisis crítico de la Ciencia y Tecnología desde una perspectiva de género, que permita conocer y visibilizar la participación, promoción y reconocimiento de las mujeres en el sistema de ciencia y tecnología en México.
             </p>
             <p>
-                <a href="{{ route('quienes-somos') }}" class="btn btn-info">Leer más...</a>
+                <a href="{{ route('que-hacemos') }}" class="btn btn-info">Leer más...</a>
             </p>
         </div>
     </div>

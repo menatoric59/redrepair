@@ -6,7 +6,7 @@
         <h1 class="text-center thin">Cuadernos de Trabajo</h1>
         <br>
 
-        <p class="grey-text"><strong>Los 6 Cuadernos de Trabajo de la Red Mexicana de Ciencia, Tecnología y Género (Red MEXCITEG) </strong>reúnen los resultados de las actividades académicas, de investigación y formación de los grupos que la integran mediante diversos ejes de trabajo en los que se plantea el estado del arte sobre las relaciones entre ciencia y género de los últimos años, considerando también el camino recorrido desde la década de los 80´s para conocer la evolución del proceso hasta el momento, con la conceptualización teórica en la que se fundamentan y se enmarca dentro de un panorama mundial, en el que se abordan estudios realizados en países de la Unión Europea, Estados Unidos de Norteamérica, Latinoamérica y el caso particular de México.
+        <p class="black-text"><strong>Los 6 Cuadernos de Trabajo de la Red Mexicana de Ciencia, Tecnología y Género (Red MEXCITEG) </strong>reúnen los resultados de las actividades académicas, de investigación y formación de los grupos que la integran mediante diversos ejes de trabajo en los que se plantea el estado del arte sobre las relaciones entre ciencia y género de los últimos años, considerando también el camino recorrido desde la década de los 80´s para conocer la evolución del proceso hasta el momento, con la conceptualización teórica en la que se fundamentan y se enmarca dentro de un panorama mundial, en el que se abordan estudios realizados en países de la Unión Europea, Estados Unidos de Norteamérica, Latinoamérica y el caso particular de México.
         </p>
         <br><br>
         <div class="row">

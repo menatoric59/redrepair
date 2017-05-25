@@ -20,7 +20,7 @@
     <!-- Scripts -->
     {!! Html::script('js/jquery-3.1.1.min.js')!!}
     {!! Html::script('js/bootstrap.min.js')!!}
-
+    
 
 
     <link rel="apple-touch-icon" sizes="57x57" href="{{asset('assets/favicon/apple-icon-57x57.png')}}">
