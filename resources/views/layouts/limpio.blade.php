@@ -52,6 +52,29 @@
     {!! Html::script('js/data-tables.min.js')!!}
     {!! Html::script('js/general.js') !!}
     {!! Html::style('css/custom.css' . '?' . date('Y-m-d h:s'))!!}
+    <footer>
+        <div class="row">
+            <div class="col-md-2">
+                {{ Html::image('assets/index/logoRed.jpg','',['height'=>'50px','class'=>'logo-footer']) }}
+            </div>
+            <div class="col-md-4">
+                <p><span class="white-text">Powered by menatoric59</span> <br>
+                Todos los derechos reservados {{ date('Y') }}</p>
+            </div>
+        </div>
+        <br><br>
 
+
+
+
+    </footer>
+
+    <style>
+        .logo-footer{
+            border-right-style : solid;
+            border-right-color :grey;
+            border-right-width : medium;
+        }
+    </style>
 </body>
 </html>
