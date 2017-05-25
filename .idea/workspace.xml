@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6279e19-5b87-4615-bb65-3c66541bc557" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/general/menuPagina.php" afterPath="$PROJECT_DIR$/config/general/menuPagina.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index/acerca.blade.php" afterPath="$PROJECT_DIR$/resources/views/index/acerca.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index/carrusel.blade.php" afterPath="$PROJECT_DIR$/resources/views/index/carrusel.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/layouts/limpio.blade.php" afterPath="$PROJECT_DIR$/resources/views/layouts/limpio.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/publicaciones/cuadernos.blade.php" afterPath="$PROJECT_DIR$/resources/views/publicaciones/cuadernos.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index/publicaciones.blade.php" afterPath="$PROJECT_DIR$/resources/views/index/publicaciones.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contacto.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contacto.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/sobre/contacto.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="25">
@@ -83,6 +77,16 @@
               <folding>
                 <element signature="e#1798#1814#0#HTML" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="publicaciones.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/index/publicaciones.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="43" column="151" lean-forward="false" selection-start-line="43" selection-start-column="151" selection-end-line="43" selection-end-column="151" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,7 +151,6 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/publicaciones/revista.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/acerca.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index/publicaciones.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/sobre/quienes-somos.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/sobre/historia.blade.php" />
@@ -160,6 +163,7 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/limpio.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/publicaciones/cuadernos.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/sobre/contacto.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index/publicaciones.blade.php" />
       </list>
     </option>
   </component>
@@ -708,12 +712,12 @@
       <workItem from="1495235801841" duration="7962000" />
       <workItem from="1495568540722" duration="3725000" />
       <workItem from="1495635398807" duration="61000" />
-      <workItem from="1495663219918" duration="2702000" />
+      <workItem from="1495663219918" duration="2942000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90503000" />
+    <option name="totallyTimeSpent" value="90743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1223,13 +1227,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index/publicaciones.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/sobre/historia.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1292,6 +1289,14 @@
           <folding>
             <element signature="e#1798#1814#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index/publicaciones.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="43" column="151" lean-forward="false" selection-start-line="43" selection-start-column="151" selection-end-line="43" selection-end-column="151" />
+          <folding />
         </state>
       </provider>
     </entry>
