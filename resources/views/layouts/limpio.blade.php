@@ -53,6 +53,72 @@
     {!! Html::script('js/general.js') !!}
     {!! Html::style('css/custom.css' . '?' . date('Y-m-d h:s'))!!}
     <footer>
+        <div class="row grey darken-4">
+            <br>
+            <div class="row light">
+                <div class="container">
+                    <div class="col-md-3">
+                        <h3 class="grey-text text-lighten-1">Sobre la red</h3>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('quienes-somos') }}">Quiénes somos</a>
+                        </p>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('que-hacemos') }}">Qué hacemos</a>
+                        </p>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('integrantes.lista') }}">Directorio</a>
+                        </p>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('historia') }}">Historia</a>
+                        </p>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('integrantes.mapa') }}">Cartografía e interacciones</a>
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="grey-text text-lighten-1">Publicaciones</h3>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('cuadernos') }}">Cuadernos de trabajo</a>
+                        </p>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('revista') }}">De este lado (revista)</a>
+                        </p>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('libros') }}">Libros</a>
+                        </p>
+                        <p>
+                            <a class='grey-text text-darken-1' href="{{ route('publicaciones') }}">Catálogo de publicaciones</a>
+                        </p>
+                    </div>
+                   
+                    <div class="col-md-6 grey-text text-darken-1">
+                        <h3 class="grey-text text-lighten-1">Contacto</h3>
+                        <p>
+                            <a class='grey-text text-darken-1' href="https://www.facebook.com/RedMexciteg/" target="_blank">
+                                <i class="fa fa-facebook-square fa-2x">&nbsp;</i>    
+                            </a>
+                            <a class='grey-text text-darken-1' href="https://www.youtube.com/channel/UCMT24gjTYVG4DBxoCT6z_vQ" target="_blank">
+                                <i class="fa fa-youtube-square fa-2x">&nbsp;</i>
+                            </a>
+                            <a class='grey-text text-darken-1' href="https://www.instagram.com/redmexciteg/" target="_blank">
+                                <i class="fa fa-instagram fa-2x">&nbsp;</i>
+                            </a>
+                            <a class='grey-text text-darken-1' href="https://twitter.com/redmexciteg" target="_blank">
+                                <i class="fa fa-twitter-square fa-2x">&nbsp;</i>
+                            </a>
+                            <a class='grey-text text-darken-1' href="https://plus.google.com/u/0/111120767007614310111" target="_blank">
+                                <i class="fa fa-google-plus-square fa-2x"></i>
+                            </a>
+                        </p>
+                        {!! config('general.direccion') !!}
+                        
+                        
+                    </div>    
+                </div>
+                
+            </div>
+        </div>
+        <br>
         <div class="row">
             <div class="col-md-2">
                 {{ Html::image('assets/index/logoRed.jpg','',['height'=>'50px','class'=>'logo-footer']) }}
@@ -62,7 +128,7 @@
                 Todos los derechos reservados {{ date('Y') }}</p>
             </div>
         </div>
-        <br><br>
+        <br>
 
 
 
@@ -74,6 +140,30 @@
             border-right-style : solid;
             border-right-color :grey;
             border-right-width : medium;
+        }
+        .carousel-caption{
+            width: 100%;
+            right: 0%;
+            left: 0%;
+            
+        }
+        .fa-twitter-square:hover{
+            color: #00bcd4;
+        }
+        .fa-facebook-square:hover{
+            color:#1565c0;
+        }
+        .fa-youtube-square:hover{
+            color: white;
+        }
+        .fa-instagram:hover{
+            color: #ec407a;
+        }
+        .fa-google-plus-square:hover{
+            color:#ef5350;
+        }
+        .light{
+            font-weight:300;
         }
     </style>
 </body>

@@ -5,10 +5,21 @@
         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
+            <img src="{{ asset("assets/index/carrusel/homenaje.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
+             <div class="carousel-caption white-text cyan darken-3 text-darken-3" style="width: 100%">
+                <h2 class="hidden-xs">De sus amigas de la red</h2>
+
+                <a href="http://www.medios.ceiich.unam.mx/video/172/" class="btn grey darken-3" target="_blank">Ver video</a>
+            </div>
+
+        </div>
+        <div class="item">
             <img src="{{ asset("assets/index/carrusel/guadalajara2016.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
             <div class="carousel-caption white blue-text hidden-md-down">
                 <h1 class="thin">Reunión Nacional</h1>
