@@ -6,11 +6,23 @@
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
+            <img src="{{ asset("assets/index/carrusel/puebla2017.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
+            <div class="carousel-caption red lighten-2 white-text hidden-md-down">
+                <h1 class="thin">Reunión Nacional</h1>
+                <h3>Puebla, mayo 2017</h3>
+            </div>
+            <div class="carousel-caption red lighten-2 white-text hidden-md-up">
+                <p>Puebla, 2017</p>
+            </div>
+
+        </div>
+        <div class="item">
             <img src="{{ asset("assets/index/carrusel/homenaje.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
              <div class="carousel-caption white-text cyan darken-3 text-darken-3" style="width: 100%">
                 <h2 class="hidden-xs">De sus amigas de la red</h2>
@@ -34,10 +46,10 @@
             <img src="assets/index/carrusel/chiapas2016.jpg" alt="..." class="img-responsive center-block">
             <div class="carousel-caption green white-text hidden-md-down">
                 <h1>Reunión Nacional</h1>
-                <h3>San Cristobal de las casas, octubre 2016</h3>
+                <h3>San Cristóbal de las Casas, octubre 2016</h3>
             </div>
             <div class="carousel-caption green white-text hidden-md-up">
-                <p>San Cristobal, 2016</p>
+                <p>San Cristóbal, 2016</p>
             </div>
         </div>
         <div class="item">
