@@ -7,15 +7,24 @@
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
         <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
 
     </ol>
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
         <div class="item active">
+            <a href="http://www.ifuap.buap.mx/eventos/SFHPPG17/" target="_blank">
+                <img src="{{ asset("assets/index/carrusel/seminarioSeptiembre2017.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
+            
+            </a>
+        </div>
+        <div class="item">
             <img src="{{ asset("assets/index/carrusel/puebla2017.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
             <div class="carousel-caption red lighten-2 white-text hidden-md-down">
                 <h1 class="thin">Reunión Nacional</h1>
                 <h3>Puebla, mayo 2017</h3>
+                <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" class="btn grey darken-3" target="_blank">Ver nota</a>
+                
             </div>
             <div class="carousel-caption red lighten-2 white-text hidden-md-up">
                 <p>Puebla, 2017</p>

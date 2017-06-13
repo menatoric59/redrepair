@@ -8,7 +8,7 @@
             <p>
                 <a href="{{ route('quienes-somos') }}" class="btn btn-info">Leer más...</a>
             </p>
-            <br><br><br><br><br>
+            <br><br>
         </div>
         <div class="col-md-8 offset-md-2">
             <h1 class="thin">Lo que hacemos</h1>
