@@ -10,7 +10,7 @@
                 <b>CONVOCATORIA:</b> a las mujeres mexicanas estudiantes de posgrado PNPC, Postdoctorantes o Investigadoras jovenes, de Ámerica Latina de todas las áreas de Ciencia y Tecnología e Innovación.
                 
             </p>
-            <a href="" class="btn pink">Saber mas...</a>
+            <a href="http://www.ifuap.buap.mx/eventos/SFHPPG17/" target="_blank" class="btn pink">Saber mas...</a>
         </div>
         
     </div>

@@ -4,6 +4,7 @@ return [
 	'Inicio'=>['url'=>''],
     'Sobre la red'=>[
         'submenu'=>[
+            'Qué hacemos'=>['route'=>'que-hacemos'],
             'Quiénes somos'=>['route'=>'quienes-somos'],
             'Historia'=>['route'=>'historia'],
             'Directorio'=>['route'=>'integrantes.lista'],
@@ -11,7 +12,6 @@ return [
         ]
 
     ],
-    'Qué hacemos'=>['route'=>'que-hacemos'],
     'Publicaciones'=>[
 
         'submenu'=>[
