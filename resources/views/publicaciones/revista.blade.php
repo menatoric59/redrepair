@@ -5,9 +5,14 @@
         <br>
         <h1 class="text-center thin">Revista "De este lado"</h1>
         <br>
-        <a href="http://redmexciteg.wixsite.com/revistadeestelado" target="_blank">
-            {!! Html::image('assets/biblioteca/revista/portada1.jpg','portada',['class'=>'img-responsive center-block']) !!}
-        </a>
+        <div class="col-md-6">
+        	{!! Html::image('assets/biblioteca/publicaciones/4.jpg','portada',['class'=>'img-responsive center-block']) !!}	
+        </div>
+        <div class="col-md-6">
+        	<h1><i class="fa fa-exclamation-triangle"></i> La revista aun está en construcción, pronto la publicaremos</h1>
+        </div>
+        
+        
     </div>
 
 

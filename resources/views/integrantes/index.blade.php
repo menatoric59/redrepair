@@ -5,7 +5,7 @@
     <div class="container jumbotron">
         <h1 class="text-center thin">Directorio</h1>
         <div class="panel">
-            <div class="panel-heading cyan darken-3 white-text">
+            <div class="panel-heading pink lighten-2 white-text">
                 <i class="fa fa-female"></i>
                 Integrantes
                 @if(auth()->check())

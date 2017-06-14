@@ -141,12 +141,25 @@
             border-right-color :grey;
             border-right-width : medium;
         }
+        /**/
         .carousel-caption{
             width: 100%;
             right: 0%;
             left: 0%;
+            bottom: 0px;
+            padding-top: 5px;
+            /*padding-bottom: 5px;*/
             
         }
+        .carousel-indicators{
+            bottom: 0px;
+            margin-bottom: 0px;
+        }
+
+        .jumbotron p{
+            font-weight: 300;
+        }
+
         .fa-twitter-square:hover{
             color: #00bcd4;
         }

@@ -28,7 +28,8 @@
         <div class="row map-container">
             <h1 class="text-center thin">Ubicación</h1>
             <br><br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.8261175016482!2d-99.18525348509488!3d19.33335018694073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdfff8f8767d79%3A0xb28b343bad44afd4!2sTorre+II+de+Humanidades!5e0!3m2!1ses-419!2smx!4v1495664081967" width="100%" height="450" frameborder="0" style="border:0" scrolling="no"></iframe>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3772.364501846391!2d-98.20377518608419!3d19.003653359183133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfbf5fa937a581%3A0x28ab9aeea48e98c3!2sInstituto+de+F%C3%ADsica+Ing.+Luis+Rivera+Terrazas!5e0!3m2!1ses-419!2smx!4v1497477919866" width="100%" height="450" frameborder="0" style="border:0" scrolling="no"></iframe>
         </div>
 
     </div>
