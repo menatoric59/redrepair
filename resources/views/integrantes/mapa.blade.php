@@ -178,7 +178,7 @@
 
 <div class="row">
 	<h1 class="text-center">Gráficas</h1>
-	<div class="col-lg-4 col-md-12" id="div_chart_participacion"></div>
+	<div class="col-lg-4 col-md-12 center-block" id="div_chart_participacion"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_estados"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_adscripcion"></div>
 </div>

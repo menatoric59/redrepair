@@ -1,5 +1,5 @@
 <div class="row">
-    <h1 class="thin text-center">Avisos</h1>
+    <h1 class="light text-center">Avisos</h1>
     <br>
     <div class="col-md-6">
         <div class="col-sm-6">
