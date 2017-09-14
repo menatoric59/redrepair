@@ -27,16 +27,19 @@
 
                     </thead>
                     <tbody>
+
                         @foreach($integrantes as $integrante)
                         <tr>
+                            @if(auth()->check())
                             <td>
-                                @if(auth()->check())
+
                                     <a href="{{ route('integrante.editar',$integrante->id)}}"
                                        class="btn btn-sm btn-primary">
                                         <i class="fa fa-pencil"> </i>
                                     </a>
-                                @endif
+
                             </td>
+                            @endif
                             <td>
                                 <a href="{{ route('integrante.perfil',$integrante->id )}}" class="grey-text">
                                     {{ $integrante['nombre']}}
