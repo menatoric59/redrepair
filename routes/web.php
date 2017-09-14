@@ -24,6 +24,14 @@ require __DIR__ . '/web/publicaciones.php';
 
 Route::get('/', 'HomeController@index')->name('home');
 
+Route::get('/register',function(){
+    return redirect()->route('home');
+});
+Route::get('/password/reset',function(){
+    return redirect()->route('home');
+});
+
+
 
 Route::group(['prefix'=>'/sobre-la-red'],function (){
     Route::get('/quienes-somos',function (){
@@ -39,3 +47,6 @@ Route::group(['prefix'=>'/sobre-la-red'],function (){
         return view('sobre.contacto');
     })->name('contacto');
 });
+
+Route::get('social/{provider?}', 'SocialController@getSocialAuth')->name('social');
+Route::get('social/callback/{provider?}', 'SocialController@getSocialAuthCallback');

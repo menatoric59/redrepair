@@ -18,34 +18,44 @@
 
                 <table class="data-table">
                     <thead>
+                        @if(auth()->check())
+                            <th></th>
+                        @endif
                         <th>Nombre</th>
                         <th>Adscripción</th>
                         <th>Disciplina</th>
-                        @if(auth()->check())
-                        <th></th>
-                        @endif
+
                     </thead>
                     <tbody>
                         @foreach($integrantes as $integrante)
                         <tr>
                             <td>
-                                <a href="{{ route('integrante.perfil',$integrante->id )}}">
+                                @if(auth()->check())
+                                    <a href="{{ route('integrante.editar',$integrante->id)}}"
+                                       class="btn btn-sm btn-primary">
+                                        <i class="fa fa-pencil"> </i>
+                                    </a>
+                                @endif
+                            </td>
+                            <td>
+                                <a href="{{ route('integrante.perfil',$integrante->id )}}" class="grey-text">
                                     {{ $integrante['nombre']}}
                                 </a>
                             </td>
-                            <td>{{ $integrante['dependencia'] . '-' . $integrante['institucion'] }}</td>
-                            <td>{{ $integrante['disciplina']}}</td>
-                            @if(auth()->check())
                             <td>
-                                <a href="{{ route('integrante.editar',$integrante->id)}}"
-                                    class="btn btn-sm cyan darken-4">
-                                    <i class="fa fa-pencil"> </i>
+                                <a href="{{ route('integrante.perfil',$integrante->id )}}" class="grey-text">
+                                    {{ $integrante['dependencia'] . '-' . $integrante['institucion'] }}
                                 </a>
                             </td>
-                            @endif
+                            <td>
+                                <a href="{{ route('integrante.perfil',$integrante->id )}}" class="grey-text">
+                                    {{ $integrante['disciplina']}}
+                                </a>
+                            </td>
+
                         </tr>
 
-                        @endforeach
+                        @endforeach()
                     </tbody>
                 </table>
             </div>

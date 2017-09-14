@@ -7,10 +7,10 @@
         </div>
         <div class="col-sm-6">
             <p>
-                <b>CONVOCATORIA:</b> a las mujeres mexicanas estudiantes de posgrado PNPC, Postdoctorantes o Investigadoras jovenes, de Ámerica Latina de todas las áreas de Ciencia y Tecnología e Innovación.
+                <b>CONVOCATORIA:</b> a las mujeres mexicanas estudiantes de posgrado PNPC, postdoctorantes o investigadoras jóvenes, de Ámerica Latina de todas las áreas de ciencia y tecnología e innovación.
                 
             </p>
-            <a href="http://www.ifuap.buap.mx/eventos/SFHPPG17/" target="_blank" class="btn pink">Saber mas...</a>
+            <a href="http://www.ifuap.buap.mx/eventos/SFHPPG17/" target="_blank" class="btn pink">Saber más...</a>
         </div>
         
     </div>

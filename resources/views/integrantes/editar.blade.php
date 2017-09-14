@@ -1,27 +1,30 @@
 
 @extends('layouts.app')
 @section('content')
-<div class="panel">
-    <div class="panel-heading cyan darken-4 white-text">
-        <i class="fa fa-female"></i>
-        Integrantes
+    <div class="container">
+        <div class="panel">
+            <div class="panel-heading light-blue white-text">
+                <i class="fa fa-female"></i>
+                Integrantes
+            </div>
+            <div class="panel-body">
+                {!! Html::image($integrante->imagen_perfil . '?'.time() ,'Imagen del perfil',
+                        [
+                        'height'=>'100px'
+                        ])
+                !!}
+                {!! Form::model($integrante,['route'=>['integrante.actualizar',$integrante->id],'method'=>'put','enctype'=>'multipart/form-data','class'=>'form-horizontal']) !!}
+                @include('integrantes.partials.campos')
+                <a  href="{{ route('integrantes.lista')}}"
+                    class="btn grey">
+                    Cancelar
+                </a>
+                {!! Form::submit('Actualizar',['class'=>'btn cyan darken-4']) !!}
+                {!! Form::close()!!}
+            </div>
+        </div>
     </div>
-    <div class="panel-body">
-        {!! Html::image($integrante->imagen_perfil . '?'.time() ,'Imagen del perfil',
-				[
-				'height'=>'100px'
-				])
-		!!}
-       {!! Form::model($integrante,['route'=>['integrante.actualizar',$integrante->id],'method'=>'put','enctype'=>'multipart/form-data','class'=>'form-horizontal']) !!}
-            @include('integrantes.partials.campos')
-            <a  href="{{ route('integrantes.lista')}}"
-                class="btn grey">
-                Cancelar
-            </a>
-            {!! Form::submit('Actualizar',['class'=>'btn cyan darken-4']) !!}
-       {!! Form::close()!!}
-    </div>
-</div>
+
 {!! Html::script('ckeditor/ckeditor.js')  !!}
 
 

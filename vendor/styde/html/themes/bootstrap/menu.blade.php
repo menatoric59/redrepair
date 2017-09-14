@@ -8,7 +8,7 @@
             @else
                 <a href="{{ $item['url'] }}" class="dropdown-toggle" data-toggle="dropdown">
                     {{ $item['title'] }}
-                    {{--<b class="caret"></b>--}}
+                    <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">
                     @foreach ($item['submenu'] as $subitem)

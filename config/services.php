@@ -34,5 +34,10 @@ return [
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
+    'google' => [
+        'client_id' => '12250052452-8gb0nji1souaoalu6ksjqlcepfs68rpe.apps.googleusercontent.com',
+        'client_secret' => 'UWghcMnGQWzk67utBkuDeBzl',
+        'redirect' => 'http://mexciteg.app/social/callback/google',
+    ],
 
 ];

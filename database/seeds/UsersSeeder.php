@@ -14,12 +14,14 @@ class UsersSeeder extends Seeder
         DB::table('users')->insert([
         	'name'=>'Mexciteg',
         	'email'=>'redmexciteg@gmail.com',
-        	'password'=>bcrypt('mexciteg2013')
+            'social_network'=>'Google',
+            'social_id'=>'69',
         ]);
          DB::table('users')->insert([
         	'name'=>'Miguel',
         	'email'=>'menatoric59@gmail.com',
-        	'password'=>bcrypt('menatoric59')
+             'social_network'=>'google',
+             'social_id'=>'23'
         ]);
     }
 }

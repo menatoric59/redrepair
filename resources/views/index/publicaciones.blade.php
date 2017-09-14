@@ -1,8 +1,4 @@
-{{--
-<div class="alert pink white-text lighten-1">
-    <h1 class="text-center thin">Últimas publicaciones</h1>
-</div>
---}}
+
 
 <div class="">
     <div class="row">
@@ -44,8 +40,5 @@
         </div>
     </div>
     <br><br>
-    <div class="row">
-        
-        
-    </div>
+    
 </div>

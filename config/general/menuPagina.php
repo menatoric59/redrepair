@@ -16,7 +16,7 @@ return [
 
         'submenu'=>[
             'Cuadernos de trabajo'=>['route'=>'cuadernos'],
-            'De este lado (revista)'=>['route'=>'revista'],
+            'Revista De este lado'=>['route'=>'revista'],
             'Libros'=>['route'=>'libros'],
             /*'Cartografía e interrelaciones'=>['route'=>'integrantes.mapa'],*/
         ]

@@ -99,6 +99,17 @@ class Filesystem
     }
 
     /**
+     * Get the MD5 hash of the file at the given path.
+     *
+     * @param  string  $path
+     * @return string
+     */
+    public function hash($path)
+    {
+        return md5_file($path);
+    }
+
+    /**
      * Write the contents of a file.
      *
      * @param  string  $path
@@ -137,6 +148,22 @@ class Filesystem
     public function append($path, $data)
     {
         return file_put_contents($path, $data, FILE_APPEND);
+    }
+
+    /**
+     * Get or set UNIX mode of a file or directory.
+     *
+     * @param  string  $path
+     * @param  int  $mode
+     * @return mixed
+     */
+    public function chmod($path, $mode = null)
+    {
+        if ($mode) {
+            return chmod($path, $mode);
+        }
+
+        return substr(sprintf('%o', fileperms($path)), -4);
     }
 
     /**
@@ -358,7 +385,7 @@ class Filesystem
      */
     public function files($directory)
     {
-        $glob = glob($directory.'/*');
+        $glob = glob($directory.DIRECTORY_SEPARATOR.'*');
 
         if ($glob === false) {
             return [];

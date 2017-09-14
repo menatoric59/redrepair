@@ -33,10 +33,15 @@
                             <a  href="#" class="dropdown-toggle" 
                                 data-toggle="dropdown" role="button" 
                                 aria-expanded="false">
-                                {{ Auth::user()->name }}
+                                {{ Html::image( auth()->user()->avatar,'',['height'=>'33px','class'=>'img-circle']) }}
                             </a>
-
                             <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="{{ route('importar-estados') }}">Importar estados</a>
+                                </li>
+                                <li>
+                                    <a href="{{ route('importar-integrantes') }}">Importar integrantes</a>
+                                </li>
                                 <li>
                                     <a href="{{ url('/logout') }}"
                                         onclick="event.preventDefault();
@@ -48,6 +53,7 @@
                                         {{ csrf_field() }}
                                     </form>
                                 </li>
+
                             </ul>
                         </li>
                     @endif

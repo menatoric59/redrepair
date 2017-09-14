@@ -41,7 +41,7 @@
     <meta name="msapplication-TileImage" content="{{asset('assets/favicon/ms-icon-144x144.png')}}">
     <meta name="theme-color" content="#ffffff">
 </head>
-<body style="margin-top: 70px">
+<body style="margin-top: 90px">
     @yield('menu')
     <div class="container">
         {!! Alert::render()!!}    
