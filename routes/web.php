@@ -50,3 +50,8 @@ Route::group(['prefix'=>'/sobre-la-red'],function (){
 
 Route::get('social/{provider?}', 'SocialController@getSocialAuth')->name('social');
 Route::get('social/callback/{provider?}', 'SocialController@getSocialAuthCallback');
+/*
+Route::get('/login',function (){
+    dd( $_ENV );
+});
+*/
