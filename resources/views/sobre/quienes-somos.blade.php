@@ -17,8 +17,7 @@
                     <p class="black-text">{!! $item['parrafo'] !!}</p>
                     @foreach($item['lista'] as $punto)
                         <p class="black-text"><i class="fa fa-adjust"></i> {!! $punto !!}</p>
-                    @endforeach
-                    </>
+                    @endforeach()
                 </div>
             </div>
         @endforeach
