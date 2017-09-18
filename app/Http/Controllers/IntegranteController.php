@@ -9,8 +9,12 @@ use Intervention\Image\Facades\Image;
 class IntegranteController extends Controller
 {
     public function index(){
-    	
-        $integrantes = Integrante::all();
+    	if (auth()->check())
+            $integrantes = Integrante::all();
+    	else{
+            $integrantes = Integrante::where('estatus','activo')->get();
+        }
+
         return view('integrantes.index',compact('integrantes'));	
     }
     public function mapa(){
@@ -21,11 +25,12 @@ class IntegranteController extends Controller
     	$integrantes = Integrante::selectRaw('
 			estado,estados.nombre,count(*) as cantidad
     	')
-    	->join('estados','estados.clave','integrantes.estado')
-    	->groupBy(['estado','estados.nombre'])
-        ->orderBy('cantidad')
-    	->get()
-    	->toArray();
+    	    ->join('estados','estados.clave','integrantes.estado')
+    	    ->groupBy(['estado','estados.nombre'])
+            ->orderBy('cantidad')
+            ->where('estatus','activo')
+    	    ->get()
+    	    ->toArray();
 
     	$integrantes = array_values($integrantes);
     	//dd($integrantes);
@@ -35,10 +40,11 @@ class IntegranteController extends Controller
         $integrantes = Integrante::selectRaw('
             integrantes.participacion,count(*) as cantidad
         ')
-        ->groupBy(['integrantes.participacion'])
-        ->orderBy('cantidad')
-        ->get()
-        ->toArray();
+            ->where('estatus','activo')
+            ->groupBy(['integrantes.participacion'])
+            ->orderBy('cantidad')
+            ->get()
+            ->toArray();
 
         $integrantes = array_values($integrantes);
         //dd($integrantes);
@@ -48,10 +54,11 @@ class IntegranteController extends Controller
         $integrantes = Integrante::selectRaw('
             integrantes.institucion as adscripcion,count(*) as cantidad
         ')
-        ->groupBy(['integrantes.institucion'])
-        ->orderBy('cantidad')
-        ->get()
-        ->toArray();
+            ->where('estatus','activo')
+            ->groupBy(['integrantes.institucion'])
+            ->orderBy('cantidad')
+            ->get()
+            ->toArray();
 
         $integrantes = array_values($integrantes);
         return $integrantes;

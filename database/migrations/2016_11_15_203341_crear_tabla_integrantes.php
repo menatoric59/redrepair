@@ -25,6 +25,7 @@ class CrearTablaIntegrantes extends Migration
             $table->string('sni');
             $table->string('participacion');
             $table->string('correo')->unique();
+            $table->enum('estatus',['activo','inactivo']);
             $table->longText('detalle')->nullable();
             $table->timestamps();
         });

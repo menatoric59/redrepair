@@ -50,7 +50,7 @@
     @yield('content')
     {{-- Scripts --}}
     {!! Html::script('js/data-tables.min.js')!!}
-    {!! Html::script('js/general.js') !!}
+    {!! Html::script('js/general.js' . '?' . date('Y-m-d h:s')  ) !!}
     {!! Html::style('css/custom.css' . '?' . date('Y-m-d h:s'))!!}
     <footer>
         <div class="row grey darken-4">
@@ -134,51 +134,6 @@
 
 
     </footer>
-
-    <style>
-        .logo-footer{
-            border-right-style : solid;
-            border-right-color :grey;
-            border-right-width : medium;
-        }
-        /**/
-        .carousel-caption{
-            width: 100%;
-            right: 0%;
-            left: 0%;
-            bottom: 0px;
-            padding-top: 5px;
-            /*padding-bottom: 5px;*/
-            
-        }
-        .carousel-indicators{
-            bottom: 0px;
-            margin-bottom: 0px;
-        }
-
-        .jumbotron p{
-            font-weight: 300;
-        }
-
-        .fa-twitter-square:hover{
-            color: #00bcd4;
-        }
-        .fa-facebook-square:hover{
-            color:#1565c0;
-        }
-        .fa-youtube-square:hover{
-            color: white;
-        }
-        .fa-instagram:hover{
-            color: #ec407a;
-        }
-        .fa-google-plus-square:hover{
-            color:#ef5350;
-        }
-        .light{
-            font-weight:300;
-        }
-    </style>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

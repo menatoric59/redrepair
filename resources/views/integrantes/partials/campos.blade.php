@@ -8,6 +8,7 @@
 	{!! Field::text('disciplina',null,['required']) !!}	
 	{!! Field::text('sni',null,['']) !!}
 	{!! Field::text('participacion',null,['required']) !!}
+	{!! Field::select('estatus',['activo'=>'ACTIVO','inactivo'=>'INACTIVO'] ) !!}
 	{!! Field::email('correo',null,['required']) !!}
 </div>
 

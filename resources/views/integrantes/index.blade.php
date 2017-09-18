@@ -18,9 +18,6 @@
 
                 <table class="data-table">
                     <thead>
-                        @if(auth()->check())
-                            <th></th>
-                        @endif
                         <th>Nombre</th>
                         <th>Adscripción</th>
                         <th>Disciplina</th>
@@ -30,17 +27,13 @@
 
                         @foreach($integrantes as $integrante)
                         <tr>
-                            @if(auth()->check())
                             <td>
-
+                                @if(auth()->check())
                                     <a href="{{ route('integrante.editar',$integrante->id)}}"
-                                       class="btn btn-sm btn-primary">
+                                       class="btn btn-sm btn-{!! $integrante['estatus']=='activo' ? 'primary' : 'danger' !!}">
                                         <i class="fa fa-pencil"> </i>
                                     </a>
-
-                            </td>
-                            @endif
-                            <td>
+                                @endif
                                 <a href="{{ route('integrante.perfil',$integrante->id )}}" class="grey-text">
                                     {{ $integrante['nombre']}}
                                 </a>

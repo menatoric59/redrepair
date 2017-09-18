@@ -18,6 +18,7 @@ class Integrante extends Model
     	'sni',
     	'participacion',
     	'detalle',
+        'estatus',
         'correo',
     ];
 
