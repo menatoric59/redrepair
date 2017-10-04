@@ -9,6 +9,7 @@ return [
             'Historia'=>['route'=>'historia'],
             'Directorio'=>['route'=>'integrantes.lista'],
             'Cartografía e interrelaciones'=>['route'=>'integrantes.mapa'],
+            'Plataforma'=>['route'=>'login','icon'=>'lock'],
         ]
 
     ],
@@ -18,16 +19,12 @@ return [
             'Cuadernos de trabajo'=>['route'=>'cuadernos'],
             'Revista De este lado'=>['route'=>'revista'],
             'Libros'=>['route'=>'libros'],
-            /*'Cartografía e interrelaciones'=>['route'=>'integrantes.mapa'],*/
         ]
 
     ],
     'Biblioteca'=>[
         'submenu'=>[
             'Catálogo de publicaciones'=>['route'=>'publicaciones'],
-            /*'De este lado (revista)'=>['route'=>'revista'],
-            'Directorio'=>['route'=>'integrantes.mapa'],
-            'Cartografía e interrelaciones'=>['route'=>'integrantes.mapa'],*/
         ]
     ],
     'Contacto'=>['route'=>'contacto'],

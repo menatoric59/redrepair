@@ -12,7 +12,12 @@
                 <ul class="dropdown-menu">
                     @foreach ($item['submenu'] as $subitem)
                         <li>
-                            <a href="{{ $subitem['url'] }}">{{ $subitem['title'] }}</a>
+                            <a href="{{ $subitem['url'] }}">
+                                    @if( !empty($subitem['icon']) )
+                                            <i class="fa fa-{{ $subitem['icon'] }} fa-fw" ></i>
+                                    @endif
+                                    {{ str_replace_first( "de este lado","De este lado", $subitem['title']) }}
+                            </a>
                         </li>
                     @endforeach
                 </ul>

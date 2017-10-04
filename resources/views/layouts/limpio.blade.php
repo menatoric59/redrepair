@@ -18,6 +18,9 @@
     {!! Html::style('css/data-tables.min.css') !!}
     {!! Html::style('font-awesome-4.6.3/css/font-awesome.min.css') !!}
     <!-- Scripts -->
+    <script src="https://unpkg.com/vue"></script>
+
+
     {!! Html::script('js/jquery-3.1.1.min.js')!!}
     {!! Html::script('js/bootstrap.min.js')!!}
     
@@ -40,6 +43,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{asset('assets/favicon/ms-icon-144x144.png')}}">
     <meta name="theme-color" content="#ffffff">
+
 </head>
 <body style="margin-top: 90px">
     @yield('menu')
@@ -142,7 +146,7 @@
 
       ga('create', 'UA-101102642-1', 'auto');
       ga('send', 'pageview');
-
     </script>
+
 </body>
 </html>

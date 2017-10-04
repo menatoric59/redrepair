@@ -26,7 +26,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
                     @if (Auth::guest())
-                        {{ Html::image('assets/index/logoDerecho.png','',['height'=>'50px']) }}
+                        {{ Html::image('assets/index/conacytAzul.png','',['height'=>'50px']) }}
                        
                     @else
                         <li class="dropdown">
@@ -36,6 +36,9 @@
                                 {{ Html::image( auth()->user()->avatar,'',['height'=>'33px','class'=>'img-circle']) }}
                             </a>
                             <ul class="dropdown-menu" role="menu">
+                                <li>
+                                    <a href="{{ route('avisos') }}">Avisos</a>
+                                </li>
                                 <li>
                                     <a href="{{ route('importar-estados') }}">Importar estados</a>
                                 </li>

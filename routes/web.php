@@ -48,6 +48,17 @@ Route::group(['prefix'=>'/sobre-la-red'],function (){
     })->name('contacto');
 });
 
+
+Route::group(['prefix'=>'avisos'],function (){
+   Route::get('/','AvisoController@lista')->name('avisos');
+   Route::group(['middleware'=>'auth'],function(){
+       Route::get('/nuevo','AvisoController@nuevo')->name('avisos.nuevo');
+       Route::post('/guardar','AvisoController@guardar')->name('avisos.guardar');
+       Route::get('/editar/{id}','AvisoController@editar')->name('avisos.editar');
+       Route::put('/actualizar/{id}','AvisoController@actualizar')->name('avisos.actualizar');
+    });
+});
+
 Route::get('social/{provider?}', 'SocialController@getSocialAuth')->name('social');
 Route::get('social/callback/{provider?}', 'SocialController@getSocialAuthCallback');
 /*

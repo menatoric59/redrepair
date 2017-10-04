@@ -4,5 +4,6 @@ $(function(){
         "language": {
         "url": "/js/dataTables.spanish.lang",
         },
+
     });
 });
