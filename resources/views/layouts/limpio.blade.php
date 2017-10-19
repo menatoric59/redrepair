@@ -19,6 +19,7 @@
     {!! Html::style('font-awesome-4.6.3/css/font-awesome.min.css') !!}
     <!-- Scripts -->
     <script src="https://unpkg.com/vue"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 
 
     {!! Html::script('js/jquery-3.1.1.min.js')!!}

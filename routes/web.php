@@ -46,6 +46,7 @@ Route::group(['prefix'=>'/sobre-la-red'],function (){
     Route::get('/contacto',function (){
         return view('sobre.contacto');
     })->name('contacto');
+    Route::post('/contacto','ContactoController@enviar')->name('contacto.enviar');
 });
 
 
