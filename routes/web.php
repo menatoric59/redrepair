@@ -33,6 +33,7 @@ Route::get('/password/reset',function(){
 
 
 
+
 Route::group(['prefix'=>'/sobre-la-red'],function (){
     Route::get('/quienes-somos',function (){
         return view('sobre.quienes-somos');

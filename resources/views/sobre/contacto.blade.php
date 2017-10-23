@@ -12,7 +12,7 @@
                 {!! Field::email('email',null,['ph'=>'correo@dominio.com','required']) !!}
                 {!! Field::text('asunto',null,['ph'=>'Asunto a tratar','required']) !!}
                 {!! Field::textarea('mensaje',null,['ph'=>'Mensaje...','required','rows'=>'4']) !!}
-                <button hidden
+                <button
                         class="g-recaptcha"
                         data-sitekey="6LdS_TQUAAAAAINGRF55c-eEthhbfskbr94zPSdK"
                         data-callback="YourOnSubmitFn">

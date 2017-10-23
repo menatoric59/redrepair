@@ -15,11 +15,13 @@
                     {!! Html::image('assets/biblioteca/cuadernos/cuaderno1.jpg','',['class'=>'img-responsive'] ) !!}
                 </a>
             </div>
+            {{--
             <div class="col-md-4">
                 <a href="http://docs.wixstatic.com/ugd/b39ed3_ffa31b9ac8124019ba11c4eb054c0e28.pdf" target="_blank">
                     {!! Html::image('assets/biblioteca/cuadernos/cuaderno2.jpg','',['class'=>'img-responsive'] ) !!}
                 </a>
             </div>
+            --}}
             <div class="col-md-4">
                 <a href="http://docs.wixstatic.com/ugd/b39ed3_cad40c7f7d514f63813e9defd2d32533.pdf" target="_blank">
                     {!! Html::image('assets/biblioteca/cuadernos/cuaderno3.jpg','',['class'=>'img-responsive'] ) !!}
