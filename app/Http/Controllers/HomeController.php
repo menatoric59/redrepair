@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Aviso;
+use App\Reunion;
 use Maatwebsite\Excel\Facades\Excel;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
@@ -29,7 +30,8 @@ class HomeController extends Controller
     {
         $avisos = Aviso::where('inicio','<=',date('Y-m-d'))
             ->where('fin','>=',date('Y-m-d'))->get();
-        return view('index.home',compact('avisos'));
+        $reuniones = Reunion::limit(3)->get();
+        return view('index.home',compact('avisos','reuniones'));
     }
 
     public function seleccionarArchivoDirectorio(){

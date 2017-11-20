@@ -1,6 +1,12 @@
 
 <div class="row">
     <div class="col-md-9 col-sm-12 text-center">
+        <div class="row purple lighten-2 white-text">
+            <h1>Reuniones</h1>
+        </div>
+
+        @include('reuniones.partials.tabla')
+        {{--
         <div class="col-md-8 offset-md-2 black-text">
             <h1 class="light">Nuestra red</h1>
             <p>
@@ -20,6 +26,7 @@
                 <a href="{{ route('que-hacemos') }}" class="btn btn-info">Leer más...</a>
             </p>
         </div>
+        --}}
     </div>
     <div class="col-md-3 hidden-md-down">
         <h3>Últimas Noticias</h3>

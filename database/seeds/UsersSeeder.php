@@ -16,12 +16,14 @@ class UsersSeeder extends Seeder
         	'email'=>'redmexciteg@gmail.com',
             'social_network'=>'Google',
             'social_id'=>'69',
+            'type'=>'admin'
         ]);
          DB::table('users')->insert([
         	'name'=>'Miguel',
         	'email'=>'menatoric59@gmail.com',
              'social_network'=>'google',
-             'social_id'=>'23'
+             'social_id'=>'23',
+             'type'=>'admin'
         ]);
     }
 }

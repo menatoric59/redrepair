@@ -39,7 +39,7 @@ class SocialController extends Controller
                 Alert::danger("La cuenta $user->email NO tiene permiso para entrar a la plataforma");
             }
 
-            return redirect('/');
+            return redirect()->route('dashboard');
 
 
         } else {

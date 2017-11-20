@@ -21,6 +21,7 @@ require __DIR__ . '/web/herramientas.php';
 require __DIR__ . '/web/cuadernos.php';
 require __DIR__ . '/web/tipo_publicaciones.php';
 require __DIR__ . '/web/publicaciones.php';
+require __DIR__ . '/web/dashboard.php';
 
 Route::get('/', 'HomeController@index')->name('home');
 
@@ -58,6 +59,20 @@ Route::group(['prefix'=>'avisos'],function (){
        Route::post('/guardar','AvisoController@guardar')->name('avisos.guardar');
        Route::get('/editar/{id}','AvisoController@editar')->name('avisos.editar');
        Route::put('/actualizar/{id}','AvisoController@actualizar')->name('avisos.actualizar');
+    });
+});
+
+Route::group(['prefix'=>'reuniones'],function (){
+    Route::get('/','ReunionController@lista')->name('reuniones');
+    Route::get('/sin-archivo/{tipo}',function ($tipo){
+        \Styde\Html\Facades\Alert::info()->html('<i class="fa fa-info-circle"></i> Aun no se ha subido el documento <b>' . strtoupper($tipo) .'</b>');
+        return view('reuniones.sin_archivo',compact('tipo'));
+    })->name('reuniones.sin-archivo');
+    Route::group(['middleware'=>'auth'],function(){
+        Route::get('/nuevo','ReunionController@nuevo')->name('reuniones.nuevo');
+        Route::post('/guardar','ReunionController@guardar')->name('reuniones.guardar');
+        Route::get('/editar/{id}','ReunionController@editar')->name('reuniones.editar');
+        Route::put('/actualizar/{id}','ReunionController@actualizar')->name('reuniones.actualizar');
     });
 });
 

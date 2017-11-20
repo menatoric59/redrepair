@@ -40,11 +40,16 @@
                                     <a href="{{ route('avisos') }}">Avisos</a>
                                 </li>
                                 <li>
+                                    <a href="{{ route('reuniones') }}">Reuniones</a>
+                                </li>
+                                @if( auth()->user()->type == 'superadmin')
+                                <li>
                                     <a href="{{ route('importar-estados') }}">Importar estados</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('importar-integrantes') }}">Importar integrantes</a>
                                 </li>
+                                @endif
                                 <li>
                                     <a href="{{ url('/logout') }}"
                                         onclick="event.preventDefault();

@@ -1,5 +1,5 @@
 <?php
-Route::group(['prefix'=>'herramientas'],function(){
+Route::group(['prefix'=>'herramientas','middleware'=>['auth','role:superadmin']],function(){
 	Route::get('/importar-estados','HerramientasController@importarEstados')->name('importar-estados');
 	Route::post('/cargar-estados','HerramientasController@cargarEstados')->name('cargar-estados');
 
