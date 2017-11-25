@@ -58,10 +58,7 @@ class Reunion extends Model
         if (\File::exists($archivo)){
             return $archivo . '?' . date('Y-m-d h:s');
         }
-
-        return '/reuniones/sin-archivo/' . $tipo;
-        //dd('no existe');
-
+        return '#modalSinDocumento';
     }
     protected function fechaTexto($fechaTexto){
         $datosFecha = explode('-',$fechaTexto) ;

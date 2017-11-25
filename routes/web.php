@@ -15,6 +15,8 @@ Route::get('/', function () {
     return redirect()->route('home');
 });
 
+Route::get('/prueba','HomeController@prueba');
+
 Auth::routes();
 require __DIR__ . '/web/integrantes.php';
 require __DIR__ . '/web/herramientas.php';
@@ -64,10 +66,6 @@ Route::group(['prefix'=>'avisos'],function (){
 
 Route::group(['prefix'=>'reuniones'],function (){
     Route::get('/','ReunionController@lista')->name('reuniones');
-    Route::get('/sin-archivo/{tipo}',function ($tipo){
-        \Styde\Html\Facades\Alert::info()->html('<i class="fa fa-info-circle"></i> Aun no se ha subido el documento <b>' . strtoupper($tipo) .'</b>');
-        return view('reuniones.sin_archivo',compact('tipo'));
-    })->name('reuniones.sin-archivo');
     Route::group(['middleware'=>'auth'],function(){
         Route::get('/nuevo','ReunionController@nuevo')->name('reuniones.nuevo');
         Route::post('/guardar','ReunionController@guardar')->name('reuniones.guardar');
