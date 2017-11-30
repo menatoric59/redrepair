@@ -26,6 +26,9 @@ require __DIR__ . '/web/publicaciones.php';
 require __DIR__ . '/web/dashboard.php';
 
 Route::get('/', 'HomeController@index')->name('home');
+Route::get('/',function (){
+   return 'Hola';
+});
 
 Route::get('/register',function(){
     return redirect()->route('home');
