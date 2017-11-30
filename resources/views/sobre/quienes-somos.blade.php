@@ -17,7 +17,7 @@
                     <p class="black-text">{!! $item['parrafo'] !!}</p>
                     @foreach($item['lista'] as $punto)
                         <p class="black-text">
-                            @if ($punto=='Lourdes Pacheco Ladrón de Guevara/UAN')
+                            @if ($punto=='Lourdes Elena Fernández Rius, IUIT')
                                 {!! Html::image('assets/index/cruz.png','Cruz',['width'=>'15']) !!}
                             @else
                                 <i class="fa fa-adjust"></i>

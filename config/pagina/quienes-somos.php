@@ -73,6 +73,7 @@ return [
         'lista'=>[
             'Lilia Meza Montes /Instituto de Física, BUAP (Coordinadora)',
             'Norma Blazquez Graf/ CEEICH, UNAM',
+            'Lourdes Elena Fernández Rius, IUIT',
             'Patricia García Guevara/ UdG',
             'Elsa Susana Guevara Ruiseñor/ FES Zaragoza-UNAM',
             'Eva Raquel Güereca Torres/ UAM-Lerma',
