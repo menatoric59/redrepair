@@ -39,11 +39,13 @@
                     <a href="{{ $reunion->archivo('agenda') }}" target="_blank" class="red-text" data-toggle="modal"><i class="fa fa-file-pdf-o fa-2x"></i> Agenda</a>
 
                 </p>
+                {{--
                 <p class="text-center">
-                    {{----}}
+
                     <a href="{{ $reunion->archivo('acuerdo') }}" target="_blank" data-toggle="modal"><i class="fa fa-file-pdf-o fa-2x"></i> Acuerdos</a>
 
                 </p>
+                --}}
             </td>
             @if( auth()->check() )
                 <td class="text-{{ $reunion->estatus }}">
