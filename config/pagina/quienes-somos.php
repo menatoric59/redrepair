@@ -47,6 +47,9 @@ return [
     ],
     [
         'titulo'=>'Estructura y grupos de trabajo',
+        'parrafo'=>'<strong>Consejo Directivo:</strong><br><br>',
+        'imagen'=>'assets/sobre-la-red/quienes-somos/equipoTrabajo.png',
+        /*
         'parrafo'=>'<strong>Consejo Directivo:</strong><br><br>
                     Norma Blazquez Graf. Coordinadora<br>(CEIICH, UNAM)<br><br>
                     Lourdes Elena Fernández Rius. Secretaria<br>
@@ -65,6 +68,20 @@ return [
             'Elva Rivera Gómez (Benemérita Universidad Autónoma de Puebla)',
             'Alma Rosa Sánchez Olvera (FES Acatlán, UNAM)',
             'Esperanza Tuñón Pablos (ECOSUR)',
+        ]
+        */
+        'lista'=>[
+            'Lilia Meza Montes /Instituto de Física, BUAP (Coordinadora)',
+            'Norma Blazquez Graf/ CEEICH, UNAM',
+            'Patricia García Guevara/ UdG',
+            'Elsa Susana Guevara Ruiseñor/ FES Zaragoza-UNAM',
+            'Eva Raquel Güereca Torres/ UAM-Lerma',
+            'Lourdes Pacheco Ladrón de Guevara/UAN',
+            'Elva Rivera Gómez/BUAP',
+            'Alma Rosa Sánchez Olvera/ FES Acatlán-UNAM',
+            'Esperanza Tuñón Pablos/ Ecosur',
+            'Martha Patricia Castañeda Salgado/ CEIICH-UNAM',
+            'Giobanna Patricia Buenahora Molina/ PPEL-UNAM'
         ]
     ],
 
