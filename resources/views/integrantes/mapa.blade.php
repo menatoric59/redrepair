@@ -185,9 +185,9 @@
 <br>
 <br>
 <br>
-<div class="row">
-	<h1 class="text-center">Colaboraciones</h1>
-	<img src="{{ asset('assets/sobre-la-red/cartografia/colaboraciones.jpg') }}" alt="Gráfica de colaboraciones" class="center-block img-responsive">
+<div class="container">
+	<h1 class="text-center">Multidimensionalidad de los Estudios de Ciencia, Tecnología y Género</h1>
+	<img src="{{ asset('assets/sobre-la-red/cartografia/multidimensional.png') }}" alt="Gráfica de multidimensiones" class="img-responsive">
 </div>
 
 @endsection

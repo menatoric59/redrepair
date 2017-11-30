@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container jumbotron">
-        <h1 class="text-center thin">Quienes somos</h1>
+        <h1 class="text-center thin">Quiénes somos</h1>
         {!! Html::image('assets/sobre-la-red/quienes-somos/collage.jpg','Collage',['class'=>'center-block img-responsive']) !!}
         @foreach(config('pagina.quienes-somos') as $item)
             <div class="row">

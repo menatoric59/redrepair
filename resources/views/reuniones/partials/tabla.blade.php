@@ -15,7 +15,7 @@
         <tr>
             <td>{{ $reunion->id }}</td>
             <td>
-                {!! Html::image($reunion->imagen,'Imagen de renuion',['id'=>'img_preview','width'=>'267']) !!}
+                {!! Html::image($reunion->imagen,'Imagen de renuión',['id'=>'img_preview','width'=>'267']) !!}
             </td>
             <td>
                 <h2>
@@ -73,7 +73,7 @@
             </div>
             <div class="modal-body">
                 <div class="alert alert-info">
-                    Aun no se ha cargado el documento.
+                    Aún no se ha cargado el documento.
                 </div>
             </div>
             <div class="modal-footer">
