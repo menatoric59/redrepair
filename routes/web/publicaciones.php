@@ -14,6 +14,11 @@ Route::group(['prefix'=>'publicaciones'], function(){
         return view('publicaciones.libros');
     })->name('libros');
 
+    Route::get('/material-didactico',function (){
+        return view('publicaciones.material');
+    })->name('material');
+
+
 
     Route::group(['middleware'=>'auth'],function (){
         Route::get('/','PublicacionController@index')
@@ -23,7 +28,7 @@ Route::group(['prefix'=>'publicaciones'], function(){
         Route::post('/guardar','PublicacionController@guardar')
             ->name('publicacion.guardar');
         Route::get('/editar/{id}','PublicacionController@editar')
-            ->name('publicacion.editara');
+            ->name('publicacion.editar');
     });
 
 

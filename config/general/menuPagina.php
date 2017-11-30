@@ -16,6 +16,7 @@ return [
     'Publicaciones'=>[
 
         'submenu'=>[
+            'Material didáctico'=>['route'=>'material'],
             'Cuadernos de trabajo'=>['route'=>'cuadernos'],
             'Revista De este lado'=>['route'=>'revista'],
             'Libros'=>['route'=>'libros'],
