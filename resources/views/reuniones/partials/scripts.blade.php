@@ -6,7 +6,7 @@
                 "url": "/js/dataTables.spanish.lang",
             },
             "paging" : false,
-            "order": [[ 0, "desc" ]],
+            "order": [[ 4, "asc" ]],
             "columnDefs": [
                 {
                     "targets": [ 0 ],
