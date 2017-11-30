@@ -25,7 +25,7 @@
 
             @if( auth()->check() )
                 <td>
-                    <a href="{{ route('reuniones.editar',$reunion->id) }}" class="btn btn-success btn-sm">
+                    <a href="{{ route('reuniones.editar',1) }}" class="btn btn-success btn-sm">
                         <i class="fa fa-pencil"></i>
 
                     </a>
