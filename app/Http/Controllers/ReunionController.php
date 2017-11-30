@@ -13,7 +13,7 @@ class ReunionController extends Controller
         return view('reuniones.index',compact('reuniones'));
     }
     function lista(){
-        $reuniones = Reunion::where('inicio','>=',getdate())->get();
+        $reuniones = Reunion::where('inicio','>=',getdate())->orderBy('inicio','desc')->get();
 
         return view('reuniones.index',compact('reuniones'));
     }

@@ -46,11 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tabla.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tabla.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/reuniones/partials/tabla.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="274">
               <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReunionController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReunionController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -137,7 +147,6 @@
         <option value="$PROJECT_DIR$/routes/web/dashboard.php" />
         <option value="$PROJECT_DIR$/routes/web/herramientas.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/UserType.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ReunionController.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/reuniones/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/reuniones/partials/scripts.blade.php" />
@@ -156,6 +165,7 @@
         <option value="$PROJECT_DIR$/resources/views/sobre/quienes-somos.blade.php" />
         <option value="$PROJECT_DIR$/config/pagina/quienes-somos.php" />
         <option value="$PROJECT_DIR$/resources/views/reuniones/partials/tabla.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ReunionController.php" />
       </list>
     </option>
   </component>
@@ -512,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194544000" />
+    <option name="totallyTimeSpent" value="194790000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -930,14 +940,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReunionController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="34" column="55" lean-forward="false" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/reuniones/sin_archivo.blade.php" />
     <entry file="file://$PROJECT_DIR$/app/Reunion.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -1119,6 +1121,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="274">
           <caret line="47" column="20" lean-forward="false" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReunionController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="15" column="84" lean-forward="false" selection-start-line="15" selection-start-column="84" selection-end-line="15" selection-end-column="84" />
           <folding />
         </state>
       </provider>
