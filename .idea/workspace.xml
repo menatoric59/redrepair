@@ -29,8 +29,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+            <state relative-caret-position="345">
+              <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -52,11 +52,11 @@
             <state relative-caret-position="205">
               <caret line="74" column="51" lean-forward="false" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
               <folding>
-                <marker date="1512007671593" expanded="true" signature="2149:2225" ph="..." />
-                <marker date="1512007671593" expanded="true" signature="2149:2926" ph="{...}" />
-                <marker date="1512007671593" expanded="true" signature="2260:2381" ph="..." />
-                <marker date="1512007671593" expanded="true" signature="2416:2537" ph="..." />
-                <marker date="1512007671593" expanded="true" signature="2592:2923" ph="..." />
+                <marker date="1512051237332" expanded="true" signature="2149:2225" ph="..." />
+                <marker date="1512051237332" expanded="true" signature="2149:2926" ph="{...}" />
+                <marker date="1512051237332" expanded="true" signature="2260:2381" ph="..." />
+                <marker date="1512051237332" expanded="true" signature="2416:2537" ph="..." />
+                <marker date="1512051237332" expanded="true" signature="2592:2923" ph="..." />
               </folding>
             </state>
           </provider>
@@ -487,7 +487,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189448000" />
+    <option name="totallyTimeSpent" value="189459000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1042,11 +1042,11 @@
         <state relative-caret-position="205">
           <caret line="74" column="51" lean-forward="false" selection-start-line="74" selection-start-column="51" selection-end-line="74" selection-end-column="51" />
           <folding>
-            <marker date="1512007671593" expanded="true" signature="2149:2225" ph="..." />
-            <marker date="1512007671593" expanded="true" signature="2149:2926" ph="{...}" />
-            <marker date="1512007671593" expanded="true" signature="2260:2381" ph="..." />
-            <marker date="1512007671593" expanded="true" signature="2416:2537" ph="..." />
-            <marker date="1512007671593" expanded="true" signature="2592:2923" ph="..." />
+            <marker date="1512051237332" expanded="true" signature="2149:2225" ph="..." />
+            <marker date="1512051237332" expanded="true" signature="2149:2926" ph="{...}" />
+            <marker date="1512051237332" expanded="true" signature="2260:2381" ph="..." />
+            <marker date="1512051237332" expanded="true" signature="2416:2537" ph="..." />
+            <marker date="1512051237332" expanded="true" signature="2592:2923" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1069,8 +1069,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="17" lean-forward="false" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+        <state relative-caret-position="345">
+          <caret line="32" column="2" lean-forward="false" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
           <folding />
         </state>
       </provider>
