@@ -17,6 +17,7 @@ return [
 
         'submenu'=>[
             'Seminarios'=>['route'=>'seminarios'],
+            'Talleres'=>['route'=>'talleres'],
         ]
 
     ],
