@@ -21,6 +21,7 @@ Auth::routes();
 require __DIR__ . '/web/integrantes.php';
 require __DIR__ . '/web/herramientas.php';
 require __DIR__ . '/web/cuadernos.php';
+require __DIR__ . '/web/formacion.php';
 require __DIR__ . '/web/tipo_publicaciones.php';
 require __DIR__ . '/web/publicaciones.php';
 require __DIR__ . '/web/dashboard.php';

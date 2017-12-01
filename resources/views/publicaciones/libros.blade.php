@@ -3,10 +3,35 @@
 @section('content')
     <div class="jumbotron">
         <h1 class="text-center thin">Libros</h1>
-        <a href="http://docs.wixstatic.com/ugd/b39ed3_a5b59285c1e54aea8974b139f97bf209.pdf" target="_blank">
-            {!! Html::image('assets/biblioteca/libros/libro1.jpg','Libro 1',['class'=>'center-block img-responsive']) !!}
-        </a>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="http://docs.wixstatic.com/ugd/b39ed3_a5b59285c1e54aea8974b139f97bf209.pdf" target="_blank">
+                        {!! Html::image('assets/biblioteca/libros/libro1.jpg?'.date('y-m-d'),'Libro 1',['width'=>'300']) !!}
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://es.scribd.com/document/365977839/Equidad-de-genero-en-educacion-superior-y-ciencia" target="_blank">
+                        {!! Html::image('assets/biblioteca/libros/libro2.jpg?'.date('y-m-d'),'Libro 2',['width'=>'300']) !!}
+                    </a>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://es.scribd.com/document/366044956/Genero-y-Politicas-Publicas-en-Ciencia-y-Educacion-Superior-en-Mexico" target="_blank">
+                        {!! Html::image('assets/biblioteca/libros/libro3.jpg?'.date('y-m-d'),'Libro 2',['width'=>'300']) !!}
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+
 
     </div>
-
+{{--
+https://es.scribd.com/document/365977839/Equidad-de-genero-en-educacion-superior-y-ciencia
+https://es.scribd.com/document/366044956/Genero-y-Politicas-Publicas-en-Ciencia-y-Educacion-Superior-en-Mexico
+--}}
 @endsection

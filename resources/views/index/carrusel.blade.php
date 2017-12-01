@@ -16,7 +16,7 @@
    --}}
         <div class="item active">
             <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" target="_blank">
-                <img src="{{ asset("assets/index/carrusel/puebla2017_2000x600.jpg") . '?' . date('Y-m-d h:s')}} alt="..." class="img-responsive">
+                <img src="{{ asset("assets/index/carrusel/puebla2017_2000x600.jpg") }}" alt="..." class="img-responsive">
             </a>
             <div class="carousel-caption red lighten-4 white-text hidden-md-down">
                 <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" target="_blank" class="btn pink"> <i class="fa fa-file-text"></i> Leer nota de la reunión en Puebla, 2017</a>  
@@ -26,7 +26,7 @@
         </div>
         
         <div class="item">
-            <img src="{{ asset("assets/index/carrusel/guadalajara2016_2000x600.jpg") . '?' . date('Y-m-d h:s')}} alt="..." class="img-responsive center-block">
+            <img src="{{ asset("assets/index/carrusel/guadalajara2016_2000x600.jpg") }}" alt="..." class="img-responsive center-block">
             <div class="carousel-caption blue darken-3 white-text hidden-md-down">
                 <h3>Guadalajara, septiembre 2016</h3>
             </div>
@@ -36,13 +36,13 @@
 
         </div>
         <div class="item">
-            <img src="{{ asset("assets/index/carrusel/chiapas2016_2000x600.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
+            <img src="{{ asset("assets/index/carrusel/chiapas2016_2000x600.jpg") }}" class="img-responsive center-block">
             <div class="carousel-caption green white-text hidden-md-down">
                 <h3>San Cristóbal de las Casas, octubre 2016</h3>
             </div>
         </div>
         <div class="item">
-            <img src="{{ asset("assets/index/carrusel/portadaVideo_2000x600.jpg") . '?' . date('Y-m-d h:s') }} alt="..." class="img-responsive center-block">
+            <img src="{{ asset("assets/index/carrusel/portadaVideo_2000x600.jpg") }}" class="img-responsive center-block">
             <div class="carousel-caption brown lighten-3 white-text hidden-md-down">
                 <a href="https://youtu.be/PMdCyIxA3rw" class="btn btn-danger" target="_blank">
                     <i class="fa fa-youtube-play"></i>

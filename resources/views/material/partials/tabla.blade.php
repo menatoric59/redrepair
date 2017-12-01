@@ -40,7 +40,7 @@
                 </a>
             </td>
             <td>
-                <h2 class="text-center">
+                <h2>
                     Guía educativa para el profesorado de bachillerato
                 </h2>
                 <p id="descripcion_prev">

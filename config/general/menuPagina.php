@@ -13,6 +13,13 @@ return [
         ]
 
     ],
+    'Formación'=>[
+
+        'submenu'=>[
+            'Seminarios'=>['route'=>'seminarios'],
+        ]
+
+    ],
     'Publicaciones'=>[
 
         'submenu'=>[
