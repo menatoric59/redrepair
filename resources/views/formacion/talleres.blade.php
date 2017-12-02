@@ -10,7 +10,7 @@
             Para revertir las relaciones de poder de género, resulta imprescindible la deconstrucción de valores y
             normas sexistas y androcéntricas; resignificarlas desde una perspectiva más humanista y equitativa.
         </p>
-        <p>
+        <p class="text-center">
             <a href="#modalSobreFormacion" data-toggle="modal" class="btn btn-primary">
                 Más sobre la Formación de la Red
             </a>

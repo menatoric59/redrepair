@@ -20,7 +20,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <a href="https://es.scribd.com/document/366044956/Genero-y-Politicas-Publicas-en-Ciencia-y-Educacion-Superior-en-Mexico" target="_blank">
-                        {!! Html::image('assets/biblioteca/libros/libro3.jpg?'.date('y-m-d'),'Libro 2',['width'=>'300']) !!}
+                        {!! Html::image('assets/biblioteca/libros/libro3.jpg?'.date('y-m-d'),'Libro 3',['width'=>'300']) !!}
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://es.scribd.com/document/366059077/Genero-ciencia-y-tecnologia-en-las-politicas-publicas-mexicanas" target="_blank">
+                        {!! Html::image('assets/biblioteca/libros/libro4.jpg?'.date('y-m-d'),'Libro 4',['width'=>'300']) !!}
                     </a>
                 </div>
 
