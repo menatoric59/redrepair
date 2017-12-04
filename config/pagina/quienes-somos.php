@@ -10,19 +10,19 @@ return [
     [
         'titulo'=>'Lo que nos convoca',
         'parrafo'=>'Estimular el intercambio y sistematización de experiencias previas de distintos grupos académicos y de investigación, así como realizar un análisis crítico de la Ciencia y Tecnología desde una perspectiva de género, que permita conocer y visibilizar la participación, promoción y reconocimiento de las mujeres en el sistema de ciencia y tecnología en México.',
-        'imagen'=>'assets/sobre-la-red/quienes-somos/mujerCiencia.png',
+        'imagen'=>'assets/sobre-la-red/quienes-somos/loquenosconvoca.jpg',
         'lista'=>[]
     ],
     [
         'titulo'=>'Nuestro rumbo',
         'parrafo'=>'Ser una red académica de referencia y reconocido prestigio que permita visibilizar la participación de las mujeres mexicanas e incidir en el sistema de ciencia y tecnología del país.',
-        'imagen'=>'assets/sobre-la-red/quienes-somos/mujerMexico.png',
+        'imagen'=>'assets/sobre-la-red/quienes-somos/nuestrorumbo.jpg',
         'lista'=>[]
     ],
     [
         'titulo'=>'Objetivo general',
         'parrafo'=>'Análisis crítico de la Ciencia y Tecnología desde una perspectiva de género a nivel nacional y por estados del país que permita conocer y visibilizar el ingreso, participación, evaluación, promoción y reconocimiento de las mujeres en el sistema de ciencia y tecnología en México, así como formular recomendaciones e incidir para garantizar la equidad en la ciencia, con acciones a escala local, regional y nacional.',
-        'imagen'=>'assets/sobre-la-red/quienes-somos/mujerMatraz.png',
+        'imagen'=>'assets/sobre-la-red/quienes-somos/objetivo.jpg',
         'lista'=>[]
     ],
     [
