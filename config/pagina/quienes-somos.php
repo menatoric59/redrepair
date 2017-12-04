@@ -28,7 +28,7 @@ return [
     [
         'titulo'=>'Nuestra agenda',
         'parrafo'=>'',
-        'imagen'=>'assets/sobre-la-red/quienes-somos/mujerAtomo.png',
+        'imagen'=>'assets/sobre-la-red/quienes-somos/agenda.png',
         'lista'=>[
             'Promover la investigación, el debate e intercambio de información entre profesionales en el tema de las mujeres en el sistema de Ciencia, Tecnología y Género.',
             'Visibilizar los estudios de los sistemas de educación superior y formación de personal de investigación y tecnológico con perspectiva de género',

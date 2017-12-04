@@ -7,10 +7,10 @@
         @foreach(config('pagina.quienes-somos') as $item)
             <div class="row">
                 <br><br><br>
-                <div class="col-md-2 col-sm-4">
-                    {!! Html::image( $item['imagen'],'logo',['class'=>'center-block img-responsive']) !!}
+                <div class="col-md-2 col-sm-12">
+                    {!! Html::image( $item['imagen'],'logo',['width'=>'150']) !!}
                 </div>
-                <div class="col-md-10 col-sm-8">
+                <div class="col-md-10 col-sm-12">
                     <h2 class="thin">{!! $item['titulo'] !!}</h2>
                     <br>
 
