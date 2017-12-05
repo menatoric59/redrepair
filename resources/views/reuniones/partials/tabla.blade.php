@@ -1,4 +1,4 @@
-<table id="tabla_reuniones">
+<table id="tabla_reuniones" class="table">
     <thead>
     <th>id</th>
     <th></th>
@@ -85,6 +85,3 @@
     </div>
 </div>
 
-<script>
-
-</script>

@@ -13,7 +13,7 @@
         <br><br><br>
         @include('index.publicaciones')
     </div>
-
+{{----}}
     <script>
         $(function(){
             $('#tabla_reuniones').DataTable( {
