@@ -1,6 +1,6 @@
 
 <div class="row">
-    <div class="col-md-9 col-sm-12 text-center">
+    <div class="col-md-12 text-center">
         <div class="row purple lighten-2 white-text">
             <h1>Reuniones</h1>
         </div>
@@ -28,8 +28,5 @@
         </div>
         --}}
     </div>
-    <div class="col-md-3 hidden-md-down">
-        <h3>Últimas Noticias</h3>
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRedMexciteg%2F&tabs=timeline&width=340&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-    </div>
+
 </div>
