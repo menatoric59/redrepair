@@ -41,10 +41,10 @@
             </td>
             <td>
                 <h2>
-                    Guía educativa para el profesorado de bachillerato
+                    Guía pedagógica sobre género y ciencia
                 </h2>
                 <p id="descripcion_prev">
-                    Género, Ciencia y Práctica Docente en el Bachillerato
+                    Más Mujeres Jóvenes en la Ciencia
                 </p>
             </td>
 
