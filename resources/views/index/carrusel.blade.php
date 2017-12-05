@@ -6,6 +6,7 @@
         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
         <li data-target="#carousel-example-generic" data-slide-to="2"></li>
         <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
         
 
     </ol>
@@ -15,6 +16,16 @@
    . '?' . date('Y-m-d h:s')
    --}}
         <div class="item active">
+            <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" target="_blank">
+                <img src="{{ asset("assets/index/carrusel/nayarit2017.jpg") }}" alt="..." class="img-responsive">
+            </a>
+            <div class="carousel-caption grey white-text hidden-md-down">
+                <h3>Nayarit, 2017</h3>
+            </div>
+
+
+        </div>
+        <div class="item">
             <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" target="_blank">
                 <img src="{{ asset("assets/index/carrusel/puebla2017_2000x600.jpg") }}" alt="..." class="img-responsive">
             </a>

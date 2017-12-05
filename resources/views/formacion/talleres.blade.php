@@ -17,28 +17,7 @@
         </p>
         <br><br>
         <div class="row">
-            <div class="col-md-6">
-                <h2 class="text-center">Taller</h2>
-                {!! Html::image('assets/formacion/1.png','Seminario',['class'=>'img-responsive']) !!}
-                <p class="text-justify">
-                    La Red Mexciteg, la Benemérita Universidad Autónoma de Puebla, la Universidad Iberoamericana Puebla y el Consejo Nacional de Ciencia y Tecnología, convocaron a la comunidad académica a participar en el proceso para asistir al Seminario de Formación de Habilidades Profesionales con Perspectiva de Género (4ta edición, antes Taller de Habilidades profesionales para jóvenes científicas) que se realizará del 6 al 9 de septiembre de 2017, Edificio Carolino, BUAP, Puebla.
-                    Este año también realizamos:
-                </p>
 
-                <p class="text-justify">
-                    <a href="http://www.ifuap.buap.mx/eventos/SFHPPG17/" target="_blank">
-                        <i class="fa fa-link fa-fw"></i>
-                        Taller de Habilidades Profesionales para Jóvenes en Ciencia e Ingeniería20-22 de noviembre 2017Universidad de Los Andes, Bogotá, Colombia
-                    </a>
-                </p>
-                <p class="text-justify">
-                    <a href="https://www.youtube.com/watch?v=yuOqS_RpVFQ" target="_blank">
-                        <i class="fa fa-youtube fa-fw"></i>
-                        Taller de Habilidades Profesionales para Jóvenes en Ciencia e Ingeniería
-                    </a>
-                </p>
-
-            </div>
             <div class="col-md-6">
                 <h2 class="text-center">Taller</h2>
                 {!! Html::image('assets/formacion/2.png','Seminario',['class'=>'img-responsive']) !!}
@@ -52,7 +31,7 @@
                 <p class="text-justify">
                     <a href="http://www.ifuap.buap.mx/eventos/III_THPJC16/" target="_blank">
                         <i class="fa fa-link fa-fw"></i>
-                        Liga
+                        Información
                     </a>
                 </p>
                 <p class="text-justify">
