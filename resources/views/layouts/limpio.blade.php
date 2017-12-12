@@ -125,12 +125,13 @@
                 
             </div>
         </div>
-        <br>
 
 
 
 
         <div class="col-md-12">
+            <br>
+
             <div class="col-md-2">
                 {{ Html::image('assets/index/logoRed.jpg','',['height'=>'50px','class'=>'logo-footer']) }}
             </div>
@@ -138,8 +139,10 @@
                 <p><span class="white-text">Powered by menatoric59</span> <br>
                     Todos los derechos reservados {{ date('Y') }}</p>
             </div>
+            <br>
+
         </div>
-        <br>
+
 
     </footer>
 
