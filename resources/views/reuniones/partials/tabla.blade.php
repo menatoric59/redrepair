@@ -10,7 +10,7 @@
     @endif
     </thead>
     <tbody>
-    
+
     @foreach($reuniones as $reunion)
         <tr>
             <td>{{ $reunion->id }}</td>
