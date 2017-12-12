@@ -57,8 +57,10 @@
     {!! Html::script('js/data-tables.min.js')!!}
     {!! Html::script('js/general.js' . '?' . date('Y-m-d h:s')  ) !!}
     {!! Html::style('css/custom.css' . '?' . date('Y-m-d h:s'))!!}
+
     <footer>
-        <div class="row grey darken-4">
+        {{----}}
+        <div class="col-md-12 grey darken-4">
             <br>
             <div class="row light">
                 <div class="container">
@@ -124,21 +126,23 @@
             </div>
         </div>
         <br>
-        <div class="row">
+
+
+
+
+        <div class="col-md-12">
             <div class="col-md-2">
                 {{ Html::image('assets/index/logoRed.jpg','',['height'=>'50px','class'=>'logo-footer']) }}
             </div>
             <div class="col-md-4">
                 <p><span class="white-text">Powered by menatoric59</span> <br>
-                Todos los derechos reservados {{ date('Y') }}</p>
+                    Todos los derechos reservados {{ date('Y') }}</p>
             </div>
         </div>
         <br>
 
-
-
-
     </footer>
+
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

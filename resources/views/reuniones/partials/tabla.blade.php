@@ -10,7 +10,7 @@
     @endif
     </thead>
     <tbody>
-
+    https://www.dropbox.com/l/AADbqUj6hsHE2LpaW5TNmUYaMWxVwpIZ-n0
     @foreach($reuniones as $reunion)
         <tr>
             <td>{{ $reunion->id }}</td>
