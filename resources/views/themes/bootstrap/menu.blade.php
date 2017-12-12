@@ -13,10 +13,11 @@
                     @foreach ($item['submenu'] as $subitem)
                         <li>
                             <a href="{{ $subitem['url'] }}">
-                                    @if( !empty($subitem['icon']) )
-                                            <i class="fa fa-{{ $subitem['icon'] }} fa-fw" ></i>
-                                    @endif
-                                    {{ str_replace_first( "de este lado","De este lado", $subitem['title']) }}
+
+                                {{ str_replace_first( "de este lado","De este lado", $subitem['title']) }}
+                                @if( !empty($subitem['icon']) )
+                                    <i class="fa fa-{{ $subitem['icon'] }} fa-fw" ></i>
+                                @endif
                             </a>
                         </li>
                     @endforeach

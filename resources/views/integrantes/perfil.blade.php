@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-	<br>
-	<ol class="breadcrumb">
-		<li><a href="{{ route('integrantes.lista') }}">Directorio</a></li>
+	@extends('integrantes.partials.breadcrumbs')
+	@section('links')
 		<li>{!! auth()->check() ?
-			'<a href="' . route('integrante.editar',$integrante->id) . '">' . $integrante->nombre . '</a>' :
+			'<a href="' . route('integrante.editar',$integrante->id) . '" class="white-text">' . $integrante->nombre . '</a>' :
 			$integrante->nombre !!}
 		</li>
-	</ol>
+	@endsection
+	<br>
 	<h2 class="text-center">{{ $integrante->nombre }}</h2>
 	<div class="row lighten-2 white-texts valign-wrapper">
 		<div class="col-md-6 col-sm-12">
