@@ -199,7 +199,7 @@
                     2]);
 
                 var options = {
-                    title: "Campo de conocimiento",
+                    title: "Campo de Conocimiento",
                     //width: 100,
                     height: 400,
                     bar: {groupWidth: "95%"},
@@ -212,6 +212,53 @@
 
                 };
                 var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_campo"));
+                chart.draw(view, options);
+            }
+        },'json');
+
+
+
+
+
+
+        $.get('/integrantes/jsonSni',function($dataSni){
+            $arregloSni = [];
+            $encabezadosSni = ['Element','Cantidad',{ role: "style" }];
+            $arregloSni.push ($encabezadosSni);
+
+            $.each($dataSni,function($i,$item){
+                $valoresSni = [];
+                $aleatorioSni = Math.floor(Math.random() * (6 - 0) + 0);
+                $valoresSni.push($item.sni,parseInt($item.cantidad),$colores[$aleatorioSni]);
+
+                $arregloSni.push($valoresSni);
+            });
+            google.charts.setOnLoadCallback(drawChartSni);
+            function drawChartSni() {
+                var barras_data_sni = google.visualization.arrayToDataTable($arregloSni);
+
+                var view = new google.visualization.DataView(barras_data_sni);
+                view.setColumns([0, 1,
+                    { calc: "stringify",
+                        sourceColumn: 1,
+                        type: "string",
+                        role: "annotation" },
+                    2]);
+
+                var options = {
+                    title: "Integrantes con SNI",
+                    //width: 100,
+                    height: 400,
+                    bar: {groupWidth: "95%"},
+                    legend: { position: "none" },
+                    animation:{
+                        startup: true,
+                        duration: 6000,
+                        easing: 'out',
+                    },
+
+                };
+                var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_sni"));
                 chart.draw(view, options);
             }
         },'json');
@@ -228,6 +275,7 @@
 	<div class="col-lg-4 col-md-12" id="div_chart_estados"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_adscripcion"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_campo"></div>
+	<div class="col-lg-4 col-md-12" id="div_chart_sni"></div>
 </div>
 
 

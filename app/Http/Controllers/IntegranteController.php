@@ -76,6 +76,22 @@ class IntegranteController extends Controller
         $integrantes = array_values($integrantes);
         return $integrantes;
     }
+    public function jsonSni(){
+        $integrantes = Integrante::selectRaw('
+            integrantes.sni as sni,count(*) as cantidad
+        ')
+            ->where('estatus','activo')
+            ->where('sni','<>','N/A')
+            ->where('sni','<>','N.A.')
+            ->where('sni','<>','')
+            ->groupBy(['integrantes.sni'])
+            ->orderBy('cantidad')
+            ->get()
+            ->toArray();
+
+        $integrantes = array_values($integrantes);
+        return $integrantes;
+    }
 
     public function nueva(){
         return view('integrantes.nueva');
