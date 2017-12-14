@@ -63,6 +63,19 @@ class IntegranteController extends Controller
         $integrantes = array_values($integrantes);
         return $integrantes;
     }
+    public function jsonCampo(){
+        $integrantes = Integrante::selectRaw('
+            integrantes.campo as campo,count(*) as cantidad
+        ')
+            ->where('estatus','activo')
+            ->groupBy(['integrantes.campo'])
+            ->orderBy('cantidad')
+            ->get()
+            ->toArray();
+
+        $integrantes = array_values($integrantes);
+        return $integrantes;
+    }
 
     public function nueva(){
         return view('integrantes.nueva');

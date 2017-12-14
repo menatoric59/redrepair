@@ -10,7 +10,7 @@
 	@endsection
 	<br>
 	<h2 class="text-center">{{ $integrante->nombre }}</h2>
-	<div class="row lighten-2 white-texts valign-wrapper">
+	<div class="col-md-12 lighten-2 white-texts valign-wrapper">
 		<div class="col-md-6 col-sm-12">
 
 			{!! Html::image($integrante->imagen_perfil . '?'.time() ,'Imagen del perfil',
@@ -41,7 +41,7 @@
 			</ul>
 		</div>
 	</div>
-	<div class="row">
+	<div class="col-md-12">
 		<hr>
 		<div class="col-md-12">
 			<h1 class="text-center blue-text text-darken-4">Perfil</h1>

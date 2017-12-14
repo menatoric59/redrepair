@@ -169,6 +169,52 @@
 		      chart.draw(view, options);
 			    }
 			},'json');
+
+
+
+
+
+        $.get('/integrantes/jsonCampo',function($dataCampo){
+            $arregloCampo = [];
+            $encabezadosCampo = ['Element','Cantidad',{ role: "style" }];
+            $arregloCampo.push ($encabezadosCampo);
+
+            $.each($dataCampo,function($i,$item){
+                $valoresCampo = [];
+                $aleatorioCampo = Math.floor(Math.random() * (6 - 0) + 0);
+                $valoresCampo.push($item.campo,parseInt($item.cantidad),$colores[$aleatorioCampo]);
+
+                $arregloCampo.push($valoresCampo);
+            });
+            google.charts.setOnLoadCallback(drawChartCampo);
+            function drawChartCampo() {
+                var barras_data_campo = google.visualization.arrayToDataTable($arregloCampo);
+
+                var view = new google.visualization.DataView(barras_data_campo);
+                view.setColumns([0, 1,
+                    { calc: "stringify",
+                        sourceColumn: 1,
+                        type: "string",
+                        role: "annotation" },
+                    2]);
+
+                var options = {
+                    title: "Campo de conocimiento",
+                    //width: 100,
+                    height: 400,
+                    bar: {groupWidth: "95%"},
+                    legend: { position: "none" },
+                    animation:{
+                        startup: true,
+                        duration: 6000,
+                        easing: 'out',
+                    },
+
+                };
+                var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_campo"));
+                chart.draw(view, options);
+            }
+        },'json');
 	});
 </script>
 <div class="container">
@@ -181,6 +227,7 @@
 	<div class="col-lg-4 col-md-12 center-block" id="div_chart_participacion"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_estados"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_adscripcion"></div>
+	<div class="col-lg-4 col-md-12" id="div_chart_campo"></div>
 </div>
 
 
