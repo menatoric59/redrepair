@@ -175,17 +175,17 @@
 	<h1 class="text-center">Cartografía</h1>
 	<div id="div_mapa_mexico"></div>	
 </div>
-
-<div class="row">
+<br><br><br>
+<div class="col-md-12">
 	<h1 class="text-center">Gráficas</h1>
 	<div class="col-lg-4 col-md-12 center-block" id="div_chart_participacion"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_estados"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_adscripcion"></div>
 </div>
-<br>
-<br>
-<br>
+
+
 <div class="container">
+	<br><br><br><br><br>
 	<h1 class="text-center">Multidimensionalidad de los Estudios de Ciencia, Tecnología y Género</h1>
 	<img src="{{ asset('assets/sobre-la-red/cartografia/multidimensional.png') }}" alt="Gráfica de multidimensiones" class="img-responsive">
 </div>

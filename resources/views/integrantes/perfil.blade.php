@@ -46,9 +46,7 @@
 			<div class="container">
 				{!! $integrante->detalle !!}
 			</div>
-
 		</div>
-
 	</div>
 	{{ $img = Image::make($integrante->imagen_perfil) }}
 @endsection()
