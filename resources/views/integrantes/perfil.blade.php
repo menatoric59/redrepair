@@ -28,6 +28,8 @@
 				<li>{{ $integrante->dependencia }}</li>
 				<li><strong>País</strong></li>
 				<li>{{ $integrante->pais }}</li>
+				<li><strong>Campo</strong></li>
+				<li>{{ $integrante->campo }}</li>
 				<li><strong>Disciplina</strong></li>
 				<li>{{ $integrante->disciplina }}</li>
 				<li><strong>SNI</strong></li>

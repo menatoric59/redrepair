@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container">
-        <h1>Hola!!</h1>
+        <div class="jumbotron">
+            <h2 class="thin text-center">Red Mexciteg</h2>
+            <h1 class="thin text-center">Bienvenida a la Plataforma</h1>
+        </div>
     </div>
 @endsection()

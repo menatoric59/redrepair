@@ -20,6 +20,7 @@ class Integrante extends Model
     	'detalle',
         'estatus',
         'correo',
+        'campo',
     ];
 
     public function getImagenPerfilAttribute(){

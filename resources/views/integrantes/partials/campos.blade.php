@@ -5,6 +5,7 @@
 	{!! Field::text('dependencia',null,['required']) !!}
 	{!! Field::text('pais',null,['required']) !!}	
 	{!! Field::select('estado',$lista_estados) !!}
+	{!! Field::text('campo',null,['required']) !!}
 	{!! Field::text('disciplina',null,['required']) !!}	
 	{!! Field::text('sni',null,['']) !!}
 	{!! Field::text('participacion',null,['required']) !!}
