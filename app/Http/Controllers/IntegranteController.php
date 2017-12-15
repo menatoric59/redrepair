@@ -85,7 +85,7 @@ class IntegranteController extends Controller
             ->where('sni','<>','N.A.')
             ->where('sni','<>','')
             ->groupBy(['integrantes.sni'])
-            ->orderBy('cantidad')
+            ->orderBy('sni')
             ->get()
             ->toArray();
 
