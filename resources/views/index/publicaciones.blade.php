@@ -2,7 +2,7 @@
 
 <div class="">
     <div class="row">
-        <h1 class="text-center">Últimas publicaciones</h1>
+        <h1 class="text-center thin">Últimas publicaciones</h1>
         <br><br>
         <div class="col-md-4 text-center">
             <h1 class="thin">Libros</h1>
