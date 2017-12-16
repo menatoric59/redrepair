@@ -19,11 +19,9 @@
             <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" target="_blank">
                 <img src="{{ asset("assets/index/carrusel/nayarit2017.jpg") }}" alt="..." class="img-responsive">
             </a>
-            <div class="carousel-caption grey white-text hidden-md-down">
+            <div class="carousel-caption orange lighten-3 white-text hidden-md-down">
                 <h3>Nayarit, 2017</h3>
             </div>
-
-
         </div>
         <div class="item">
             <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" target="_blank">

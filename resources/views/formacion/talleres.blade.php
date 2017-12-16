@@ -16,11 +16,11 @@
             </a>
         </p>
         <br><br>
+        <h2 class="text-center">Taller</h2>
+        {!! Html::image('assets/formacion/2.png','Seminario',['width'=>'400','class'=>'center-block']) !!}
+        <br><br>
         <div class="row">
-
             <div class="col-md-6">
-                <h2 class="text-center">Taller</h2>
-                {!! Html::image('assets/formacion/2.png','Seminario',['class'=>'img-responsive']) !!}
                 <p class="text-justify">
                     En 2016, con el apoyo de CONACyT, BUAP, la Universidad de Guadalajara y la Red Temática Mexicana de Ciencia, Tecnología y Género, realizaremos el III Taller.
                 </p>
@@ -40,8 +40,9 @@
                         Video
                     </a>
                 </p>
-
-
+            </div>
+            <div class="col-md-6">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/IpZ8Z_arFcA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
     </div>

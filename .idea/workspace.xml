@@ -26,41 +26,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="publicaciones.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/index/publicaciones.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntegranteController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/IntegranteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="87" column="26" lean-forward="false" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acerca.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/index/acerca.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="avisos.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index/avisos.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="70" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seminarios.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/formacion/seminarios.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+              <folding>
+                <marker date="1513386147775" expanded="true" signature="883:2385" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="talleres.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/formacion/talleres.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -141,10 +133,7 @@
         <option value="$PROJECT_DIR$/resources/views/formacion/partials/modal_sobre_formacion.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/publicaciones/libros.blade.php" />
         <option value="$PROJECT_DIR$/config/pagina/quienes-somos.php" />
-        <option value="$PROJECT_DIR$/resources/views/formacion/seminarios.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/formacion/talleres.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/sobre/quienes-somos.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index/carrusel.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/material/partials/tabla.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/home.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/limpio.blade.php" />
@@ -162,10 +151,13 @@
         <option value="$PROJECT_DIR$/routes/web/integrantes.php" />
         <option value="$PROJECT_DIR$/resources/views/integrantes/mapa.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/IntegranteController.php" />
-        <option value="$PROJECT_DIR$/resources/views/index/acerca.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/material.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/avisos.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/publicaciones.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index/acerca.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/index/carrusel.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/formacion/seminarios.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/formacion/talleres.blade.php" />
       </list>
     </option>
   </component>
@@ -332,6 +324,13 @@
               <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="dashboard" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="redmexciteg" type="b2602c69:ProjectViewProjectNode" />
+              <item name="redmexciteg" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="formacion" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="redmexciteg" type="b2602c69:ProjectViewProjectNode" />
@@ -585,12 +584,12 @@
       <workItem from="1511640855019" duration="1445000" />
       <workItem from="1513050570536" duration="3560000" />
       <workItem from="1513219978067" duration="4704000" />
-      <workItem from="1513373793918" duration="1592000" />
+      <workItem from="1513373793918" duration="3792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="225270000" />
+    <option name="totallyTimeSpent" value="227470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,31 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/formacion/talleres.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="33" column="35" lean-forward="false" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/formacion/seminarios.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/formacion/partials/modal_sobre_formacion.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index/carrusel.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1152,8 +1130,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index/acerca.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="27" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="75">
+          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index/publicaciones.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/index/carrusel.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1166,10 +1160,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/index/publicaciones.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/formacion/seminarios.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <marker date="1513386147775" expanded="true" signature="883:2385" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/formacion/talleres.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
           <folding />
         </state>
       </provider>

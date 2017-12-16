@@ -1,7 +1,7 @@
 
 
 <div class="row">
-    
+
     <h1 class="thin text-center teal accent-4 white-text">Últimas publicaciones</h1>
     <div class="row">
         <div class="col-md-4 text-center">
