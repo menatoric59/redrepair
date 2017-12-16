@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('titulo')
+    Quiénes Somos
+@endsection
 
 @section('content')
     <div class="container jumbotron">

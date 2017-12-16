@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('titulo')
+	Gráficas y Mapa interactivo sobre los Integrantes
+@endsection
 @section('content')
 <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
 <script type='text/javascript'>

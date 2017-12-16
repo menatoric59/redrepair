@@ -1,6 +1,8 @@
 
 @extends('layouts.app')
-
+@section('titulo')
+    Directorio de Integrantes
+@endsection
 @section('content')
     @include('integrantes.partials.breadcrumbs')
     <div class="container">

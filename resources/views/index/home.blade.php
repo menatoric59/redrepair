@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('titulo')
+    Red Mexciteg - Red Mexicana de Ciencia, Tecnología y Género
+@endsection
 @section('content')
     @include('index.carrusel')
     <br><br>

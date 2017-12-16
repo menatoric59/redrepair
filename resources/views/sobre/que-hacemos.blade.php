@@ -1,4 +1,7 @@
 @extends('layouts.app')
+@section('titulo')
+    Qué Hacemos
+@endsection
 
 @section('content')
     <div class="container jumbotron black-text">

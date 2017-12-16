@@ -1,5 +1,7 @@
 @extends('layouts.app')
-
+@section('titulo')
+    Historia
+@endsection
 @section('content')
     <div class="container jumbotron">
         <h1 class="text-center thin">Historia</h1>
