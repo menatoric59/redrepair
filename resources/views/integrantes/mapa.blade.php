@@ -221,6 +221,47 @@
 
 
 
+        $.get('/integrantes/jsonDisciplina',function($dataDisciplina){
+            $arregloDisciplina = [];
+            $encabezadosDisciplina = ['Element','Cantidad',{ role: "style" }];
+            $arregloDisciplina.push ($encabezadosDisciplina);
+
+            $.each($dataDisciplina,function($i,$item){
+                $valoresDisciplina = [];
+                $aleatorioDisciplina = Math.floor(Math.random() * (6 - 0) + 0);
+                $valoresDisciplina.push($item.disciplina,parseInt($item.cantidad),$colores[$aleatorioDisciplina]);
+
+                $arregloDisciplina.push($valoresDisciplina);
+            });
+            google.charts.setOnLoadCallback(drawChartDisciplina);
+            function drawChartDisciplina() {
+                var barras_data_disciplina = google.visualization.arrayToDataTable($arregloDisciplina);
+
+                var view = new google.visualization.DataView(barras_data_disciplina);
+                view.setColumns([0, 1,
+                    { calc: "stringify",
+                        sourceColumn: 1,
+                        type: "string",
+                        role: "annotation" },
+                    2]);
+
+                var options = {
+                    title: "Disciplina",
+                    //width: 100,
+                    height: 400,
+                    bar: {groupWidth: "95%"},
+                    legend: { position: "none" },
+                    animation:{
+                        startup: true,
+                        duration: 6000,
+                        easing: 'out',
+                    },
+
+                };
+                var chart = new google.visualization.ColumnChart(document.getElementById("div_chart_disciplina"));
+                chart.draw(view, options);
+            }
+        },'json');
 
 
 
@@ -278,6 +319,7 @@
 	<div class="col-lg-4 col-md-12" id="div_chart_estados"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_adscripcion"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_campo"></div>
+	<div class="col-lg-4 col-md-12" id="div_chart_disciplina"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_sni"></div>
 </div>
 

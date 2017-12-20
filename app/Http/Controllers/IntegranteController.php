@@ -76,6 +76,19 @@ class IntegranteController extends Controller
         $integrantes = array_values($integrantes);
         return $integrantes;
     }
+    public function jsonDisciplina(){
+        $integrantes = Integrante::selectRaw('
+            integrantes.disciplina as disciplina,count(*) as cantidad
+        ')
+            ->where('estatus','activo')
+            ->groupBy(['integrantes.disciplina'])
+            ->orderBy('cantidad')
+            ->get()
+            ->toArray();
+
+        $integrantes = array_values($integrantes);
+        return $integrantes;
+    }
     public function jsonSni(){
         $integrantes = Integrante::selectRaw('
             integrantes.sni as sni,count(*) as cantidad

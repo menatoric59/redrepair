@@ -14,6 +14,8 @@ Route::group(['prefix'=>'integrantes'],function(){
 		->name('integrantes.jsonTipoAdscripcion');
     Route::get('/jsonCampo','IntegranteController@jsonCampo')
         ->name('integrantes.jsonCampo');
+    Route::get('/jsonDisciplina','IntegranteController@jsonDisciplina')
+        ->name('integrantes.jsonDisciplina');
     Route::get('/jsonSni','IntegranteController@jsonSni')
         ->name('integrantes.jsonSni');
 	Route::get('/seleccionar', 'HomeController@seleccionarArchivoDirectorio')
