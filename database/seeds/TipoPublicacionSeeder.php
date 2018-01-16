@@ -29,5 +29,11 @@ class TipoPublicacionSeeder extends Seeder
         DB::table('tipo_publicacion')->insert([
             'nombre'=>'Otros'
         ]);
+        DB::table('tipo_publicacion')->insert([
+            'nombre'=>'Material didáctico'
+        ]);
+        DB::table('tipo_publicacion')->insert([
+            'nombre'=>'Cuadernos de trabajo'
+        ]);
     }
 }

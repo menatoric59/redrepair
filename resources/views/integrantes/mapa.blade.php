@@ -321,6 +321,7 @@
 	<div class="col-lg-4 col-md-12" id="div_chart_campo"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_disciplina"></div>
 	<div class="col-lg-4 col-md-12" id="div_chart_sni"></div>
+
 </div>
 
 
