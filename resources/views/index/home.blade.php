@@ -12,8 +12,6 @@
     	<br>
         @include('index.acerca')
         <br><br><br>
-        @include('index.material')
-        <br><br><br>
         @include('index.publicaciones')
     </div>
 {{----}}

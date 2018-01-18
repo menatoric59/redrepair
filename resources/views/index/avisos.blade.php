@@ -1,5 +1,5 @@
 <div class="row">
-    <h1 class="thin text-center blue lighten-2 white-text">Avisos</h1>
+    <h1 class="thin text-center blue lighten-2 white-text" style="padding-top: 20px;padding-bottom: 20px">Avisos</h1>
     <div class="row">
         <div class="col-md-9">
             @foreach($avisos as $aviso)

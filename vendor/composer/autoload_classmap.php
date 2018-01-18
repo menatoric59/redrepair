@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'CrearCampoIntegrantes' => $baseDir . '/database/migrations/2017_12_11_222603_crear_campo_integrantes.php',
+    'CrearPremioInvestigadorController' => $baseDir . '/database/migrations/2018_01_15_235726_crear_premio_investigador_controller.php',
     'CrearTablaEstados' => $baseDir . '/database/migrations/2016_11_15_233958_crear_tabla_estados.php',
     'CrearTablaIntegrantes' => $baseDir . '/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php',
     'CrearTablaPublicacionIntegrante' => $baseDir . '/database/migrations/2017_01_30_175750_crear_tabla_publicacion_integrante.php',
