@@ -1,6 +1,9 @@
 <?php
 
 Route::group(['prefix'=>'publicaciones'], function(){
+    Route::get('/',function (){
+        return view('publicaciones.ultimas');
+    })->name('publicaciones.ultimas');
     Route::get('/cuadernos-de-trabajo',function (){
         return view('publicaciones.cuadernos');
     })->name('cuadernos');
@@ -21,8 +24,7 @@ Route::group(['prefix'=>'publicaciones'], function(){
 
 
     Route::group(['middleware'=>'auth'],function (){
-        Route::get('/','PublicacionController@index')
-            ->name('publicacion.lista');
+
         Route::get('/nueva','PublicacionController@nueva')
             ->name('publicacion.nueva');
         Route::post('/guardar','PublicacionController@guardar')

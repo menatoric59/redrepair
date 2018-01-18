@@ -18,6 +18,7 @@
                     <th>Nombre</th>
                     <th>Adscripción</th>
                     <th>Disciplina</th>
+                    <th>Campo</th>
                 </thead>
                 <tbody>
                 @foreach($integrantes as $integrante)
@@ -41,6 +42,11 @@
                         <td>
                             <a href="{{ route('integrante.perfil',$integrante->id )}}" class="grey-text">
                                 {{ $integrante['disciplina']}}
+                            </a>
+                        </td>
+                        <td>
+                            <a href="{{ route('integrante.perfil',$integrante->id )}}" class="grey-text">
+                                {{ $integrante['campo']}}
                             </a>
                         </td>
                     </tr>

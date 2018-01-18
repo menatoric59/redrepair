@@ -1,8 +1,14 @@
 
 @extends('layouts.app')
+@extends('publicaciones.partials.breadcrumbs')
+@section('titulo')
+    Libros
+@endsection
+@section('links')
+    <li><i class="fa fa-pencil-square"></i> Libros</li>
+@endsection
 @section('content')
     <div class="jumbotron">
-        <h1 class="text-center thin">Libros</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-6">

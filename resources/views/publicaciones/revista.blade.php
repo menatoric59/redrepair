@@ -1,5 +1,12 @@
 
 @extends('layouts.app')
+@extends('publicaciones.partials.breadcrumbs')
+@section('titulo')
+    Revista De Este Lado
+@endsection
+@section('links')
+    <li><i class="fa fa-pencil-square"></i> Revista</li>
+@endsection
 @section('content')
     <div class="container jumbotron">
         <br>
