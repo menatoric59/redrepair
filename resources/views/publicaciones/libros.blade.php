@@ -12,10 +12,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <a href="http://docs.wixstatic.com/ugd/b39ed3_a5b59285c1e54aea8974b139f97bf209.pdf" target="_blank">
-                        {!! Html::image('assets/biblioteca/libros/libro1.jpg?'.date('y-m-d'),'Libro 1',['width'=>'300']) !!}
+                    <a href="https://es.scribd.com/document/366059077/Genero-ciencia-y-tecnologia-en-las-politicas-publicas-mexicanas" target="_blank">
+                        {!! Html::image('assets/biblioteca/libros/libro4.jpg?'.date('y-m-d'),'Libro 4',['width'=>'300']) !!}
                     </a>
                 </div>
+
                 <div class="col-md-6">
                     <a href="https://es.scribd.com/document/365977839/Equidad-de-genero-en-educacion-superior-y-ciencia" target="_blank">
                         {!! Html::image('assets/biblioteca/libros/libro2.jpg?'.date('y-m-d'),'Libro 2',['width'=>'300']) !!}
@@ -30,8 +31,8 @@
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <a href="https://es.scribd.com/document/366059077/Genero-ciencia-y-tecnologia-en-las-politicas-publicas-mexicanas" target="_blank">
-                        {!! Html::image('assets/biblioteca/libros/libro4.jpg?'.date('y-m-d'),'Libro 4',['width'=>'300']) !!}
+                    <a href="http://docs.wixstatic.com/ugd/b39ed3_a5b59285c1e54aea8974b139f97bf209.pdf" target="_blank">
+                        {!! Html::image('assets/biblioteca/libros/libro1.jpg?'.date('y-m-d'),'Libro 1',['width'=>'300']) !!}
                     </a>
                 </div>
 

@@ -25,14 +25,17 @@
         <h1 class="thin text-center">Libros</h1>
         <br>
         <div class="col-md-6">
-            <a href="http://docs.wixstatic.com/ugd/b39ed3_a5b59285c1e54aea8974b139f97bf209.pdf" target="_blank" class="img-responsive">
-                {!! Html::image('assets/biblioteca/libros/libro1.jpg' . '?' . date('Y-m-d h:m') ,'Último cuaderno',['class'=>'center-block img-responsive']) !!}
+            <a href="https://es.scribd.com/document/365977839/Equidad-de-genero-en-educacion-superior-y-ciencia" target="_blank" class="img-responsive">
+                {!! Html::image('assets/biblioteca/libros/libro2.jpg' . '?' . date('Y-m-d h:m') ,'Último cuaderno',['class'=>'center-block img-responsive']) !!}
             </a>
         </div>
         <div class="col-md-6">
             <h2>
-                Lecturas Críticas en Investigación Feminista
+                Equidad de género en educación superior y ciencia
             </h2>
+            <p>
+                Agendas para Ámerica Látina y el Caribe
+            </p>
             <p>
                 <a href="{{ route('libros') }}" class="btn btn-info">Ver todos</a>
             </p>
