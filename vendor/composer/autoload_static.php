@@ -324,6 +324,7 @@ class ComposerStaticInitd4856766b1b02f009c573d0777759aef
 
     public static $classMap = array (
         'CrearCampoIntegrantes' => __DIR__ . '/../..' . '/database/migrations/2017_12_11_222603_crear_campo_integrantes.php',
+        'CrearGrupoTecnicoTabla' => __DIR__ . '/../..' . '/database/migrations/2018_01_26_215537_crear_grupo_tecnico_tabla.php',
         'CrearPremioInvestigadorController' => __DIR__ . '/../..' . '/database/migrations/2018_01_15_235726_crear_premio_investigador_controller.php',
         'CrearTablaEstados' => __DIR__ . '/../..' . '/database/migrations/2016_11_15_233958_crear_tabla_estados.php',
         'CrearTablaIntegrantes' => __DIR__ . '/../..' . '/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php',
