@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+    @extends('sobre.partials.breadcrumbs')
+    @section('links')
+        <li>
+            Plataforma
+            {!! Html::image('assets/sobre-la-red/mujerBlancoCandado.png','Imagen',['width'=>'32','margin'=>'auto']) !!}
+        </li>
+    @endsection
 <div class="container">
     <div class="row">
         <div class="jumbotron">

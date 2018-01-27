@@ -3,6 +3,14 @@
 	Gráficas y Mapa interactivo sobre los Integrantes
 @endsection
 @section('content')
+	@extends('sobre.partials.breadcrumbs')
+	@section('links')
+		<li>
+			Cartografía e Interrelaciones
+			{!! Html::image('assets/sobre-la-red/mundoBlanco.png','Imagen',['width'=>'32','margin'=>'auto']) !!}
+		</li>
+	@endsection
+
 <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
 <script type='text/javascript'>
 	$(function(){

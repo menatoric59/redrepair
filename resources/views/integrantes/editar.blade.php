@@ -1,11 +1,17 @@
 
 @extends('layouts.app')
 @section('content')
-    @extends('integrantes.partials.breadcrumbs')
+    @extends('sobre.partials.breadcrumbs')
     @section('links')
         <li>
-            <i class="fa fa-pencil"></i>
+            <a href="{{ route('integrantes.lista') }}" class="white-text">
+                Directorio
+                {!! Html::image('assets/sobre-la-red/mujerBlancoLista.png?dda','Imagen',['width'=>'32','margin'=>'auto']) !!}
+            </a>
+        </li>
+        <li>
             Editar
+            <i class="fa fa-pencil"></i>
         </li>
     @endsection
     <div class="container">
@@ -20,7 +26,7 @@
             class="btn grey">
             Cancelar
         </a>
-        {!! Form::submit('Actualizar',['class'=>'btn cyan darken-4']) !!}
+        {!! Form::submit('Actualizar',['class'=>'btn btn-primary']) !!}
         {!! Form::close()!!}
     </div>
 

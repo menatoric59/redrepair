@@ -2,9 +2,16 @@
 @section('titulo')
     Historia
 @endsection
+@extends('sobre.partials.breadcrumbs')
+@section('links')
+    <li>
+        Historia
+        {!! Html::image('assets/sobre-la-red/mujerBlancoTiempo.png','Imagen',['width'=>'32','margin'=>'auto']) !!}
+    </li>
+@endsection
 @section('content')
     <div class="container jumbotron">
-        <h1 class="text-center thin">Historia</h1>
+        {{--<h1 class="text-center thin">Historia</h1>--}}
         {!! Html::image('assets/sobre-la-red/quienes-somos/collage.jpg','Collage',['class'=>'center-block img-responsive']) !!}
 
         <div class="col-md-12 black-text">

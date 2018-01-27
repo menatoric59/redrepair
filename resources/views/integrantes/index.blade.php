@@ -4,7 +4,13 @@
     Directorio de Integrantes
 @endsection
 @section('content')
-    @include('integrantes.partials.breadcrumbs')
+    @extends('sobre.partials.breadcrumbs')
+    @section('links')
+        <li>
+            Directorio
+            {!! Html::image('assets/sobre-la-red/mujerBlancoLista.png?dda','Imagen',['width'=>'32','margin'=>'auto']) !!}
+        </li>
+    @endsection
     <div class="container">
         @if(auth()->check())
             <a href="{{ route('integrante.nueva') }}" class="btn pink lighten-2">
@@ -12,7 +18,7 @@
                 Nueva
             </a>
         @endif
-            <h1 class="text-center thin">Directorio</h1>
+            {{--<h1 class="text-center thin">Directorio</h1>--}}
             <table class="data-table">
                 <thead>
                     <th>Nombre</th>

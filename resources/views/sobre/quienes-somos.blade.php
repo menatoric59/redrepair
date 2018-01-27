@@ -2,10 +2,17 @@
 @section('titulo')
     Quiénes Somos
 @endsection
+@extends('sobre.partials.breadcrumbs')
+@section('links')
+    <li>
+        Quiénes Somos
+        {!! Html::image('assets/sobre-la-red/mujerBlancoPregunta.png','Imagen',['width'=>'32','margin'=>'auto']) !!}
+    </li>
+@endsection
 
 @section('content')
     <div class="container jumbotron">
-        <h1 class="text-center thin">Quiénes somos</h1>
+        {{--<h1 class="text-center thin">Quiénes somos</h1>--}}
         {!! Html::image('assets/sobre-la-red/quienes-somos/collage2017.jpg','Collage',['class'=>'center-block img-responsive']) !!}
         @foreach(config('pagina.quienes-somos') as $item)
             <div class="row">

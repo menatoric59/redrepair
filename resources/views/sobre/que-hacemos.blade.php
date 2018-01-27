@@ -2,10 +2,16 @@
 @section('titulo')
     Qué Hacemos
 @endsection
-
+@extends('sobre.partials.breadcrumbs')
+@section('links')
+    <li>
+        Quá hacemos
+        {!! Html::image('assets/sobre-la-red/mujerBlancoAcademica.png','Imagen',['width'=>'32','margin'=>'auto']) !!}
+    </li>
+@endsection
 @section('content')
     <div class="container jumbotron black-text">
-        <h1 class="text-center thin black-text">Qué hacemos</h1>
+        {{--<h1 class="text-center thin black-text">Qué hacemos</h1>--}}
         <p class="black-text">La <strong>Red Mexciteg</strong> trabaja en diferentes ejes con el objetivo de estimular el intercambio y sistematización de experiencias previas de distintos grupos académicos y de investigación, así como realizar un análisis crítico de la Ciencia y Tecnología desde una perspectiva de género, que permita conocer y visibilizar la participación, promoción y reconocimiento de las mujeres en el sistema de ciencia y tecnología en México.</p>
         <br><br>
         <h2 class="text-center thin">Ejes de trabajo </h2>
