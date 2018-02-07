@@ -242,4 +242,10 @@ return [
 
     ],
 
+    'tipo_evento_select'=>[
+        'colaboracion'=>'Colaboración',
+        'red'=>'De la Red',
+        'nacional'=>'Evento Nacional'
+    ]
+
 ];

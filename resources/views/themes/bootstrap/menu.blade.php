@@ -14,7 +14,7 @@
                         <li>
                             <a href="{{ $subitem['url'] }}">
 
-                                {{ str_replace_first( "de este lado","De este lado", $subitem['title']) }}
+                                {{ str_replace_first('red','Red',str_replace_first( "de este lado","De este lado", $subitem['title'])) }}
                                 @if( !empty($subitem['icon']) )
                                     <i class="fa fa-{{ $subitem['icon'] }} fa-fw" ></i>
                                 @endif

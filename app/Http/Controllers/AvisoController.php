@@ -16,8 +16,14 @@ class AvisoController extends Controller
         $avisos = Aviso::where('inicio','>=',getdate())->get();
         return view('avisos.index',compact('avisos'));
     }
+    function tipo($tipo){
+        $avisos = Aviso::where('tipo',$tipo)->get();
+        $tipo=array_get(['red'=>'De la Red','colaboracion'=>'Colaboraciones','nacional'=>'Nacionales'],$tipo);
+        return view('avisos.index',compact('avisos','tipo'));
+    }
     function nuevo(){
         return view('avisos.nuevo');
+
     }
     function guardar(Request $request){
         //dd($request->all());

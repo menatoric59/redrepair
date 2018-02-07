@@ -3,7 +3,6 @@
 
 @section('content')
     @extends('avisos.partials.breadcrumbs')
-
     <div class="container">
         @if(auth()->check())
             <a href="{{ route('avisos.nuevo') }}" class="btn blue lighten-2">
@@ -22,7 +21,6 @@
                 @endif
             </thead>
             <tbody>
-
                 @foreach($avisos as $aviso)
                 <tr>
                     <td>{{ $aviso->id }}</td>
@@ -30,9 +28,6 @@
                         {!! Html::image($aviso->imagen,'Imagen de anuncio',['id'=>'img_preview','width'=>'267']) !!}
                     </td>
                     <td>
-                        <h2>
-                            {{ $aviso->tipo }}
-                        </h2>
                         <span id="descripcion_prev">
                             {!! $aviso->descripcion !!}
                         </span>

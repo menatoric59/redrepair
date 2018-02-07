@@ -8,9 +8,7 @@
             Nuevo
         </li>
     @endsection
-@verbatim
 
-@endverbatim
     <div class="container" id="app_vue">
 
         <div class="row">
@@ -32,9 +30,6 @@
                         {!! Html::image('','Vista previa imagen de anuncio',['id'=>'img_preview','width'=>'267']) !!}
                     </div>
                     <div class="col-sm-6">
-                        <h2>
-                            @{{ tipo }}
-                        </h2>
                         <span id="descripcion_prev">
 
 

@@ -5,7 +5,7 @@
             @foreach($avisos as $aviso)
                 <div class="row">
                     <br><br>
-                    <h2 class="text-center light">{!! $aviso->tipo !!}</h2>
+
                     <br><br>
                     <div class="col-md-6">
                         {!! Html::image($aviso->imagen,'',['class'=>'img-responsive center-block']) !!}

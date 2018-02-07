@@ -22,6 +22,15 @@ return [
         ]
 
     ],
+    'Eventos'=>[
+
+        'submenu'=>[
+            'De la Red'=>['route'=>['avisos','red']],
+            'Colaboraciones'=>['route'=>['avisos','colaboracion']],
+            'Reuniones nacionales'=>['route'=>['avisos','nacional']],
+        ]
+
+    ],
     'Publicaciones'=>[
 
         'submenu'=>[
