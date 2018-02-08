@@ -324,8 +324,7 @@ class ComposerStaticInitd4856766b1b02f009c573d0777759aef
 
     public static $classMap = array (
         'CrearCampoIntegrantes' => __DIR__ . '/../..' . '/database/migrations/2017_12_11_222603_crear_campo_integrantes.php',
-        'CrearGrupoTecnicoTabla' => __DIR__ . '/../..' . '/database/migrations/2018_01_26_215537_crear_grupo_tecnico_tabla.php',
-        'CrearPremioInvestigadorController' => __DIR__ . '/../..' . '/database/migrations/2018_01_15_235726_crear_premio_investigador_controller.php',
+        'CrearEntradaTable' => __DIR__ . '/../..' . '/database/migrations/2018_02_07_135635_crear_entrada_table.php',
         'CrearTablaEstados' => __DIR__ . '/../..' . '/database/migrations/2016_11_15_233958_crear_tabla_estados.php',
         'CrearTablaIntegrantes' => __DIR__ . '/../..' . '/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php',
         'CrearTablaPublicacionIntegrante' => __DIR__ . '/../..' . '/database/migrations/2017_01_30_175750_crear_tabla_publicacion_integrante.php',
@@ -337,6 +336,7 @@ class ComposerStaticInitd4856766b1b02f009c573d0777759aef
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'DatabaseSeeder' => __DIR__ . '/../..' . '/database/seeds/DatabaseSeeder.php',
+        'EntradasSeeder' => __DIR__ . '/../..' . '/database/seeds/EntradasSeeder.php',
         'File_Iterator' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Iterator.php',
         'File_Iterator_Facade' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Facade.php',
         'File_Iterator_Factory' => __DIR__ . '/..' . '/phpunit/php-file-iterator/src/Factory.php',

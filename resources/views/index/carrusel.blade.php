@@ -16,6 +16,9 @@
    . '?' . date('Y-m-d h:s')
    --}}
         <div class="item active">
+            <img src="{{ asset("assets/index/carrusel/editatona2000x600.jpg") }}" alt="..." class="img-responsive">
+        </div>
+        <div class="item">
             <a href="http://conacytprensa.mx/index.php/ciencia/humanidades/15884-ciencia-tecnologia-perspectiva-genero" target="_blank">
                 <img src="{{ asset("assets/index/carrusel/nayarit2017.jpg") }}" alt="..." class="img-responsive">
             </a>

@@ -42,6 +42,8 @@ Route::get('/password/reset',function(){
 
 
 
+
+
 Route::group(['prefix'=>'/sobre-la-red'],function (){
     Route::get('/quienes-somos',function (){
         return view('sobre.quienes-somos');
@@ -86,3 +88,12 @@ Route::get('/login',function (){
     dd( $_ENV );
 });
 */
+
+
+Route::group(['prefix'=>'{tipo}/{subtipo}'],function (){
+    Route::get('/','EntradaController@index')->name('entradas');
+    Route::get('/{id}/editar','EntradaController@editar')->name('entradas.editar');
+    Route::put('/{id}','EntradaController@actualizar')->name('entradas.actualizar');
+    Route::get('/nueva','EntradaController@nueva')->name('entradas.nueva');
+    Route::post('/guardar','EntradaController@guardar')->name('entradas.guardar');
+});

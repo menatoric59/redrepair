@@ -7,8 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'CrearCampoIntegrantes' => $baseDir . '/database/migrations/2017_12_11_222603_crear_campo_integrantes.php',
-    'CrearGrupoTecnicoTabla' => $baseDir . '/database/migrations/2018_01_26_215537_crear_grupo_tecnico_tabla.php',
-    'CrearPremioInvestigadorController' => $baseDir . '/database/migrations/2018_01_15_235726_crear_premio_investigador_controller.php',
+    'CrearEntradaTable' => $baseDir . '/database/migrations/2018_02_07_135635_crear_entrada_table.php',
     'CrearTablaEstados' => $baseDir . '/database/migrations/2016_11_15_233958_crear_tabla_estados.php',
     'CrearTablaIntegrantes' => $baseDir . '/database/migrations/2016_11_15_203341_crear_tabla_integrantes.php',
     'CrearTablaPublicacionIntegrante' => $baseDir . '/database/migrations/2017_01_30_175750_crear_tabla_publicacion_integrante.php',
@@ -20,6 +19,7 @@ return array(
     'CreatePasswordResetsTable' => $baseDir . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
     'CreateUsersTable' => $baseDir . '/database/migrations/2014_10_12_000000_create_users_table.php',
     'DatabaseSeeder' => $baseDir . '/database/seeds/DatabaseSeeder.php',
+    'EntradasSeeder' => $baseDir . '/database/seeds/EntradasSeeder.php',
     'File_Iterator' => $vendorDir . '/phpunit/php-file-iterator/src/Iterator.php',
     'File_Iterator_Facade' => $vendorDir . '/phpunit/php-file-iterator/src/Facade.php',
     'File_Iterator_Factory' => $vendorDir . '/phpunit/php-file-iterator/src/Factory.php',
