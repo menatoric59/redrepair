@@ -16,18 +16,21 @@
                 <br><br><br>
                 <h1 class="thin text-center">
                     {!! $entrada->nombre !!}
-                    @if(auth()->check())
-                    <a href="{{ route('entradas.editar',[$tipo,$subtipo,$entrada->id]) }}" class="btn btn-primary">
-                        <i class="fa fa-pencil-square-o"></i>
-                        Editar
-                    </a>
-                    @endif
                 </h1>
+                <p class="text-center">
+                    <small class="text-muted text-center" style="font-style: italic">{!! $entrada->fecha_entrada !!}</small>
+                </p>
+                @if(auth()->check())
+                    <p class="text-center">
+                        <a href="{{ route('entradas.editar',[$tipo,$subtipo,$entrada->id]) }}" class="btn btn-primary btn-sm">
+                            <i class="fa fa-pencil-square-o"></i>
+                            Editar
+                        </a>
+                    </p>
+                @endif
                 <br>
                 <div class="col-md-6">
-                    <a href="{!! $entrada->imagen !!}" target="_blank" class="red-text" data-toggle="modal">
-                        {!! Html::image($entrada->imagen,'Vista previa material',['class'=>'center-block img-responsive','id'=>'img_preview']) !!}
-                    </a>
+                    {!! Html::image($entrada->imagen,'Vista previa material',['class'=>'center-block img-responsive img-thumbnail']) !!}
                 </div>
 
                 <div class="col-md-6">

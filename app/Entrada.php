@@ -37,7 +37,7 @@ class Entrada extends Model
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-            
+
 
             $img->save($archivo);
         }
@@ -52,5 +52,13 @@ class Entrada extends Model
     }
     function getTextoVerMasAttribute(){
         return $this->attributes['texto_ver_mas'] ? $this->attributes['texto_ver_mas'] : 'Ver mas' ;
+    }
+
+    function getFechaEntradaAttribute(){
+        $inicio=new \DateTime($this->attributes['inicio_evento']);
+        $fin=new \DateTime($this->attributes['fin_evento']);
+        $inicio=date_format($inicio,'d-m-Y');
+        $fin=date_format($fin,'d-m-Y');
+        return $inicio==$fin ? $inicio : 'Del '.$inicio.' al '.$fin;
     }
 }
