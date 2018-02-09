@@ -112,7 +112,12 @@ return [
     */
 
     'attributes' => [
-        'password_confirmation'=>'Confirmación de password'
+        'colaboraciones'=>'Colaboraciones',
+        'de-la-red'=>'De la Red',
+
+        'password_confirmation'=>'Confirmación de password',
+        'reuniones-nacionales'=>'Reuniones Nacionales'
+
     ],
 
 ];

@@ -19,6 +19,7 @@ class CrearEntradaTable extends Migration
             $table->boolean('padre')->default(0);
             $table->string('slug')->nullable();
             $table->longText('descripcion_html');
+            $table->integer('columnas')->default(6);
             $table->string('plantilla')->nullable();
             $table->string('clase_color')->nullable();
             $table->string('icono')->nullable();

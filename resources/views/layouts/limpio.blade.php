@@ -136,7 +136,7 @@
                 {{ Html::image('assets/index/logoRed.jpg','',['height'=>'50px','class'=>'logo-footer']) }}
             </div>
             <div class="col-md-4">
-                <p><span class="white-text">Powered by menatoric59</span> <br>
+                <p><span class="white-text">Developed by menatoric59</span> <br>
                     Todos los derechos reservados {{ date('Y') }}</p>
             </div>
             <br>

@@ -5,6 +5,7 @@
     {!! Field::hidden('tipo',$tipo,['required']) !!}
     {!! Field::hidden('subtipo',$subtipo,['required']) !!}
     {!! Field::select('visible_publico',['0'=>'NO','1'=>'SI']) !!}
+    {!! Field::select('columnas',config('app.columnas',null)) !!}
 	{!! Field::text('liga_ver_mas',null,['ph'=>'Ej. www.pagina.com/congreso.html','v-model'=>'liga']) !!}
 	{!! Field::text('texto_ver_mas',null,['v-model'=>'texto_liga','ph'=>'Ej. Leer mas..., Saber mas..., etc.']) !!}
 	{!! Field::date('inicio_evento',null,['required']) !!}

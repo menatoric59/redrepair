@@ -12,12 +12,15 @@
     @endif
     <div class="row">
         @foreach($entradas as $entrada)
-            <div class="col-md-6">
+            <div class="col-md-{!! $entrada->columnas !!}">
                 <br><br><br>
                 <h1 class="thin text-center">
                     {!! $entrada->nombre !!}
                     @if(auth()->check())
-                    <a href="{{ route('entradas.editar',[$tipo,$subtipo,$entrada->id]) }}" class="btn btn-success">Editar</a>
+                    <a href="{{ route('entradas.editar',[$tipo,$subtipo,$entrada->id]) }}" class="btn btn-primary">
+                        <i class="fa fa-pencil-square-o"></i>
+                        Editar
+                    </a>
                     @endif
                 </h1>
                 <br>

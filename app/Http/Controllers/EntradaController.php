@@ -14,7 +14,7 @@ class EntradaController extends Controller
             ->where('subtipo',$subtipo)
             ->orderBy('inicio_evento')
             ->get();
-        $titulo=$padre->nombre.' '.$padre->subtipo;
+        $titulo=$padre->nombre.' '.trans('validation.attributes.'.$subtipo);
         return view('entradas.'.$padre->plantilla,compact('padre','entradas','tipo','subtipo','titulo'));
     }
     function editar($tipo,$subtipo,$id){

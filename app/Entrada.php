@@ -15,6 +15,7 @@ class Entrada extends Model
         'slug',
         'descripcion_html',
         'tipo',
+        'columnas',
         'subtipo',
         'visible_publico',
         'liga_ver_mas',
@@ -48,7 +49,7 @@ class Entrada extends Model
     public function getImagenAttribute(){
         $imagen='assets/entradas/' . $this->attributes['id'] . '.jpg';
         //dd($imagen);
-        return file_exists($imagen) ? $imagen  .'?'. date('Y-m-d h:s') : "http://henaresaldia.com/wp-content/uploads/2016/10/user-clipart-dagobert83_female_user_icon.png";
+        return file_exists($imagen) ? $imagen  .'?'. date('Y-m-d h:s') : "https://www.webnode.com/blog/wp-content/uploads/2016/10/Blog-intro.jpg";
     }
     function getTextoVerMasAttribute(){
         return $this->attributes['texto_ver_mas'] ? $this->attributes['texto_ver_mas'] : 'Ver mas' ;

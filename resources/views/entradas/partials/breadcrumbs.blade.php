@@ -5,6 +5,6 @@
             {!! $padre->nombre !!}
         </a>
     </li>
-    <li>{!! $padre->subtipo !!} </li>
+    <li>{{ trans('validation.attributes.'.$subtipo) }} </li>
     @yield('links')
 </ol>

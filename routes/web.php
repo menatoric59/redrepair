@@ -92,8 +92,11 @@ Route::get('/login',function (){
 
 Route::group(['prefix'=>'{tipo}/{subtipo}'],function (){
     Route::get('/','EntradaController@index')->name('entradas');
-    Route::get('/{id}/editar','EntradaController@editar')->name('entradas.editar');
-    Route::put('/{id}','EntradaController@actualizar')->name('entradas.actualizar');
-    Route::get('/nueva','EntradaController@nueva')->name('entradas.nueva');
-    Route::post('/guardar','EntradaController@guardar')->name('entradas.guardar');
+    Route::group(['middleware'=>'auth'],function (){
+        Route::get('/{id}/editar','EntradaController@editar')->name('entradas.editar');
+        Route::put('/{id}','EntradaController@actualizar')->name('entradas.actualizar');
+        Route::get('/nueva','EntradaController@nueva')->name('entradas.nueva');
+        Route::post('/guardar','EntradaController@guardar')->name('entradas.guardar');
+    });
+
 });

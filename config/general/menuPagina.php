@@ -24,7 +24,9 @@ return [
     ],
     'Eventos'=>[
         'submenu'=>[
-            'De la Red'=>['route'=>['entradas','eventos','de-la-red']]
+            'De la Red'=>['route'=>['entradas','eventos','de-la-red']],
+            'Colaboraciones'=>['route'=>['entradas','eventos','colaboraciones']],
+            'Reuniones Nacionales'=>['route'=>['entradas','eventos','reuniones-nacionales']]
         ]
     ],
     'Publicaciones'=>[
