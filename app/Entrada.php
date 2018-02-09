@@ -30,16 +30,15 @@ class Entrada extends Model
         $archivo = 'assets/entradas/' . $this->attributes['id'] . '.jpg';
         //dd($foto);
         if ( $foto != null ){
-            //dd($foto);
+            //dd($archivo);
             //Image::
             $img = Image::make($foto);
-            $img->resize(400 , null, function ($constraint) {
+            $img->resize(800 , null, function ($constraint) {
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-            if ( !is_dir('assets/entradas/')){
-                mkdir('assets/entradas/');
-            }
+            
+
             $img->save($archivo);
         }
     }

@@ -32,6 +32,6 @@ class Aviso extends Model
         return  $this->attributes['inicio'] <= date('Y-m-d') && $this->attributes['fin'] >= date('Y-m-d') ? 'success' : 'danger';
     }
     public function getImagenAttribute(){
-        return '/assets/avisos/' . $this->attributes['id'] . '.jpg?' . date('Y-m-d h:s');
+        return 'assets/avisos/' . $this->attributes['id'] . '.jpg?' . date('Y-m-d h:s');
     }
 }
