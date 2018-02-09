@@ -34,9 +34,7 @@
                 </div>
 
                 <div class="col-md-6">
-                    <p id="descripcion_prev">
-                        {!! $entrada->descripcion_html !!}
-                    </p>
+                    {!! $entrada->descripcion_html !!}
                     @if($entrada->liga_ver_mas)
                     <p>
                         <a href="{!! $entrada->liga_ver_mas !!}" class="btn btn-info" target="_blank">
