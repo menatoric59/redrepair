@@ -35,7 +35,7 @@
                     @endforeach
                     @if(auth()->check())
                     <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-agregar-imagen">
+                    <button type="button" class="btn btn-primary btn-sm boton_modal" data-toggle="modal" data-target="#modal-agregar-imagen" id="{!! $entrada->id !!}">
                         <i class="fa fa-picture-o"></i>
                         Agregar imagen
                     </button>

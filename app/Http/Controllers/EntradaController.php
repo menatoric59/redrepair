@@ -48,10 +48,12 @@ class EntradaController extends Controller
             ->where('padre','1')
             ->first();
     }
-    function agregar_imagen(Request $request,$tipo,$subtipo,$id){
-        $entrada=Entrada::findOrFail($id);
+    function agregarImagen(Request $request,$tipo,$subtipo){
+        //dd($request->all());
+        $entrada=Entrada::findOrFail($request->id_modal);
         $entrada->guardaImagen($request->file('foto'));
         Alert::success('Se ha agregado correctamente la imagen');
         return redirect()->route('entradas',[$tipo,$subtipo]);
+
     }
 }

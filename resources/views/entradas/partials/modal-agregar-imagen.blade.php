@@ -9,16 +9,19 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
+            {!! Form::open(['route'=>['entradas.agregar_imagen',$tipo,$subtipo],'method'=>'put','enctype'=>'multipart/form-data']) !!}
             <div class="modal-body">
-                {!! Form::open(['route'=>['entrada.agregar-imagen',$tipo,$subtipo,$entrada->id],'method'=>'put','enctype'=>'multipart/form-data']) !!}
+
                 {!! Html::image('','Imagen del aviso',['class'=>'center-block','id'=>'img_preview','width'=>'267']) !!}
                 {!! Field::file('foto',['label'=>'Imagen de entrada *','accept'=>'.jpg']) !!}
-                {!! Form::close() !!}
+                {!! Field::hidden('id_modal',null,['id'=>'id_modal']) !!}
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn" data-dismiss="modal">Cancelar</button>
-                <button type="button" class="btn btn-primary">Agregar</button>
+                <button type="submit" class="btn btn-primary">Agregar</button>
             </div>
+            {!! Form::close() !!}
         </div>
     </div>
 </div>
@@ -39,4 +42,8 @@
     $("#foto").change(function(){
         readURL(this);
     });
+    $('.boton_modal').click(function(e) {
+        e.preventDefault()
+        $('#id_modal').val(this.id);
+    })
 </script>
