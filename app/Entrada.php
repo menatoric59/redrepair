@@ -27,7 +27,7 @@ class Entrada extends Model
     ];
 
     public function guardaImagen($foto){
-        $archivo = 'assets/entradas/' . $this->attributes['id'] . '.jpg';
+        $archivo = 'assets/entradas/' . $this->attributes['id'] . '/' . date('Y_m_d_h_i_s') . '.jpg';
         //dd($foto);
         if ( $foto != null ){
             //dd($archivo);
@@ -37,10 +37,35 @@ class Entrada extends Model
                 $constraint->aspectRatio();
                 $constraint->upsize();
             });
-
-
+            if ( !is_dir('assets/entradas/' . $this->attributes['id'] . '/')){
+                mkdir('assets/entradas/' . $this->attributes['id'] . '/');
+            }
             $img->save($archivo);
         }
+    }
+
+    function imagenes(){
+        $archivos=[];
+        $directorio='assets/entradas/' . $this->id . '/';
+        if ( !$dir = @dir($directorio) ){
+            return $archivos;
+        }
+        while(($archivo = $dir->read()) !== false) {
+            // Obviamos los archivos ocultos
+            if($archivo[0] == ".") continue;
+            if(is_dir($directorio . $archivo)) {
+                $archivos[] = array(
+                    "nombre" => $directorio . $archivo . "/",
+                );
+            } else if (is_readable($directorio . $archivo)) {
+                $archivos[] = array(
+                    "nombre" => '/'.$directorio . $archivo,
+                );
+            }
+        }
+        $dir->close();
+
+        return $archivos;
     }
     public function getEstatusAttribute(){
         return  $this->attributes['inicio'] <= date('Y-m-d') && $this->attributes['fin'] >= date('Y-m-d') ? 'success' : 'danger';

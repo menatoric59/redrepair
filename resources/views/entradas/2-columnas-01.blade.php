@@ -30,7 +30,17 @@
                 @endif
                 <br>
                 <div class="col-md-6">
+                    @foreach($entrada->imagenes() as $imagen)
+                        {!! Html::image($imagen['nombre'],'Vista previa entrada',['class'=>'center-block img-responsive img-thumbnail']) !!}
+                    @endforeach
                     {!! Html::image($entrada->imagen,'Vista previa material',['class'=>'center-block img-responsive img-thumbnail']) !!}
+                    @if(auth()->check())
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal-agregar-imagen">
+                        <i class="fa fa-picture-o"></i>
+                        Agregar imagen
+                    </button>
+                    @endif
                 </div>
 
                 <div class="col-md-6">
@@ -49,5 +59,5 @@
     </div>
 
 </div>
-
+@include('entradas.partials.modal-agregar-imagen')
 @endsection

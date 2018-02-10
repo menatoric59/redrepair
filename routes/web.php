@@ -97,6 +97,10 @@ Route::group(['prefix'=>'{tipo}/{subtipo}'],function (){
         Route::put('/{id}','EntradaController@actualizar')->name('entradas.actualizar');
         Route::get('/nueva','EntradaController@nueva')->name('entradas.nueva');
         Route::post('/guardar','EntradaController@guardar')->name('entradas.guardar');
+
     });
 
+});
+Route::group(['middleware'=>'auth'],function (){
+    Route::put('/{id}/agregar-imagen','EntradaController@agregar-imagen')->name('entrada.agregar-imagen');
 });
