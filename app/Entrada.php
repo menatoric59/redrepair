@@ -92,7 +92,7 @@ class Entrada extends Model
             ->whereDate('inicio_visible','<=',Carbon::now()->format('Y-m-d'))
             ->whereDate('fin_visible','>=',Carbon::now()->format('Y-m-d'))
             ->orderBy('padre','desc')
-            ->orderBy('inicio_evento')
+            ->orderBy('inicio_evento','desc')
             ->get();
         //->where('inicio_visible','<=',getdate())
 
