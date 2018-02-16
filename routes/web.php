@@ -94,6 +94,7 @@ Route::group(['prefix'=>'{tipo}/{subtipo}'],function (){
     Route::get('/','EntradaController@index')->name('entradas');
     Route::group(['middleware'=>'auth'],function (){
         Route::put('/agregar-imagen','EntradaController@agregarImagen')->name('entradas.agregar_imagen');
+        Route::put('/eliminar-imagen','EntradaController@eliminarImagen')->name('entradas.eliminar_imagen');
         Route::get('/{id}/editar','EntradaController@editar')->name('entradas.editar');
         Route::put('/{id}','EntradaController@actualizar')->name('entradas.actualizar');
         Route::get('/nueva','EntradaController@nueva')->name('entradas.nueva');

@@ -40,7 +40,7 @@ class EntradaController extends Controller
         $entrada->fill($request->all());
         $entrada->save();
         $entrada->guardaImagen($request->file('foto'));
-        Alert::success('La entrada ha sido correctamente creada');
+        Alert::success('La <b>entrada</b> ha sido correctamente <b>creada</b>');
         return redirect()->route('entradas',[$tipo,$subtipo]);
     }
     function padre($tipo){
@@ -49,10 +49,15 @@ class EntradaController extends Controller
             ->first();
     }
     function agregarImagen(Request $request,$tipo,$subtipo){
-        //dd($request->all());
         $entrada=Entrada::findOrFail($request->id_modal);
         $entrada->guardaImagen($request->file('foto'));
-        Alert::success('Se ha agregado correctamente la imagen');
+        Alert::success('Se ha <b>agregado</b> correctamente la <b>imagen</b>');
+        return redirect()->route('entradas',[$tipo,$subtipo]);
+
+    }
+    function eliminarImagen(Request $request,$tipo,$subtipo){
+        unlink('.'.$request->foto);
+        Alert::warning("Ha <b>eliminado</b> de forma permanente la imagen de la <b>Entrada</b>");
         return redirect()->route('entradas',[$tipo,$subtipo]);
 
     }

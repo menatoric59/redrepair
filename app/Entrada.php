@@ -2,6 +2,7 @@
 
 namespace App;
 
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
 use Intervention\Image\Facades\Image;
 
@@ -26,7 +27,7 @@ class Entrada extends Model
         'fin_visible'
     ];
 
-    public function guardaImagen($foto){
+    function guardaImagen($foto){
         $archivo = 'assets/entradas/' . $this->attributes['id'] . '/' . date('Y_m_d_h_i_s') . '.jpg';
         //dd($foto);
         if ( $foto != null ){
@@ -43,7 +44,6 @@ class Entrada extends Model
             $img->save($archivo);
         }
     }
-
     function imagenes(){
         $archivos=[];
         $directorio='assets/entradas/' . $this->id . '/';
@@ -67,10 +67,10 @@ class Entrada extends Model
 
         return $archivos;
     }
-    public function getEstatusAttribute(){
+    function getEstatusAttribute(){
         return  $this->attributes['inicio'] <= date('Y-m-d') && $this->attributes['fin'] >= date('Y-m-d') ? 'success' : 'danger';
     }
-    public function getImagenAttribute(){
+    function getImagenAttribute(){
         $imagen='assets/entradas/' . $this->attributes['id'] . '.jpg';
         //dd($imagen);
         return file_exists($imagen) ? $imagen  .'?'. date('Y-m-d h:s') : "https://www.webnode.com/blog/wp-content/uploads/2016/10/Blog-intro.jpg";
@@ -85,5 +85,16 @@ class Entrada extends Model
         $inicio=date_format($inicio,'d-m-Y');
         $fin=date_format($fin,'d-m-Y');
         return $inicio==$fin ? $inicio : 'Del '.$inicio.' al '.$fin;
+    }
+    protected function ultimas($tipo){
+        //dd(getdate());
+        return Entrada::where('tipo',$tipo)
+            ->whereDate('inicio_visible','<=',Carbon::now()->format('Y-m-d'))
+            ->whereDate('fin_visible','>=',Carbon::now()->format('Y-m-d'))
+            ->orderBy('padre','desc')
+            ->orderBy('inicio_evento')
+            ->get();
+        //->where('inicio_visible','<=',getdate())
+
     }
 }

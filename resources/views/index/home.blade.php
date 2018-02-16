@@ -6,11 +6,12 @@
     @include('index.carrusel')
     <br><br>
     <div class="jumbotron">
+
     	@include('index.avisos')
     	<br>
     	<br>
     	<br>
-        @include('index.acerca')
+        @include('index.ultimas-entradas')
         <br><br><br>
         @include('index.publicaciones')
     </div>
