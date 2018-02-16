@@ -16,6 +16,7 @@
                 <p class="text-center">
                     <small class="text-muted text-center" style="font-style: italic">{!! $entrada->fecha_entrada !!}</small>
                 </p>
+                {{--
                 @if(auth()->check())
                     <p class="text-center">
                         <a href="{{ route('entradas.editar',[$tipo,$subtipo,$entrada->id]) }}" class="btn btn-primary btn-sm">
@@ -24,18 +25,22 @@
                         </a>
                     </p>
                 @endif
+                --}}
                 <br>
                 <div class="col-md-6">
-                @if(auth()->check())
+                    {{--
+                    @if(auth()->check())
                     <!-- Button trigger modal -->
                         <button type="button" class="btn btn-primary btn-sm boton_modal" data-toggle="modal" data-target="#modal-agregar-imagen" id="{!! $entrada->id !!}">
                             <i class="fa fa-picture-o"></i>
                             Agregar imagen
                         </button>
                     @endif
+                    --}}
                     @foreach($entrada->imagenes() as $imagen)
                         <div>
                             {!! Html::image($imagen['nombre'],'Vista previa entrada',['class'=>'center-block img-responsive img-thumbnail']) !!}
+                            {{--
                             @if(auth()->check())
                                 {!! Form::open(['route'=>['entradas.eliminar_imagen',$tipo,$subtipo],'method'=>'put']) !!}
                                 {!! Form::hidden('foto',$imagen['nombre']) !!}
@@ -45,6 +50,7 @@
                                 </button>
                                 {!! Form::close() !!}
                             @endif
+                            --}}
                         </div>
                     @endforeach
 
