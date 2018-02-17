@@ -76,7 +76,7 @@ class Entrada extends Model
         return file_exists($imagen) ? $imagen  .'?'. date('Y-m-d h:s') : "https://www.webnode.com/blog/wp-content/uploads/2016/10/Blog-intro.jpg";
     }
     function getTextoVerMasAttribute(){
-        return $this->attributes['texto_ver_mas'] ? $this->attributes['texto_ver_mas'] : 'Ver mas' ;
+        return $this->attributes['texto_ver_mas'] ? $this->attributes['texto_ver_mas'] : 'Ver más' ;
     }
 
     function getFechaEntradaAttribute(){
