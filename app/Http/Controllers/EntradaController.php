@@ -13,7 +13,7 @@ class EntradaController extends Controller
 
         $entradas=Entrada::where('tipo',$tipo)
             ->where('subtipo',$subtipo)
-            ->orderBy('inicio_evento')
+            ->orderBy('inicio_evento','desc')
             ->get();
         $titulo=$padre->nombre.' '.trans('validation.attributes.'.$subtipo);
 

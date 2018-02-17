@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6279e19-5b87-4615-bb65-3c66541bc557" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Entrada.php" afterPath="$PROJECT_DIR$/app/Entrada.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index/avisos.blade.php" afterPath="$PROJECT_DIR$/resources/views/index/avisos.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/index/ultimas-entradas.blade.php" afterPath="$PROJECT_DIR$/resources/views/index/ultimas-entradas.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/EntradaController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/EntradaController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EntradaController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EntradaController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EntradaController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="225">
+              <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
               <folding>
                 <element signature="e#40#56#0#PHP" expanded="true" />
               </folding>
@@ -43,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ultimas-entradas.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ultimas-entradas.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/index/ultimas-entradas.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -168,12 +166,12 @@
         <option value="$PROJECT_DIR$/resources/views/themes/bootstrap/alert.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/home.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/EntradaController.php" />
         <option value="$PROJECT_DIR$/resources/views/entradas/partials/breadcrumbs.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/index/avisos.blade.php" />
         <option value="$PROJECT_DIR$/app/Entrada.php" />
         <option value="$PROJECT_DIR$/resources/views/index/ultimas-entradas.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/EntradaController.php" />
       </list>
     </option>
   </component>
@@ -580,12 +578,12 @@
       <workItem from="1518113586043" duration="29819000" />
       <workItem from="1518478304130" duration="9276000" />
       <workItem from="1518634900884" duration="15331000" />
-      <workItem from="1519068837166" duration="4179000" />
+      <workItem from="1519068837166" duration="4456000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="329098000" />
+    <option name="totallyTimeSpent" value="329375000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1102,16 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EntradaController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="29" />
-          <folding>
-            <element signature="e#40#56#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1178,6 +1166,16 @@
         <state relative-caret-position="330">
           <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/EntradaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="43" lean-forward="false" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          <folding>
+            <element signature="e#40#56#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
