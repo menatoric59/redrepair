@@ -36,8 +36,13 @@
                                 {{ Html::image( auth()->user()->avatar,'',['height'=>'33px','class'=>'img-circle']) }}
                             </a>
                             <ul class="dropdown-menu" role="menu">
+                                {{--
                                 <li>
                                     <a href="{{ route('avisos') }}">Avisos</a>
+                                </li>
+                                --}}
+                                <li>
+                                    <a href="{{route('entradas',['avisos','de-la-red'])}}">Avisos</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('reuniones') }}">Reuniones</a>

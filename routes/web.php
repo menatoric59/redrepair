@@ -60,7 +60,7 @@ Route::group(['prefix'=>'/sobre-la-red'],function (){
     Route::post('/contacto','ContactoController@enviar')->name('contacto.enviar');
 });
 
-
+/*
 Route::group(['prefix'=>'avisos'],function (){
    Route::get('/','AvisoController@lista')->name('avisos');
    Route::group(['middleware'=>'auth'],function(){
@@ -70,7 +70,7 @@ Route::group(['prefix'=>'avisos'],function (){
        Route::put('/actualizar/{id}','AvisoController@actualizar')->name('avisos.actualizar');
     });
 });
-
+*/
 Route::group(['prefix'=>'reuniones'],function (){
     Route::get('/','ReunionController@lista')->name('reuniones');
     Route::group(['middleware'=>'auth'],function(){
