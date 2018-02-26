@@ -16,8 +16,8 @@
                 <br>
                 <div class="col-md-6">
                     @foreach($entrada->imagenes() as $imagen)
-                        <div>
-                            {!! Html::image($imagen['nombre'],'Vista previa entrada',['class'=>'center-block img-responsive img-thumbnail']) !!}
+                        <div id="blur-container">
+                            {!! Html::image($imagen['nombre'],'Vista previa entrada',['class'=>'img-responsive img-thumbnail']) !!}
                         </div>
                     @endforeach
 
@@ -42,8 +42,6 @@
         <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FRedMexciteg%2F&tabs=timeline&width=250&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="700" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
     </div>
 </div>
-
-
 
 {{-- Antes de implementar los Avisos como parte de las Entradas
 <div class="row">

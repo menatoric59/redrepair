@@ -21,9 +21,9 @@
     <script src="https://unpkg.com/vue"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
 
-
     {!! Html::script('js/jquery-3.1.1.min.js')!!}
     {!! Html::script('js/bootstrap.min.js')!!}
+    {!! Html::script('js/background-blur.min.js') !!}
     
 
 

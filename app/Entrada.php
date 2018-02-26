@@ -44,6 +44,11 @@ class Entrada extends Model
             $img->save($archivo);
         }
     }
+    protected function imagenBlur($imagen){
+        //dd($imagen);
+        $imagen=imagecreatefromjpeg('.'.$imagen);
+        return imagefilter($imagen,IMG_FILTER_GAUSSIAN_BLUR);
+    }
     function imagenes(){
         $archivos=[];
         $directorio='assets/entradas/' . $this->id . '/';
@@ -63,6 +68,7 @@ class Entrada extends Model
                 );
             }
         }
+
         $dir->close();
 
         return $archivos;

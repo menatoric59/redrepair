@@ -10,7 +10,7 @@ use Styde\Html\Facades\Alert;
 class ContactoController extends Controller
 {
     public function enviar(Request $request){
-        $secret = '6LdS_TQUAAAAAJfpc8Pq5IKnwcmcHWkiZBAfgfr0';
+        $secret = '6Le60EgUAAAAAECAmldY8guPcqNB5-tERMx44-vR';
         $recaptcha = new \ReCaptcha\ReCaptcha($secret);
         $resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
 
