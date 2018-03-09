@@ -23,6 +23,30 @@ class Integrante extends Model
         'campo',
     ];
 
+    protected function fotosIntegrantes(){
+        $archivos=[];
+        $directorio='assets/sobre-la-red/directorio/' . $this->id . '/';
+        if ( !$dir = @dir($directorio) ){
+            return $archivos;
+        }
+        while(($archivo = $dir->read()) !== false) {
+            // Obviamos los archivos ocultos
+            if($archivo[0] == ".") continue;
+            if(is_dir($directorio . $archivo)) {
+                $archivos[] = array(
+                    "nombre" => $directorio . $archivo . "/",
+                );
+            } else if (is_readable($directorio . $archivo)) {
+                $archivos[] = array(
+                    "nombre" => '/'.$directorio . $archivo,
+                );
+            }
+        }
+        $dir->close();
+
+        return $archivos;
+    }
+
     public function getImagenPerfilAttribute(){
         $archivo = 'assets/sobre-la-red/directorio/' . $this->attributes['id'] . '.jpg';
         $avatar = 'assets/sobre-la-red/directorio/avatar.jpg';

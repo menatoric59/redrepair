@@ -5,7 +5,26 @@
 @section('content')
     @include('index.carrusel')
     <br><br>
+    <div class="">
+        <div data-nanogallery2='{
+        "thumbnailWidth": "75",
+        "thumbnailHeight": "auto",
+        "thumbnailAlignment": "center",
+        "gallerySorting":"random"
+      }'>
+            @foreach(\App\Integrante::fotosIntegrantes() as $foto)
+            <!-- ### gallery content ### -->
+                <a href="{!! $foto['nombre'] . '?' . date('Y-m-d h:i:s') !!}"
+                   data-ngthumb="{!! $foto['nombre'] . '?' . date('Y-m-d h:i:s') !!}"
+                   data-ngdesc="">
+                </a>
+            @endforeach
+
+        </div>
+    </div>
     <div class="jumbotron">
+
+
 
     	@include('index.avisos')
     	<br>
