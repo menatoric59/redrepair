@@ -26,7 +26,7 @@
             <br><br><br><br><br>
             <div class="row">
                 <div class="col-md-6">
-                    <a href="https://es.scribd.com/document/366044956/Genero-y-Politicas-Publicas-en-Ciencia-y-Educacion-Superior-en-Mexico" target="_blank">
+                    <a href="https://es.scribd.com/document/378590328/Genero-y-Politicas-Publicas-en-Ciencia-y-Educacion-Superior-en-Mexico" target="_blank">
                         {!! Html::image('assets/biblioteca/libros/libro3.jpg?'.date('y-m-d'),'Libro 3',['width'=>'300']) !!}
                     </a>
                 </div>

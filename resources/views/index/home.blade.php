@@ -5,7 +5,7 @@
 @section('content')
     @include('index.carrusel')
     <br><br>
-    <div class="">
+    <div>
         <div data-nanogallery2='{
         "thumbnailWidth": "75",
         "thumbnailHeight": "auto",

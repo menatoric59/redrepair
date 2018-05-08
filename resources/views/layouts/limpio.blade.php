@@ -26,10 +26,6 @@
     {!! Html::script('js/bootstrap.min.js')!!}
     {!! Html::script('js/background-blur.min.js') !!}
 
-
-    
-
-
     <link rel="apple-touch-icon" sizes="57x57" href="{{asset('assets/favicon/apple-icon-57x57.png')}}">
     <link rel="apple-touch-icon" sizes="60x60" href="{{asset('assets/favicon/apple-icon-60x60.png')}}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{asset('assets/favicon/apple-icon-72x72.png')}}">
@@ -47,8 +43,8 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="{{asset('assets/favicon/ms-icon-144x144.png')}}">
     <meta name="theme-color" content="#ffffff">
-    
 
+    {{-- GAleria Nano--}}
     <link href="https://unpkg.com/nanogallery2@2.1.0/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="https://unpkg.com/nanogallery2@2.1.0/dist/jquery.nanogallery2.min.js"></script>
 
@@ -162,7 +158,11 @@
 
       ga('create', 'UA-101102642-1', 'auto');
       ga('send', 'pageview');
+
+
+
     </script>
+
 
 </body>
 </html>
