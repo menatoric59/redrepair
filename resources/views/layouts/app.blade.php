@@ -20,8 +20,6 @@
                 <!-- Left Side Of Navbar -->
                 
                 {!! Menu::make( config('general.menuPagina'),'nav navbar-nav navbar-left' ) !!}
-                
-
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->

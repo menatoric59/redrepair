@@ -105,3 +105,7 @@ Route::group(['prefix'=>'{tipo}/{subtipo}'],function (){
 
 });
 
+Route::get('/php',function (){
+   phpinfo();
+});
+

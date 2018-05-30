@@ -2,16 +2,13 @@
     <div class="alert alert-block alert-{{ $msg['type'] }} fade in">
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         <p>
-            <b>
-                <i class="fa fa-{{ array_search($msg['type'],['check-circle'=>'success','warning'=>'warning','exclamation-triangle'=>'danger','info'=>'info','info-circle'=>'primary']) }}"></i>
-            </b>
-            {!! $msg['message']  !!}
+            <strong>{{ $msg['message'] }}</strong>
         </p>
         
         @if (!empty ($msg['details']))
             <p>{{ $msg['details'] }}</p>
         @endif
-
+        
         {!! $msg['html'] !!}
         
         @if (!empty ($msg['items']))

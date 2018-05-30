@@ -4,7 +4,7 @@
     </label>
 
     @if ($required)
-        <span class="red-text text-darken-4">*</span>
+        <span class="label label-info">Required</span>
     @endif
 
     <div class="controls">

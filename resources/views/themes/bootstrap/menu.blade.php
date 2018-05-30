@@ -8,17 +8,12 @@
             @else
                 <a href="{{ $item['url'] }}" class="dropdown-toggle" data-toggle="dropdown">
                     {{ $item['title'] }}
+                    <b class="caret"></b>
                 </a>
                 <ul class="dropdown-menu">
                     @foreach ($item['submenu'] as $subitem)
                         <li>
-                            <a href="{{ $subitem['url'] }}">
-
-                                {{ str_replace_first('red','Red',str_replace_first( "de este lado","De este lado", $subitem['title'])) }}
-                                @if( !empty($subitem['icon']) )
-                                    <i class="fa fa-{{ $subitem['icon'] }} fa-fw" ></i>
-                                @endif
-                            </a>
+                            <a href="{{ $subitem['url'] }}">{{ $subitem['title'] }}</a>
                         </li>
                     @endforeach
                 </ul>
